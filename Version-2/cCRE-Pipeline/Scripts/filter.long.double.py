@@ -1,9 +1,18 @@
 import sys
 from decimal import Decimal
 
+#Jill E. Moore
+#Weng Lab
+#November 2019
+
+#Script to filter out peaks over threshold accounting
+#for long doubles
+
+#TO RUN:
+#python filter.long.double.py peaks $cutoff
+
 enrichment=open(sys.argv[1])
 threshold=int(sys.argv[2].split("E-")[1])
-
 
 for line in enrichment:
     fdr=str(line.rstrip().split("\t")[4])
