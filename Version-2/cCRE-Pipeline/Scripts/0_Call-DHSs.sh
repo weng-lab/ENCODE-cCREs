@@ -10,7 +10,7 @@
 #Step 0 of ENCODE cCRE pipeline (V2)
 #Jill E. Moore
 #Weng Lab
-#May 2019
+#November 2019
 
 #TO RUN:
 #sbatch 0_Call-DHSs.sh
