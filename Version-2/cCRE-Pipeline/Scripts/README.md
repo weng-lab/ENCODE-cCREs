@@ -9,12 +9,19 @@ sbatch 0_Call-DHSs.sh
 ```
 
 
-will call: 
+Requires: 
 * `filter.long.double.py`
-* `
+* `hg38-Hotspot-List.txt`
 
 ### Step 1 - Filter and process DHSs
 
+```
+sbatch 1_Process-DHSs.sh
+```
+
+Requires:
+* `calcuate.zscore.py`
+* `hg38-Hotspot-List.txt`
 
 ### Step 2 - Create representative DHSs (rDHSs)
 
