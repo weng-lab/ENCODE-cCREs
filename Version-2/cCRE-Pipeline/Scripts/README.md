@@ -38,8 +38,24 @@ Requires:
 * `percentile.py`
 * `{genome}-Stam-cDHS-All.bed`
 * `rDHS.hg19-hg38.bed` OR `rDHS.mm10.bed`
+* Peak calls from step 1
 
 ### Step 3 - Calculate signal Z-scores
+```
+./3_Calculate-Signal-Zscores.sh {genome} {signal}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+* `signal` : either DNase, H3K4me3, H3K27ac, or CTCF
+
+Requires:
+* `RetrieveSignal.sh`
+..* `log.zscore.normalization.py`
+* `{mode}-List.txt` 
+* `{genome}-rDHS-Filtered.bed` output from step 2
+
+
 
 ### Step 4 - Determine maximum Z-scores (maxZ)
 
