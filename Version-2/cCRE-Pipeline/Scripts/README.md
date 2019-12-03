@@ -11,7 +11,7 @@ sbatch 0_Call-DHSs.sh
 
 Requires: 
 * `filter.long.double.py`
-* `hg38-Hotspot-List.txt`
+* `hg38-Hotspot-List.txt` OR `mm10-Hotspot-List.txt`
 
 ### Step 1 - Filter and process DHSs
 
@@ -21,9 +21,23 @@ sbatch 1_Process-DHSs.sh
 
 Requires:
 * `calcuate.zscore.py`
-* `hg38-Hotspot-List.txt`
+* `hg38-Hotspot-List.txt` OR `mm10-Hotspot-List.txt`
 
 ### Step 2 - Create representative DHSs (rDHSs)
+
+```
+./2_Create-rDHSs.sh {genome}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+* `pick.best.peak.py`
+* `make.region.accession.py`
+* `percentile.py`
+* `{genome}-Stam-cDHS-All.bed`
+* `rDHS.hg19-hg38.bed` OR `rDHS.mm10.bed`
 
 ### Step 3 - Calculate signal Z-scores
 
