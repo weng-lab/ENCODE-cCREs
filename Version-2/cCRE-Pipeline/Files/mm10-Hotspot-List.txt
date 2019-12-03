@@ -1,0 +1,173 @@
+ENCSR216UMD	ENCFF444FZB	ENCFF540VTK	1	john-stamatoyannopoulos	C57BL/6 liver postnatal (0 days)
+ENCSR380VCU	ENCFF446KVV	ENCFF837JJC	2	john-stamatoyannopoulos	C57BL/6 limb embryo (10.50 days)
+ENCSR289BTM	ENCFF193DBQ	ENCFF888LAZ	1	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (10.50 days)
+ENCSR289BTM	ENCFF745TYL	ENCFF172WCQ	2	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (10.50 days)
+ENCSR000CNM	ENCFF277TMZ	ENCFF935BVH	2	john-stamatoyannopoulos	C57BL/6 lung male adult (8 weeks)
+ENCSR000CNM	ENCFF006FLP	ENCFF102MGA	1	john-stamatoyannopoulos	C57BL/6 lung male adult (8 weeks)
+ENCSR000CNM	ENCFF709EDL	ENCFF363MPC	3	john-stamatoyannopoulos	C57BL/6 lung male adult (8 weeks)
+ENCSR000COF	ENCFF093GTE	ENCFF257BKZ	1	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COF	ENCFF313AFZ	ENCFF532UQW	2	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COF	ENCFF219XZJ	ENCFF281OIE	6	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COF	ENCFF125BYM	ENCFF028CBV	3	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COF	ENCFF727EXM	ENCFF541DCN	5	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COF	ENCFF709GIA	ENCFF976QJH	4	john-stamatoyannopoulos	C57BL/6 brain male adult (8 weeks)
+ENCSR000COD	ENCFF549UMI	ENCFF028KSI	2	john-stamatoyannopoulos	C57BL/6 induced T-regulatory cell male adult (8 weeks)
+ENCSR000COD	ENCFF996GBD	ENCFF242YCJ	1	john-stamatoyannopoulos	C57BL/6 induced T-regulatory cell male adult (8 weeks)
+ENCSR000CMU	ENCFF862WTQ	ENCFF649DYS	1	john-stamatoyannopoulos	CD-1 c-Kit-positive CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)
+ENCSR372SMH	ENCFF493MYQ	ENCFF226UXQ	2	john-stamatoyannopoulos	NA
+ENCSR372SMH	ENCFF109LLX	ENCFF963PGF	1	john-stamatoyannopoulos	NA
+ENCSR687EAW	ENCFF297NCD	ENCFF435DKT	1	john-stamatoyannopoulos	C57BL/6 3T3-L1
+ENCSR687EAW	ENCFF213GSZ	ENCFF148PBB	2	john-stamatoyannopoulos	C57BL/6 3T3-L1
+ENCSR000CNO	ENCFF522QQT	ENCFF673VVB	1	john-stamatoyannopoulos	CD-1 mesoderm male embryo (11.5 days)
+ENCSR000CNO	ENCFF767LQY	ENCFF541LMO	2	john-stamatoyannopoulos	CD-1 mesoderm male embryo (11.5 days)
+ENCSR749ILN	ENCFF909IBS	ENCFF071TLE	1	john-stamatoyannopoulos	C57BL/6 heart embryo (10.50 days)
+ENCSR749ILN	ENCFF050XFO	ENCFF918ESR	2	john-stamatoyannopoulos	C57BL/6 heart embryo (10.50 days)
+ENCSR767AJS	ENCFF454GVF	ENCFF610ONZ	1	john-stamatoyannopoulos	C57BL/6 midbrain postnatal (0 days)
+ENCSR767AJS	ENCFF281USD	ENCFF561YHL	2	john-stamatoyannopoulos	C57BL/6 midbrain postnatal (0 days)
+ENCSR855ASN	ENCFF501CLK	ENCFF014NWA	1	john-stamatoyannopoulos	C57BL/6 acute myeloid leukemia
+ENCSR855ASN	ENCFF461FMM	ENCFF603LTW	2	john-stamatoyannopoulos	C57BL/6 acute myeloid leukemia
+ENCSR000CNQ	ENCFF770GBI	ENCFF516XER	1	john-stamatoyannopoulos	NA
+ENCSR000CNQ	ENCFF139AGL	ENCFF807XSC	2	john-stamatoyannopoulos	NA
+ENCSR000CMP	ENCFF815WIA	ENCFF395AJZ	1	john-stamatoyannopoulos	C57BL/6 telencephalon male adult (8 weeks)
+ENCSR000CMP	ENCFF344DAH	ENCFF238ZRM	2	john-stamatoyannopoulos	C57BL/6 telencephalon male adult (8 weeks)
+ENCSR000CMP	ENCFF052PVE	ENCFF093HBO	3	john-stamatoyannopoulos	C57BL/6 telencephalon male adult (8 weeks)
+ENCSR773SAG	ENCFF308KZY	ENCFF327SCP	1	john-stamatoyannopoulos	C57BL/6 midbrain embryo (10.50 days)
+ENCSR773SAG	ENCFF898NSX	ENCFF238UBT	2	john-stamatoyannopoulos	C57BL/6 midbrain embryo (10.50 days)
+ENCSR005WPU	ENCFF371RFG	ENCFF513QAB	1	john-stamatoyannopoulos	C57BL/6 heart postnatal (0 days)
+ENCSR005WPU	ENCFF375QSN	ENCFF351TQN	2	john-stamatoyannopoulos	C57BL/6 heart postnatal (0 days)
+ENCSR000COG	ENCFF147ZWV	ENCFF333MPS	1	john-stamatoyannopoulos	C57BL/6 brain male embryo (18.5 days)
+ENCSR000COG	ENCFF488YMM	ENCFF948MWB	2	john-stamatoyannopoulos	C57BL/6 brain male embryo (18.5 days)
+ENCSR337EDG	ENCFF759VDK	ENCFF149TTQ	1	john-stamatoyannopoulos	C57BL/6 forebrain embryo (14.5 days)
+ENCSR337EDG	ENCFF977MES	ENCFF034WQW	2	john-stamatoyannopoulos	C57BL/6 forebrain embryo (14.5 days)
+ENCSR000CMS	ENCFF369DFU	ENCFF443PWY	1	john-stamatoyannopoulos	CD-1 c-Kit-positive CD71-negative TER-119-negative erythroid progenitor cells male embryo (14.5 days)
+ENCSR000CNC	ENCFF391LNH	ENCFF090NJT	1	john-stamatoyannopoulos	C57BL/6 gonadal fat pad male adult (8 weeks)
+ENCSR000CNH	ENCFF076KTC	ENCFF650OFZ	1	john-stamatoyannopoulos	C57BL/6 large intestine male adult (8 weeks)
+ENCSR000CNH	ENCFF395WSA	ENCFF793YHC	2	john-stamatoyannopoulos	C57BL/6 large intestine male adult (8 weeks)
+ENCSR000CNY	ENCFF688HMS	ENCFF546FZT	1	john-stamatoyannopoulos	C57BL/6 spleen male adult (8 weeks)
+ENCSR000CNY	ENCFF461AGB	ENCFF575PUN	2	john-stamatoyannopoulos	C57BL/6 spleen male adult (8 weeks)
+ENCSR000CMQ	ENCFF036VHJ	ENCFF682RGY	1	john-stamatoyannopoulos	B10.H-2aH-4bp/Wts CH12.LX
+ENCSR000CMQ	ENCFF042QOF	ENCFF578APN	2	john-stamatoyannopoulos	B10.H-2aH-4bp/Wts CH12.LX
+ENCSR000CNF	ENCFF870UDT	ENCFF037VPV	1	john-stamatoyannopoulos	CD-1 hindlimb bud male embryo (11.5 days)
+ENCSR898KAX	ENCFF884ZQG	ENCFF514HPX	1	john-stamatoyannopoulos	C57BL/6 MN1 treated with 10 nM methyltrienolone
+ENCSR898KAX	ENCFF324RBS	ENCFF113ZQC	2	john-stamatoyannopoulos	C57BL/6 MN1 treated with 10 nM methyltrienolone
+ENCSR000CNW	ENCFF785MPH	ENCFF259ZNG	1	john-stamatoyannopoulos	C57BL/6 retina male adult (8 weeks)
+ENCSR000COJ	ENCFF589AWB	ENCFF825ZVT	1	john-stamatoyannopoulos	129 ZHBTc4-mESC treated with 100 ng/mL doxycycline hyclate for 6 hours
+ENCSR000COJ	ENCFF284CPJ	ENCFF740NRZ	2	john-stamatoyannopoulos	129 ZHBTc4-mESC treated with 100 ng/mL doxycycline hyclate for 6 hours
+ENCSR000CMT	ENCFF531PJN	ENCFF680ZTZ	1	john-stamatoyannopoulos	CD-1 c-Kit-positive CD71-positive TER-119-negative erythroid progenitor cells male embryo (14.5 days)
+ENCSR000CNX	ENCFF928JWK	ENCFF731YAA	1	john-stamatoyannopoulos	C57BL/6 skeletal muscle tissue male adult (8 weeks)
+ENCSR000CNX	ENCFF380MSB	ENCFF687OBD	2	john-stamatoyannopoulos	C57BL/6 skeletal muscle tissue male adult (8 weeks)
+ENCSR446MUM	ENCFF053HHZ	ENCFF362ZTL	2	john-stamatoyannopoulos	DBA/2 MEL cell line
+ENCSR446MUM	ENCFF393VOT	ENCFF155MQS	1	john-stamatoyannopoulos	DBA/2 MEL cell line
+ENCSR000CMW	ENCFF133XRW	ENCFF872IES	1	john-stamatoyannopoulos	129 ES-E14
+ENCSR000CMW	ENCFF132LXH	ENCFF205DAI	2	john-stamatoyannopoulos	129 ES-E14
+ENCSR000CNL	ENCFF093CTZ	ENCFF435WED	1	john-stamatoyannopoulos	129 liver male embryo (14.5 days)
+ENCSR000CMO	ENCFF155WFO	ENCFF474GND	1	john-stamatoyannopoulos	C57BL/6 cerebellum male adult (8 weeks)
+ENCSR000CMO	ENCFF420RYL	ENCFF855GSU	2	john-stamatoyannopoulos	C57BL/6 cerebellum male adult (8 weeks)
+ENCSR000CMO	ENCFF643QPR	ENCFF519MDG	3	john-stamatoyannopoulos	C57BL/6 cerebellum male adult (8 weeks)
+ENCSR959HKR	ENCFF845TII	ENCFF580UUE	1	john-stamatoyannopoulos	C57BL/6 embryonic facial prominence embryo (14.5 days)
+ENCSR959HKR	ENCFF793PHZ	ENCFF744PVU	2	john-stamatoyannopoulos	C57BL/6 embryonic facial prominence embryo (14.5 days)
+ENCSR000CNK	ENCFF950VIV	ENCFF906XJY	1	john-stamatoyannopoulos	129 liver male embryo (14.5 days)
+ENCSR000CNK	ENCFF333UBP	ENCFF852JKE	2	john-stamatoyannopoulos	129 liver male embryo (14.5 days)
+ENCSR488VEQ	ENCFF261KGE	ENCFF266ZDD	1	john-stamatoyannopoulos	C57BL/6 retina embryo (14.5 days)
+ENCSR488VEQ	ENCFF648BNV	ENCFF556PEB	2	john-stamatoyannopoulos	C57BL/6 retina embryo (14.5 days)
+ENCSR000CNR	ENCFF213DMG	ENCFF178FCM	1	john-stamatoyannopoulos	NA
+ENCSR000CNR	ENCFF770WZC	ENCFF541FRX	2	john-stamatoyannopoulos	NA
+ENCSR000CMR	ENCFF781ELN	ENCFF990TBH	1	john-stamatoyannopoulos	CD-1 c-Kit-negative CD71-positive TER-119-positive erythroid progenitor cells male embryo (14.5 days)
+ENCSR935RRY	ENCFF410JXT	ENCFF125IRZ	1	john-stamatoyannopoulos	C57BL/6 thymus postnatal (0 days)
+ENCSR935RRY	ENCFF064KKS	ENCFF777RJR	2	john-stamatoyannopoulos	C57BL/6 thymus postnatal (0 days)
+ENCSR000CNT	ENCFF340BTA	ENCFF632WLC	1	john-stamatoyannopoulos	M.spretus x C57BL/6J Patski
+ENCSR000CNT	ENCFF209SNG	ENCFF683ZIM	2	john-stamatoyannopoulos	M.spretus x C57BL/6J Patski
+ENCSR000CMM	ENCFF440IFL	ENCFF079SPZ	1	john-stamatoyannopoulos	C57BL/6 B cell male adult (8 weeks)
+ENCSR000CMM	ENCFF445LHQ	ENCFF312SVA	2	john-stamatoyannopoulos	C57BL/6 B cell male adult (8 weeks)
+ENCSR000COH	ENCFF289OQW	ENCFF736TTX	2	john-stamatoyannopoulos	129 ZHBTc4-mESC
+ENCSR000COH	ENCFF986DTH	ENCFF424XOH	1	john-stamatoyannopoulos	129 ZHBTc4-mESC
+ENCSR000COE	ENCFF597RQA	ENCFF992QCB	1	john-stamatoyannopoulos	C57BL/6 brain male embryo (14.5 days)
+ENCSR000COE	ENCFF792MBE	ENCFF728KGR	2	john-stamatoyannopoulos	C57BL/6 brain male embryo (14.5 days)
+ENCSR000CNG	ENCFF962DKQ	ENCFF561HSI	1	john-stamatoyannopoulos	C57BL/6 kidney male adult (8 weeks)
+ENCSR000CNG	ENCFF473SYQ	ENCFF162FKB	2	john-stamatoyannopoulos	C57BL/6 kidney male adult (8 weeks)
+ENCSR000CMV	ENCFF205FPE	ENCFF913KVR	2	john-stamatoyannopoulos	129 ES-CJ7
+ENCSR000CMV	ENCFF863UQR	ENCFF680PQC	1	john-stamatoyannopoulos	129 ES-CJ7
+ENCSR319PWR	ENCFF133NJB	ENCFF894LOE	2	john-stamatoyannopoulos	C57BL/6 R1
+ENCSR319PWR	ENCFF852NJH	ENCFF729TAB	1	john-stamatoyannopoulos	C57BL/6 R1
+ENCSR964VDK	ENCFF836OLL	ENCFF974HWL	1	john-stamatoyannopoulos	C57BL/6 R1
+ENCSR000CML	ENCFF083FUE	ENCFF382IBL	2	john-stamatoyannopoulos	BALB/cAnN A20
+ENCSR000CML	ENCFF918EQF	ENCFF695LHM	1	john-stamatoyannopoulos	BALB/cAnN A20
+ENCSR000COB	ENCFF783TKD	ENCFF540HLI	1	john-stamatoyannopoulos	C57BL/6 thymus male adult (8 weeks)
+ENCSR000COB	ENCFF240XWC	ENCFF188CGQ	2	john-stamatoyannopoulos	C57BL/6 thymus male adult (8 weeks)
+ENCSR969OPE	ENCFF609WQX	ENCFF197TQR	1	john-stamatoyannopoulos	C57BL/6 stomach postnatal (0 days)
+ENCSR969OPE	ENCFF300FCU	ENCFF773UVA	2	john-stamatoyannopoulos	C57BL/6 stomach postnatal (0 days)
+ENCSR000CNN	ENCFF204AXS	ENCFF990ATO	1	john-stamatoyannopoulos	DBA/2 MEL cell line
+ENCSR000CNN	ENCFF595BFX	ENCFF384WSZ	2	john-stamatoyannopoulos	DBA/2 MEL cell line
+ENCSR000CNN	ENCFF059ZSL	ENCFF056RRE	3	john-stamatoyannopoulos	DBA/2 MEL cell line
+ENCSR756SPS	ENCFF633HXJ	ENCFF815LUM	2	john-stamatoyannopoulos	C57BL/6 forebrain embryo (10.50 days)
+ENCSR000CNE	ENCFF468HNI	ENCFF773NKY	1	john-stamatoyannopoulos	C57BL/6 heart male adult (8 weeks)
+ENCSR561FZE	ENCFF197IEL	ENCFF076VZF	1	john-stamatoyannopoulos	C57BL/6 liver embryo (11.50 days)
+ENCSR000CNV	ENCFF766MXP	ENCFF261PZG	1	john-stamatoyannopoulos	C57BL/6 retina male postnatal (1 day)
+ENCSR014SFF	ENCFF632WZB	ENCFF009ALP	1	john-stamatoyannopoulos	C57BL/6 forebrain embryo (11.50 days)
+ENCSR014SFF	ENCFF814FIE	ENCFF545CZJ	2	john-stamatoyannopoulos	C57BL/6 forebrain embryo (11.50 days)
+ENCSR000CMN	ENCFF027VNX	ENCFF232YLR	2	john-stamatoyannopoulos	C57BL/6 splenic B cell male adult (8 weeks)
+ENCSR000CMN	ENCFF906WRU	ENCFF209ALJ	3	john-stamatoyannopoulos	C57BL/6 splenic B cell male adult (8 weeks)
+ENCSR000CMN	ENCFF393GKO	ENCFF798VSP	1	john-stamatoyannopoulos	C57BL/6 splenic B cell male adult (8 weeks)
+ENCSR000CMN	ENCFF095AJJ	ENCFF709XUX	4	john-stamatoyannopoulos	C57BL/6 splenic B cell male adult (8 weeks)
+ENCSR655WKX	ENCFF088EBC	ENCFF622EDP	1	john-stamatoyannopoulos	C57BL/6 intestine embryo (14.50 days)
+ENCSR655WKX	ENCFF566ITO	ENCFF424BHU	2	john-stamatoyannopoulos	C57BL/6 intestine embryo (14.50 days)
+ENCSR000COA	ENCFF704UPN	ENCFF411YAD	2	john-stamatoyannopoulos	C57BL/6 CD4-positive helper T cell male adult (8 weeks)
+ENCSR000COA	ENCFF436COZ	ENCFF896PZK	1	john-stamatoyannopoulos	C57BL/6 CD4-positive helper T cell male adult (8 weeks)
+ENCSR000CMK	ENCFF985FZV	ENCFF866ZTV	1	john-stamatoyannopoulos	B6D2F1/J 416B
+ENCSR000CMK	ENCFF666WBC	ENCFF338LWP	2	john-stamatoyannopoulos	B6D2F1/J 416B
+ENCSR172RHR	ENCFF416SPP	ENCFF829UGS	1	john-stamatoyannopoulos	C57BL/6 embryo embryo (10.5 days)
+ENCSR172RHR	ENCFF420ZMK	ENCFF159SBU	2	john-stamatoyannopoulos	C57BL/6 embryo embryo (10.5 days)
+ENCSR000CMZ	ENCFF832YQP	ENCFF243REK	1	john-stamatoyannopoulos	C57BL/6 fat pad male adult (8 weeks)
+ENCSR000CMZ	ENCFF174RJA	ENCFF188HQQ	2	john-stamatoyannopoulos	C57BL/6 fat pad male adult (8 weeks)
+ENCSR000CNU	ENCFF063UCP	ENCFF908NIP	1	john-stamatoyannopoulos	C57BL/6 retina male postnatal (7 days)
+ENCSR732IZK	ENCFF273OFN	ENCFF919AUF	1	john-stamatoyannopoulos	C57BL/6 MN1
+ENCSR732IZK	ENCFF805WOK	ENCFF462KNO	2	john-stamatoyannopoulos	C57BL/6 MN1
+ENCSR723IXU	ENCFF064PDV	ENCFF894XDN	1	john-stamatoyannopoulos	C57BL/6 embryo embryo (10 days)
+ENCSR723IXU	ENCFF373RCK	ENCFF813ZMY	2	john-stamatoyannopoulos	C57BL/6 embryo embryo (10 days)
+ENCSR000CMX	ENCFF727JWO	ENCFF974BRL	1	john-stamatoyannopoulos	mixed WW6
+ENCSR000CMX	ENCFF811VHO	ENCFF499OBU	2	john-stamatoyannopoulos	mixed WW6
+ENCSR094XAY	ENCFF378VNZ	ENCFF417SAZ	1	john-stamatoyannopoulos	C57BL/6 lung postnatal (0 days)
+ENCSR094XAY	ENCFF680SCB	ENCFF362CMN	2	john-stamatoyannopoulos	C57BL/6 lung postnatal (0 days)
+ENCSR292QBA	ENCFF435QWA	ENCFF906WCV	2	john-stamatoyannopoulos	C57BL/6 midbrain embryo (11.5 days)
+ENCSR000COI	ENCFF431AWE	ENCFF396QGB	2	john-stamatoyannopoulos	129 ZHBTc4-mESC treated with 100 ng/mL doxycycline hyclate for 24 hours
+ENCSR000COI	ENCFF152EWM	ENCFF448ZJM	1	john-stamatoyannopoulos	129 ZHBTc4-mESC treated with 100 ng/mL doxycycline hyclate for 24 hours
+ENCSR000CNJ	ENCFF149NDC	ENCFF395XSI	1	john-stamatoyannopoulos	C57BL/6 liver male embryo (14.5 days)
+ENCSR179PIH	ENCFF335DAX	ENCFF107NBQ	1	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (14.5 days)
+ENCSR179PIH	ENCFF504IZU	ENCFF255APF	2	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (14.5 days)
+ENCSR636NXY	ENCFF005NLT	ENCFF802BPW	2	john-stamatoyannopoulos	C57BL/6 limb embryo (14.5 days)
+ENCSR000CNP	ENCFF937QFO	ENCFF223QRV	1	john-stamatoyannopoulos	DBA/2 MEL-GATA-1-ER
+ENCSR000CNP	ENCFF175GAY	ENCFF276FMP	2	john-stamatoyannopoulos	DBA/2 MEL-GATA-1-ER
+ENCSR000CMY	ENCFF654RJT	ENCFF660XSJ	1	john-stamatoyannopoulos	mixed WW6
+ENCSR000CMY	ENCFF701DAM	ENCFF889MIY	2	john-stamatoyannopoulos	mixed WW6
+ENCSR066DPD	ENCFF297GOD	ENCFF299KAN	1	john-stamatoyannopoulos	C57BL/6 kidney postnatal (0 days)
+ENCSR066DPD	ENCFF062YSP	ENCFF535LJH	2	john-stamatoyannopoulos	C57BL/6 kidney postnatal (0 days)
+ENCSR000CNA	ENCFF266QBB	ENCFF391SPW	1	john-stamatoyannopoulos	C57BL/6 fibroblast of lung male adult (8 weeks)
+ENCSR000CNA	ENCFF107XBD	ENCFF445JFV	2	john-stamatoyannopoulos	C57BL/6 fibroblast of lung male adult (8 weeks)
+ENCSR666HFH	ENCFF160ZJY	ENCFF586XFN	1	john-stamatoyannopoulos	C57BL/6 Muller cell postnatal (12 days)
+ENCSR666HFH	ENCFF850PCP	ENCFF578QSQ	2	john-stamatoyannopoulos	C57BL/6 Muller cell postnatal (12 days)
+ENCSR666HFH	ENCFF968IDD	ENCFF856ASM	3	john-stamatoyannopoulos	C57BL/6 Muller cell postnatal (12 days)
+ENCSR000CNS	ENCFF495TYB	ENCFF114UCO	2	john-stamatoyannopoulos	NIH/Swiss NIH3T3
+ENCSR000CNS	ENCFF228BDM	ENCFF950ALJ	1	john-stamatoyannopoulos	NIH/Swiss NIH3T3
+ENCSR775YJL	ENCFF159ZTF	ENCFF458SNJ	1	john-stamatoyannopoulos	C57BL/6 embryonic facial prominence embryo (10.50 days)
+ENCSR775YJL	ENCFF188ZUC	ENCFF780DPY	2	john-stamatoyannopoulos	C57BL/6 embryonic facial prominence embryo (10.50 days)
+ENCSR894HWV	ENCFF803VNN	ENCFF353HPD	1	john-stamatoyannopoulos	C57BL/6 yolk sac embryo (10.50 days)
+ENCSR661GMU	ENCFF508YQI	ENCFF945EBN	1	john-stamatoyannopoulos	C57BL/6 neural tube embryo (10.50 days)
+ENCSR196VDE	ENCFF240IRG	ENCFF373NJX	2	john-stamatoyannopoulos	C57BL/6 embryonic facial prominence embryo (11.5 days)
+ENCSR661HDP	ENCFF206HUG	ENCFF641OPE	1	john-stamatoyannopoulos	C57BL/6 limb embryo (11.5 days)
+ENCSR661HDP	ENCFF438QMT	ENCFF680ZDD	2	john-stamatoyannopoulos	C57BL/6 limb embryo (11.5 days)
+ENCSR791AJY	ENCFF477RIT	ENCFF684BQC	1	john-stamatoyannopoulos	C57BL/6 forebrain postnatal (0 days)
+ENCSR774TQO	ENCFF197IZY	ENCFF846VXR	1	john-stamatoyannopoulos	C57BL/6 embryo embryo (11 day)
+ENCSR774TQO	ENCFF037GMD	ENCFF627IDE	2	john-stamatoyannopoulos	C57BL/6 embryo embryo (11 day)
+ENCSR367FCW	ENCFF517SQG	ENCFF115OLL	2	john-stamatoyannopoulos	C57BL/6 midbrain embryo (14.5 days)
+ENCSR358ESL	ENCFF401VWY	ENCFF943PHW	1	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (11.5 days)
+ENCSR358ESL	ENCFF076OWD	ENCFF232ENN	2	john-stamatoyannopoulos	C57BL/6 hindbrain embryo (11.5 days)
+ENCSR742DUR	ENCFF735QDC	ENCFF043UNG	1	john-stamatoyannopoulos	C57BL/6 lung embryo (14.5 days)
+ENCSR000CNB	ENCFF859JCS	ENCFF837OUY	1	john-stamatoyannopoulos	CD-1 forelimb bud male embryo (11.5 days)
+ENCSR000CND	ENCFF466XAP	ENCFF227XDD	1	john-stamatoyannopoulos	CD-1 embryo male embryo (11.5 days) depleted in head
+ENCSR000CND	ENCFF199SYZ	ENCFF990XOB	2	john-stamatoyannopoulos	CD-1 embryo male embryo (11.5 days) depleted in head
+ENCSR312QVY	ENCFF134TMX	ENCFF649UQO	1	john-stamatoyannopoulos	C57BL/6 neural tube embryo (11.5 days)
+ENCSR312QVY	ENCFF452WUG	ENCFF931ELY	2	john-stamatoyannopoulos	C57BL/6 neural tube embryo (11.5 days)
+ENCSR469VGZ	ENCFF851ZEL	ENCFF283WGI	1	john-stamatoyannopoulos	C57BL/6 hindbrain postnatal (0 days)
+ENCSR469VGZ	ENCFF258MFC	ENCFF310XJU	2	john-stamatoyannopoulos	C57BL/6 hindbrain postnatal (0 days)
+ENCSR998KYQ	ENCFF755SDF	ENCFF325RFB	1	john-stamatoyannopoulos	C57BL/6 adipocyte
+ENCSR998KYQ	ENCFF952HKB	ENCFF650EIQ	2	john-stamatoyannopoulos	C57BL/6 adipocyte

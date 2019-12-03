@@ -1,0 +1,706 @@
+ENCSR000ELW	ENCFF162YPD	ENCFF688CJL	1	john-stamatoyannopoulos	A549
+ENCSR000ELW	ENCFF978OHR	ENCFF280JCA	2	john-stamatoyannopoulos	A549
+ENCSR000ELX	ENCFF412UHH	ENCFF477IRE	2	john-stamatoyannopoulos	AG04449
+ENCSR000ELX	ENCFF706ZWN	ENCFF802ZBQ	1	john-stamatoyannopoulos	AG04449
+ENCSR000ELY	ENCFF208DJT	ENCFF882YMD	1	john-stamatoyannopoulos	AG04450
+ENCSR000ELY	ENCFF756GON	ENCFF127IJN	2	john-stamatoyannopoulos	AG04450
+ENCSR000ELZ	ENCFF653QQS	ENCFF167AAI	2	john-stamatoyannopoulos	AG09309
+ENCSR000ELZ	ENCFF944IGF	ENCFF160AIM	1	john-stamatoyannopoulos	AG09309
+ENCSR000EMA	ENCFF216VYG	ENCFF435LWR	2	john-stamatoyannopoulos	AG09319
+ENCSR000EMA	ENCFF777USE	ENCFF294KLB	1	john-stamatoyannopoulos	AG09319
+ENCSR000EMB	ENCFF182WJI	ENCFF211SDO	1	john-stamatoyannopoulos	AG10803
+ENCSR000EMB	ENCFF551KZH	ENCFF189JVK	2	john-stamatoyannopoulos	AG10803
+ENCSR000EMC	ENCFF140CSV	ENCFF869ECL	1	john-stamatoyannopoulos	fibroblast of the aortic adventitia female
+ENCSR000EMC	ENCFF292DAW	ENCFF914JVR	2	john-stamatoyannopoulos	fibroblast of the aortic adventitia female
+ENCSR000EMD	ENCFF361DOV	ENCFF695WLT	1	john-stamatoyannopoulos	BE2C
+ENCSR000EMD	ENCFF986LLP	ENCFF099PPU	2	john-stamatoyannopoulos	BE2C
+ENCSR000EME	ENCFF235JEG	ENCFF107IJY	1	john-stamatoyannopoulos	BJ
+ENCSR000EME	ENCFF984LNC	ENCFF708XPM	2	john-stamatoyannopoulos	BJ
+ENCSR000EMF	ENCFF091GSB	ENCFF132EIR	1	john-stamatoyannopoulos	HS-27A
+ENCSR000EMG	ENCFF746TMD	ENCFF964WLS	1	john-stamatoyannopoulos	HS-5
+ENCSR000EMH	ENCFF490WJW	ENCFF747REW	1	john-stamatoyannopoulos	stromal cell of bone marrow male
+ENCSR000EMH	ENCFF832FHZ	ENCFF988JGN	2	john-stamatoyannopoulos	stromal cell of bone marrow male
+ENCSR000EMI	ENCFF653SEA	ENCFF219DBU	2	john-stamatoyannopoulos	Caco-2
+ENCSR000EMI	ENCFF931NIB	ENCFF085OHV	1	john-stamatoyannopoulos	Caco-2
+ENCSR000EMJ	ENCFF555ZAN	ENCFF305QCJ	2	john-stamatoyannopoulos	B cell female adult (43 years)
+ENCSR000EMJ	ENCFF766KYF	ENCFF801IWM	1	john-stamatoyannopoulos	B cell female adult (43 years)
+ENCSR000EMK	ENCFF378FCS	ENCFF274MGW	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell
+ENCSR000EML	ENCFF364IHU	ENCFF753ETN	1	john-stamatoyannopoulos	naive thymus-derived CD4-positive, alpha-beta T cell male adult (26 years)
+ENCSR000EMN	ENCFF821RQW	ENCFF391HDR	1	john-stamatoyannopoulos	CMK
+ENCSR000EMO	ENCFF514UXL	ENCFF171BUA	1	john-stamatoyannopoulos	GM04503
+ENCSR000EMO	ENCFF603NNP	ENCFF671POX	2	john-stamatoyannopoulos	GM04503
+ENCSR000EMP	ENCFF133QHJ	ENCFF602PIH	1	john-stamatoyannopoulos	GM04504
+ENCSR000EMP	ENCFF928MMQ	ENCFF042BTR	2	john-stamatoyannopoulos	GM04504
+ENCSR000EMQ	ENCFF592PIH	ENCFF617HEH	1	john-stamatoyannopoulos	GM06990
+ENCSR000EMQ	ENCFF778RUN	ENCFF146SXL	2	john-stamatoyannopoulos	GM06990
+ENCSR000EMR	ENCFF731GHZ	ENCFF709TDR	1	john-stamatoyannopoulos	GM12864
+ENCSR000EMS	ENCFF462BLX	ENCFF427FEF	1	john-stamatoyannopoulos	GM12865
+ENCSR000EMS	ENCFF525DQN	ENCFF960KUW	2	john-stamatoyannopoulos	GM12865
+ENCSR000EMT	ENCFF252WLQ	ENCFF743ULW	2	john-stamatoyannopoulos	GM12878
+ENCSR000EMT	ENCFF668AIW	ENCFF915DFR	1	john-stamatoyannopoulos	GM12878
+ENCSR000EMU	ENCFF632TRU	ENCFF131HMO	1	john-stamatoyannopoulos	H1-hESC
+ENCSR000EMV	ENCFF807HLB	ENCFF554DWH	1	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMW	ENCFF776PPG	ENCFF274NDO	1	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMW	ENCFF800XON	ENCFF894GUX	2	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMX	ENCFF202VXO	ENCFF501KNP	1	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMY	ENCFF068MSJ	ENCFF213FJN	1	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMY	ENCFF452OBQ	ENCFF788IGZ	2	john-stamatoyannopoulos	cardiac mesoderm
+ENCSR000EMZ	ENCFF043ZPZ	ENCFF696IEW	1	john-stamatoyannopoulos	H7-hESC
+ENCSR000EMZ	ENCFF879XCE	ENCFF094QTA	2	john-stamatoyannopoulos	H7-hESC
+ENCSR000ENA	ENCFF365MET	ENCFF766WQS	2	john-stamatoyannopoulos	astrocyte of the hippocampus
+ENCSR000ENA	ENCFF971DYJ	ENCFF499UDS	1	john-stamatoyannopoulos	astrocyte of the hippocampus
+ENCSR000ENB	ENCFF499IKV	ENCFF300ZKK	2	john-stamatoyannopoulos	astrocyte of the spinal cord
+ENCSR000ENB	ENCFF564CLJ	ENCFF901UBX	1	john-stamatoyannopoulos	astrocyte of the spinal cord
+ENCSR000ENC	ENCFF556URC	ENCFF382FZE	1	john-stamatoyannopoulos	astrocyte of the cerebellum
+ENCSR000ENC	ENCFF950TIE	ENCFF851OEN	2	john-stamatoyannopoulos	astrocyte of the cerebellum
+ENCSR000END	ENCFF244ABP	ENCFF492TUE	2	john-stamatoyannopoulos	amniotic epithelial cell
+ENCSR000END	ENCFF843DTA	ENCFF102UQK	1	john-stamatoyannopoulos	amniotic epithelial cell
+ENCSR000ENE	ENCFF462PUB	ENCFF754XUT	2	john-stamatoyannopoulos	brain microvascular endothelial cell
+ENCSR000ENE	ENCFF827XWI	ENCFF025HHG	1	john-stamatoyannopoulos	brain microvascular endothelial cell
+ENCSR000ENF	ENCFF935ZRZ	ENCFF353QSZ	1	john-stamatoyannopoulos	brain pericyte
+ENCSR000ENG	ENCFF018KNO	ENCFF463QGX	2	john-stamatoyannopoulos	smooth muscle cell of the brain vasculature female
+ENCSR000ENG	ENCFF085NNL	ENCFF443IYY	1	john-stamatoyannopoulos	smooth muscle cell of the brain vasculature female
+ENCSR000ENH	ENCFF137ZYA	ENCFF049FGZ	1	john-stamatoyannopoulos	cardiac fibroblast
+ENCSR000ENH	ENCFF841HSU	ENCFF180ETO	2	john-stamatoyannopoulos	cardiac fibroblast
+ENCSR000ENI	ENCFF851IDV	ENCFF117TEM	2	john-stamatoyannopoulos	cardiac fibroblast female
+ENCSR000ENI	ENCFF932ZCX	ENCFF472TFO	1	john-stamatoyannopoulos	cardiac fibroblast female
+ENCSR000ENJ	ENCFF646VSM	ENCFF829QCV	2	john-stamatoyannopoulos	cardiac muscle cell
+ENCSR000ENJ	ENCFF867ADI	ENCFF484UXW	1	john-stamatoyannopoulos	cardiac muscle cell
+ENCSR000ENK	ENCFF488KRY	ENCFF724ERX	2	john-stamatoyannopoulos	fibroblast of the conjunctiva
+ENCSR000ENK	ENCFF556JHI	ENCFF923EUB	1	john-stamatoyannopoulos	fibroblast of the conjunctiva
+ENCSR000ENL	ENCFF057QRK	ENCFF358SYJ	2	john-stamatoyannopoulos	choroid plexus epithelial cell
+ENCSR000ENL	ENCFF268NTF	ENCFF021NBR	1	john-stamatoyannopoulos	choroid plexus epithelial cell
+ENCSR000ENM	ENCFF084GSR	ENCFF225OLI	2	john-stamatoyannopoulos	HCT116
+ENCSR000ENM	ENCFF291WNI	ENCFF169PCK	1	john-stamatoyannopoulos	HCT116
+ENCSR000ENN	ENCFF368MAB	ENCFF700DLX	2	john-stamatoyannopoulos	epithelial cell of esophagus
+ENCSR000ENN	ENCFF881TSO	ENCFF655LKW	1	john-stamatoyannopoulos	epithelial cell of esophagus
+ENCSR000ENO	ENCFF114HYA	ENCFF830FDL	1	john-stamatoyannopoulos	HeLa-S3 G1b phase
+ENCSR000ENO	ENCFF522FJO	ENCFF646GHQ	2	john-stamatoyannopoulos	HeLa-S3 G1b phase
+ENCSR000ENP	ENCFF231LDK	ENCFF205TKQ	1	john-stamatoyannopoulos	HepG2
+ENCSR000ENP	ENCFF461QJB	ENCFF944TCB	2	john-stamatoyannopoulos	HepG2
+ENCSR000ENQ	ENCFF712TKY	ENCFF002QNU	2	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR000ENQ	ENCFF899SND	ENCFF111BCZ	1	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR000ENR	ENCFF243OYL	ENCFF103JVK	1	john-stamatoyannopoulos	HFF-Myc originated from foreskin fibroblast
+ENCSR000ENR	ENCFF830YMG	ENCFF186TRX	2	john-stamatoyannopoulos	HFF-Myc originated from foreskin fibroblast
+ENCSR000ENS	ENCFF391DAS	ENCFF830QJD	2	john-stamatoyannopoulos	fibroblast of gingiva
+ENCSR000ENS	ENCFF616UWB	ENCFF117RGP	1	john-stamatoyannopoulos	fibroblast of gingiva
+ENCSR000ENT	ENCFF467WYG	ENCFF390MSL	1	john-stamatoyannopoulos	iris pigment epithelial cell
+ENCSR000ENT	ENCFF508MKJ	ENCFF586VMA	2	john-stamatoyannopoulos	iris pigment epithelial cell
+ENCSR000ENU	ENCFF230UNF	ENCFF089MHS	2	john-stamatoyannopoulos	HL-60
+ENCSR000ENU	ENCFF511KJI	ENCFF634ZUJ	1	john-stamatoyannopoulos	HL-60
+ENCSR000ENV	ENCFF251XCO	ENCFF350SUV	2	john-stamatoyannopoulos	mammary epithelial cell female
+ENCSR000ENV	ENCFF264JVB	ENCFF263BZU	1	john-stamatoyannopoulos	mammary epithelial cell female
+ENCSR000ENW	ENCFF909PPU	ENCFF724CMH	1	john-stamatoyannopoulos	fibroblast of mammary gland female
+ENCSR000ENW	ENCFF969OJG	ENCFF236DNL	2	john-stamatoyannopoulos	fibroblast of mammary gland female
+ENCSR000ENX	ENCFF015OID	ENCFF969NNQ	1	john-stamatoyannopoulos	dermis blood vessel endothelial cell female adult
+ENCSR000ENY	ENCFF513DTF	ENCFF802HMY	2	john-stamatoyannopoulos	dermis blood vessel endothelial cell female adult
+ENCSR000ENY	ENCFF979VVT	ENCFF250ZZO	1	john-stamatoyannopoulos	dermis blood vessel endothelial cell female adult
+ENCSR000ENZ	ENCFF401DXO	ENCFF189TQN	1	john-stamatoyannopoulos	dermis blood vessel endothelial cell male newborn
+ENCSR000ENZ	ENCFF817OYI	ENCFF150GSA	2	john-stamatoyannopoulos	dermis blood vessel endothelial cell male newborn
+ENCSR000EOA	ENCFF274ZYF	ENCFF130RBG	1	john-stamatoyannopoulos	dermis microvascular lymphatic vessel endothelial cell female
+ENCSR000EOA	ENCFF704KDL	ENCFF484YDT	2	john-stamatoyannopoulos	dermis microvascular lymphatic vessel endothelial cell female
+ENCSR000EOB	ENCFF298DYW	ENCFF257DCT	2	john-stamatoyannopoulos	dermis microvascular lymphatic vessel endothelial cell male
+ENCSR000EOB	ENCFF531HTW	ENCFF431JNM	1	john-stamatoyannopoulos	dermis microvascular lymphatic vessel endothelial cell male
+ENCSR000EOC	ENCFF039QVJ	ENCFF468FOP	1	john-stamatoyannopoulos	dermis blood vessel endothelial cell male newborn
+ENCSR000EOC	ENCFF878TER	ENCFF210OAI	2	john-stamatoyannopoulos	dermis blood vessel endothelial cell male newborn
+ENCSR000EOD	ENCFF447NCL	ENCFF010NPI	1	john-stamatoyannopoulos	lung microvascular endothelial cell female
+ENCSR000EOD	ENCFF651GNB	ENCFF043PRT	2	john-stamatoyannopoulos	lung microvascular endothelial cell female
+ENCSR000EOE	ENCFF367PIN	ENCFF999UJH	1	john-stamatoyannopoulos	lung microvascular endothelial cell female
+ENCSR000EOE	ENCFF496RNW	ENCFF525AGI	2	john-stamatoyannopoulos	lung microvascular endothelial cell female
+ENCSR000EOF	ENCFF419UQI	ENCFF649TOT	2	john-stamatoyannopoulos	non-pigmented ciliary epithelial cell
+ENCSR000EOF	ENCFF739KQS	ENCFF714QQU	1	john-stamatoyannopoulos	non-pigmented ciliary epithelial cell
+ENCSR000EOG	ENCFF489ZFZ	ENCFF719ZEX	1	john-stamatoyannopoulos	pulmonary artery endothelial cell female
+ENCSR000EOH	ENCFF285RGQ	ENCFF184UHW	1	john-stamatoyannopoulos	fibroblast of pulmonary artery
+ENCSR000EOH	ENCFF309FEP	ENCFF855ZLB	2	john-stamatoyannopoulos	fibroblast of pulmonary artery
+ENCSR000EOI	ENCFF179IAS	ENCFF519CAJ	1	john-stamatoyannopoulos	fibroblast of peridontal ligament male
+ENCSR000EOI	ENCFF993JSW	ENCFF237PHK	2	john-stamatoyannopoulos	fibroblast of peridontal ligament male
+ENCSR000EOJ	ENCFF939PGH	ENCFF063KJP	2	john-stamatoyannopoulos	fibroblast of lung
+ENCSR000EOJ	ENCFF986LFI	ENCFF655AEV	1	john-stamatoyannopoulos	fibroblast of lung
+ENCSR000EOK	ENCFF166ZHX	ENCFF064VXK	2	john-stamatoyannopoulos	renal cortical epithelial cell
+ENCSR000EOK	ENCFF799HOY	ENCFF457RRO	1	john-stamatoyannopoulos	renal cortical epithelial cell
+ENCSR000EOL	ENCFF120MKH	ENCFF221IPJ	1	john-stamatoyannopoulos	kidney epithelial cell
+ENCSR000EOL	ENCFF211LIW	ENCFF333CZG	2	john-stamatoyannopoulos	kidney epithelial cell
+ENCSR000EOM	ENCFF477QJF	ENCFF416UWK	2	john-stamatoyannopoulos	glomerular endothelial cell
+ENCSR000EOM	ENCFF847HIS	ENCFF656ZYW	1	john-stamatoyannopoulos	glomerular endothelial cell
+ENCSR000EON	ENCFF102BMX	ENCFF634YGE	1	john-stamatoyannopoulos	retinal pigment epithelial cell
+ENCSR000EON	ENCFF251JFU	ENCFF458ZZC	2	john-stamatoyannopoulos	retinal pigment epithelial cell
+ENCSR000EOO	ENCFF228TLB	ENCFF813SXR	2	john-stamatoyannopoulos	skeletal muscle myoblast
+ENCSR000EOO	ENCFF740PBP	ENCFF549TYD	1	john-stamatoyannopoulos	skeletal muscle myoblast
+ENCSR000EOP	ENCFF381ASQ	ENCFF124NWI	2	john-stamatoyannopoulos	myotube originated from skeletal muscle myoblast
+ENCSR000EOP	ENCFF585MIL	ENCFF684FJC	1	john-stamatoyannopoulos	myotube originated from skeletal muscle myoblast
+ENCSR000EOQ	ENCFF202EAQ	ENCFF752DYE	1	john-stamatoyannopoulos	endothelial cell of umbilical vein newborn
+ENCSR000EOQ	ENCFF776JCL	ENCFF845KIP	2	john-stamatoyannopoulos	endothelial cell of umbilical vein newborn
+ENCSR000EOR	ENCFF172HHN	ENCFF652HJH	1	john-stamatoyannopoulos	fibroblast of villous mesenchyme
+ENCSR000EOR	ENCFF783DYN	ENCFF189OMQ	2	john-stamatoyannopoulos	fibroblast of villous mesenchyme
+ENCSR000EOS	ENCFF365BCZ	ENCFF916JRN	1	john-stamatoyannopoulos	Jurkat clone E61
+ENCSR000EOS	ENCFF961YBQ	ENCFF412ODW	2	john-stamatoyannopoulos	Jurkat clone E61
+ENCSR000EOT	ENCFF258CIN	ENCFF936BDN	2	john-stamatoyannopoulos	K562
+ENCSR000EOT	ENCFF794RYV	ENCFF413AHU	1	john-stamatoyannopoulos	K562
+ENCSR000EOY	ENCFF592JME	ENCFF227MPB	2	john-stamatoyannopoulos	K562
+ENCSR000EOY	ENCFF891SPB	ENCFF868NHV	1	john-stamatoyannopoulos	K562
+ENCSR000EPC	ENCFF082OHY	ENCFF565YDB	1	john-stamatoyannopoulos	K562
+ENCSR000EPC	ENCFF953WQY	ENCFF879OCJ	2	john-stamatoyannopoulos	K562
+ENCSR000EPD	ENCFF151UVE	ENCFF748YJM	1	john-stamatoyannopoulos	myocyte originated from LHCN-M2
+ENCSR000EPD	ENCFF177STA	ENCFF422QMN	2	john-stamatoyannopoulos	myocyte originated from LHCN-M2
+ENCSR000EPE	ENCFF200OKY	ENCFF888EDP	2	john-stamatoyannopoulos	LHCN-M2
+ENCSR000EPE	ENCFF284BTA	ENCFF639MPM	1	john-stamatoyannopoulos	LHCN-M2
+ENCSR000EPF	ENCFF929ORF	ENCFF807MNB	2	john-stamatoyannopoulos	LNCaP clone FGC
+ENCSR000EPF	ENCFF933VSV	ENCFF571HTM	1	john-stamatoyannopoulos	LNCaP clone FGC
+ENCSR000EPG	ENCFF008CGS	ENCFF250TLK	1	john-stamatoyannopoulos	M059J
+ENCSR000EPG	ENCFF876CLP	ENCFF811BRR	2	john-stamatoyannopoulos	M059J
+ENCSR000EPH	ENCFF225UUT	ENCFF949ANK	2	john-stamatoyannopoulos	MCF-7
+ENCSR000EPH	ENCFF751JZX	ENCFF924FJR	1	john-stamatoyannopoulos	MCF-7
+ENCSR000EPI	ENCFF777CCY	ENCFF159KSS	2	john-stamatoyannopoulos	MCF-7 treated with 100 nM estradiol for 1 hour
+ENCSR000EPI	ENCFF814KYK	ENCFF606KFN	1	john-stamatoyannopoulos	MCF-7 treated with 100 nM estradiol for 1 hour
+ENCSR000EPJ	ENCFF490AII	ENCFF921ADM	2	john-stamatoyannopoulos	MCF-7
+ENCSR000EPJ	ENCFF578RMB	ENCFF411ZPI	1	john-stamatoyannopoulos	MCF-7
+ENCSR000EPK	ENCFF250SRZ	ENCFF659BVQ	2	john-stamatoyannopoulos	CD14-positive monocyte female
+ENCSR000EPL	ENCFF152VON	ENCFF897EZG	1	john-stamatoyannopoulos	NB4
+ENCSR000EPL	ENCFF491RPN	ENCFF561LSU	2	john-stamatoyannopoulos	NB4
+ENCSR000EPM	ENCFF418GNJ	ENCFF320CHE	1	john-stamatoyannopoulos	astrocyte
+ENCSR000EPM	ENCFF710FMS	ENCFF666JGR	2	john-stamatoyannopoulos	astrocyte
+ENCSR000EPN	ENCFF698CHC	ENCFF940PZT	1	john-stamatoyannopoulos	bronchial epithelial cell female treated with retinoic acid
+ENCSR000EPN	ENCFF951ZIQ	ENCFF470GKV	2	john-stamatoyannopoulos	bronchial epithelial cell female treated with retinoic acid
+ENCSR000EPO	ENCFF392SGP	ENCFF241ZSS	2	john-stamatoyannopoulos	fibroblast of dermis female adult
+ENCSR000EPO	ENCFF393HNK	ENCFF302JEV	1	john-stamatoyannopoulos	fibroblast of dermis female adult
+ENCSR000EPP	ENCFF868ABL	ENCFF861ULS	1	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR000EPP	ENCFF874MVJ	ENCFF743DKM	2	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR000EPQ	ENCFF461RTD	ENCFF767YBP	1	john-stamatoyannopoulos	keratinocyte female
+ENCSR000EPQ	ENCFF762CUU	ENCFF741GTR	2	john-stamatoyannopoulos	keratinocyte female
+ENCSR000EPR	ENCFF838CWS	ENCFF128DEX	2	john-stamatoyannopoulos	fibroblast of lung male adult (45 years)
+ENCSR000EPR	ENCFF913KKW	ENCFF330KHN	1	john-stamatoyannopoulos	fibroblast of lung male adult (45 years)
+ENCSR000EPS	ENCFF450ACD	ENCFF644NWU	1	john-stamatoyannopoulos	NT2/D1
+ENCSR000EPS	ENCFF646TVQ	ENCFF293NUA	2	john-stamatoyannopoulos	NT2/D1
+ENCSR000EPT	ENCFF279WNM	ENCFF974LXC	2	john-stamatoyannopoulos	Panc1
+ENCSR000EPT	ENCFF899HYD	ENCFF698HGI	1	john-stamatoyannopoulos	Panc1
+ENCSR000EPU	ENCFF724HWZ	ENCFF739CBQ	1	john-stamatoyannopoulos	epithelial cell of prostate
+ENCSR000EPU	ENCFF969QJQ	ENCFF445RBC	2	john-stamatoyannopoulos	epithelial cell of prostate
+ENCSR000EPV	ENCFF349STD	ENCFF354JBY	2	john-stamatoyannopoulos	RPMI-7951
+ENCSR000EPV	ENCFF760EGX	ENCFF991YWM	1	john-stamatoyannopoulos	RPMI-7951
+ENCSR000EPW	ENCFF312OFK	ENCFF499KPZ	1	john-stamatoyannopoulos	epithelial cell of proximal tubule
+ENCSR000EPW	ENCFF479QTE	ENCFF381QMQ	2	john-stamatoyannopoulos	epithelial cell of proximal tubule
+ENCSR000EPX	ENCFF077QWA	ENCFF827VFY	1	john-stamatoyannopoulos	bronchial epithelial cell
+ENCSR000EPX	ENCFF696LCH	ENCFF524NIB	2	john-stamatoyannopoulos	bronchial epithelial cell
+ENCSR000EPY	ENCFF123LNY	ENCFF182UEU	2	john-stamatoyannopoulos	SK-N-MC
+ENCSR000EPY	ENCFF198UBN	ENCFF440XZH	1	john-stamatoyannopoulos	SK-N-MC
+ENCSR000EPZ	ENCFF313FZI	ENCFF400LZK	2	john-stamatoyannopoulos	NA
+ENCSR000EPZ	ENCFF426LRI	ENCFF851VBR	1	john-stamatoyannopoulos	NA
+ENCSR000EQA	ENCFF989HFQ	ENCFF807ARQ	2	john-stamatoyannopoulos	skeletal muscle cell
+ENCSR000EQB	ENCFF246VDR	ENCFF367ZVE	1	john-stamatoyannopoulos	T47D
+ENCSR000EQB	ENCFF579TYV	ENCFF789THD	2	john-stamatoyannopoulos	T47D
+ENCSR000EQC	ENCFF011HPR	ENCFF479VHW	1	john-stamatoyannopoulos	T-helper 1 cell
+ENCSR000EQC	ENCFF425MCN	ENCFF148BTW	2	john-stamatoyannopoulos	T-helper 1 cell
+ENCSR000EQD	ENCFF814UBD	ENCFF204BQM	1	john-stamatoyannopoulos	T-helper 1 cell female adult (26 years)
+ENCSR000EQE	ENCFF206CPZ	ENCFF730AXF	2	john-stamatoyannopoulos	T-helper 1 cell male adult (33 years)
+ENCSR000EQF	ENCFF498QZA	ENCFF566QDG	1	john-stamatoyannopoulos	T-helper 17 cell
+ENCSR000EQG	ENCFF086DVT	ENCFF889LFN	2	john-stamatoyannopoulos	T-helper 2 cell
+ENCSR000EQG	ENCFF997PQB	ENCFF335KDD	1	john-stamatoyannopoulos	T-helper 2 cell
+ENCSR000EQI	ENCFF736MMG	ENCFF438GIW	1	john-stamatoyannopoulos	T-helper 2 cell male adult (33 years)
+ENCSR000EQJ	ENCFF124AFX	ENCFF313YWE	1	john-stamatoyannopoulos	regulatory T cell female adult (35 years)
+ENCSR000EQL	ENCFF747QUL	ENCFF916FUI	2	john-stamatoyannopoulos	WERI-Rb-1
+ENCSR000EQL	ENCFF843WNU	ENCFF369NZI	1	john-stamatoyannopoulos	WERI-Rb-1
+ENCSR000EQM	ENCFF726YAI	ENCFF189ULK	1	john-stamatoyannopoulos	WI38 genetically modified using stable transfection originated from WI38 treated with 20 nM afimoxifene for 72 hours
+ENCSR000EQM	ENCFF776IDY	ENCFF813BUL	2	john-stamatoyannopoulos	WI38 genetically modified using stable transfection originated from WI38 treated with 20 nM afimoxifene for 72 hours
+ENCSR000EQN	ENCFF100ORO	ENCFF277XIR	2	john-stamatoyannopoulos	WI38 genetically modified using stable transfection originated from WI38
+ENCSR000EQN	ENCFF985QQA	ENCFF040DSN	1	john-stamatoyannopoulos	WI38 genetically modified using stable transfection originated from WI38
+ENCSR000FDI	ENCFF384KKJ	ENCFF953AFG	1	john-stamatoyannopoulos	HT1080
+ENCSR000FDI	ENCFF399OFK	ENCFF958WWO	2	john-stamatoyannopoulos	HT1080
+ENCSR000FEK	ENCFF088LSR	ENCFF224FXN	2	john-stamatoyannopoulos	SK-MEL-5
+ENCSR000FEK	ENCFF287VAI	ENCFF810XTS	1	john-stamatoyannopoulos	SK-MEL-5
+ENCSR000FFJ	ENCFF060ELJ	ENCFF741DDM	1	john-stamatoyannopoulos	SJCRH30
+ENCSR000FFJ	ENCFF100FAZ	ENCFF423TYX	2	john-stamatoyannopoulos	SJCRH30
+ENCSR000FJH	ENCFF327HCQ	ENCFF530JZO	2	john-stamatoyannopoulos	NCI-H460
+ENCSR000FJH	ENCFF854LLX	ENCFF143RMC	1	john-stamatoyannopoulos	NCI-H460
+ENCSR000FJL	ENCFF120WBO	ENCFF989ALW	1	john-stamatoyannopoulos	SK-N-DZ treated with dimethyl sulfoxide for 72 hours
+ENCSR000FJL	ENCFF810IMT	ENCFF508CID	2	john-stamatoyannopoulos	SK-N-DZ treated with dimethyl sulfoxide for 72 hours
+ENCSR004SUL	ENCFF740HVX	ENCFF938XUM	1	john-stamatoyannopoulos	GM23338 male adult (53 years) originated from GM23248
+ENCSR004SUL	ENCFF824WEY	ENCFF799LEZ	2	john-stamatoyannopoulos	GM23338 male adult (53 years) originated from GM23248
+ENCSR006IJP	ENCFF339SXH	ENCFF362UJZ	1	john-stamatoyannopoulos	lung embryo (112 days)
+ENCSR006XED	ENCFF125PAY	ENCFF903LSX	1	john-stamatoyannopoulos	left lung female embryo (98 days)
+ENCSR010ZMK	ENCFF470CWX	ENCFF739XXP	1	john-stamatoyannopoulos	muscle of back female embryo (113 days)
+ENCSR014FPY	ENCFF300QHC	ENCFF694RNX	1	john-stamatoyannopoulos	iPS DF 4.7 male newborn
+ENCSR014VAC	ENCFF008FWR	ENCFF461CDQ	1	john-stamatoyannopoulos	right renal cortex interstitium male embryo (105 days)
+ENCSR016THC	ENCFF540GTS	ENCFF245IYM	1	john-stamatoyannopoulos	left renal pelvis male embryo (105 days)
+ENCSR017OZH	ENCFF374PXX	ENCFF226IZW	2	john-stamatoyannopoulos	H9 S1 phase genetically modified using stable transfection
+ENCSR017OZH	ENCFF463VQI	ENCFF855CJL	1	john-stamatoyannopoulos	H9 S1 phase genetically modified using stable transfection
+ENCSR017TFH	ENCFF802ANG	ENCFF960UKQ	1	john-stamatoyannopoulos	right kidney female embryo (87 days)
+ENCSR019JDO	ENCFF187FSD	ENCFF785BWB	2	john-stamatoyannopoulos	Karpas-422
+ENCSR019JDO	ENCFF424UED	ENCFF220RFB	1	john-stamatoyannopoulos	Karpas-422
+ENCSR020LUD	ENCFF788JXG	ENCFF439EFF	1	john-stamatoyannopoulos	CD8-positive, alpha-beta T cell male adult (21 year)
+ENCSR022ECC	ENCFF317KQG	ENCFF825MFH	1	john-stamatoyannopoulos	renal cortex interstitium female embryo (96 days)
+ENCSR026EOM	ENCFF277UIR	ENCFF735MKP	1	john-stamatoyannopoulos	brain female embryo (85 days)
+ENCSR033DQS	ENCFF361XHN	ENCFF920AZN	1	john-stamatoyannopoulos	muscle of leg male embryo (97 days)
+ENCSR033STL	ENCFF850ITL	ENCFF577QJI	1	john-stamatoyannopoulos	muscle of back female embryo (105 days)
+ENCSR035QHH	ENCFF475CWP	ENCFF681MHT	1	john-stamatoyannopoulos	placenta female embryo (113 days)
+ENCSR035RVH	ENCFF146TUV	ENCFF971NFK	1	john-stamatoyannopoulos	foreskin keratinocyte male newborn
+ENCSR036VRV	ENCFF519BSV	ENCFF842TPR	1	john-stamatoyannopoulos	right kidney female embryo (107 days)
+ENCSR037PGI	ENCFF167BMT	ENCFF076JMD	1	john-stamatoyannopoulos	RCC 7860
+ENCSR037PGI	ENCFF414NQG	ENCFF696GKS	2	john-stamatoyannopoulos	RCC 7860
+ENCSR038XTK	ENCFF595CNM	ENCFF291OWX	2	john-stamatoyannopoulos	colon epithelial cell line
+ENCSR038XTK	ENCFF836HYJ	ENCFF188JVI	1	john-stamatoyannopoulos	colon epithelial cell line
+ENCSR039ZVQ	ENCFF255ZPC	ENCFF269PEU	1	john-stamatoyannopoulos	left renal cortex interstitium male embryo (120 days)
+ENCSR040DGJ	ENCFF712HXK	ENCFF400NBT	1	john-stamatoyannopoulos	T-cell
+ENCSR047FNH	ENCFF201ODT	ENCFF304TGP	1	john-stamatoyannopoulos	large intestine male embryo (113 days)
+ENCSR052AWE	ENCFF166VRV	ENCFF734FIM	2	john-stamatoyannopoulos	PC-3
+ENCSR052AWE	ENCFF963ROM	ENCFF999OEJ	1	john-stamatoyannopoulos	PC-3
+ENCSR059LXL	ENCFF544PNV	ENCFF813VDR	1	john-stamatoyannopoulos	muscle of leg male embryo (96 days)
+ENCSR060BFU	ENCFF839XYD	ENCFF613SVD	1	john-stamatoyannopoulos	adrenal gland embryo (96 days)
+ENCSR062DUU	ENCFF173IKY	ENCFF022OWT	1	john-stamatoyannopoulos	stomach female embryo (105 days)
+ENCSR062DXC	ENCFF083LFZ	ENCFF529MMP	1	john-stamatoyannopoulos	muscle of arm female embryo (115 days)
+ENCSR064GBK	ENCFF097XWD	ENCFF854MAD	1	john-stamatoyannopoulos	heart female embryo (91 day)
+ENCSR066WZJ	ENCFF160CTJ	ENCFF734DOF	1	john-stamatoyannopoulos	kidney embryo (80 days)
+ENCSR072NBR	ENCFF230OEZ	ENCFF581JDF	1	john-stamatoyannopoulos	muscle of back female embryo (98 days)
+ENCSR076YBB	ENCFF228YDF	ENCFF475YJR	1	john-stamatoyannopoulos	lung male embryo (108 days)
+ENCSR080PZL	ENCFF964WCB	ENCFF580LWU	1	john-stamatoyannopoulos	adrenal gland male embryo (101 day)
+ENCSR082JCE	ENCFF127UQK	ENCFF192KLJ	1	john-stamatoyannopoulos	kidney female embryo (121 day)
+ENCSR082XEU	ENCFF868UMW	ENCFF534VWZ	1	john-stamatoyannopoulos	stomach female embryo (107 days)
+ENCSR083FBK	ENCFF738QXE	ENCFF343DFM	1	john-stamatoyannopoulos	small intestine female embryo (110 days)
+ENCSR083STA	ENCFF027JYS	ENCFF251ABP	2	john-stamatoyannopoulos	MG63
+ENCSR083STA	ENCFF425OFZ	ENCFF723FDT	1	john-stamatoyannopoulos	MG63
+ENCSR092WMD	ENCFF258IZD	ENCFF617ONE	1	john-stamatoyannopoulos	left renal cortex interstitium male embryo (105 days)
+ENCSR095GWE	ENCFF880DML	ENCFF164PKU	2	john-stamatoyannopoulos	stomach male embryo (58 days) and male embryo (76 days)
+ENCSR097BWW	ENCFF246BTN	ENCFF448EBM	2	john-stamatoyannopoulos	left kidney female embryo (59 days) and male embryo (91 day)
+ENCSR097BWW	ENCFF487ZGN	ENCFF862JVF	1	john-stamatoyannopoulos	left kidney female embryo (59 days) and male embryo (91 day)
+ENCSR098PTC	ENCFF342EOP	ENCFF438PGV	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell
+ENCSR098PTC	ENCFF597MMM	ENCFF996GHG	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell
+ENCSR106OKX	ENCFF352EXK	ENCFF969UJW	1	john-stamatoyannopoulos	kidney female embryo (120 days)
+ENCSR106RBR	ENCFF843OQE	ENCFF413KYW	1	john-stamatoyannopoulos	muscle of back female embryo (115 days)
+ENCSR116WWW	ENCFF993YRF	ENCFF671BMS	1	john-stamatoyannopoulos	small intestine female embryo (120 days)
+ENCSR118WIQ	ENCFF606CQS	ENCFF657KLL	1	john-stamatoyannopoulos	brain embryo (112 days)
+ENCSR119HXE	ENCFF835INP	ENCFF424IXN	1	john-stamatoyannopoulos	stomach female embryo (105 days)
+ENCSR120LVW	ENCFF166SYI	ENCFF415LNY	1	john-stamatoyannopoulos	left kidney female embryo (98 days)
+ENCSR121ZSL	ENCFF251MUG	ENCFF256IDG	2	john-stamatoyannopoulos	trophoblast cell embryo (21 week)
+ENCSR121ZSL	ENCFF664BDG	ENCFF248OBP	1	john-stamatoyannopoulos	trophoblast cell embryo (21 week)
+ENCSR122VUW	ENCFF692XHL	ENCFF328DCV	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive female adult (27 years)
+ENCSR122VUW	ENCFF807JKR	ENCFF757SFU	2	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive female adult (27 years)
+ENCSR127PWK	ENCFF008FUN	ENCFF681KGX	1	john-stamatoyannopoulos	eye female embryo (76 days)
+ENCSR129KIV	ENCFF620ZDC	ENCFF332EJM	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (108 days)
+ENCSR129TSG	ENCFF170JJK	ENCFF987HVM	1	john-stamatoyannopoulos	placenta female embryo (108 days)
+ENCSR133KBX	ENCFF781YFK	ENCFF209YFM	1	john-stamatoyannopoulos	small intestine female embryo (107 days)
+ENCSR133SPH	ENCFF142PAR	ENCFF811EUQ	1	john-stamatoyannopoulos	large intestine female embryo (120 days)
+ENCSR136KEL	ENCFF003JYU	ENCFF731XQC	2	john-stamatoyannopoulos	kidney glomerular epithelial cell male adult (43 years) and male adult (62 years)
+ENCSR141DMX	ENCFF361APB	ENCFF319GAX	1	john-stamatoyannopoulos	renal pelvis female embryo (96 days)
+ENCSR141IUS	ENCFF816EUT	ENCFF083VCD	1	john-stamatoyannopoulos	lung female embryo (76 days)
+ENCSR141NSQ	ENCFF296SSX	ENCFF044CTX	1	john-stamatoyannopoulos	muscle of back male embryo (104 days)
+ENCSR141VGA	ENCFF532IYC	ENCFF899HCF	1	john-stamatoyannopoulos	lung female embryo (85 days)
+ENCSR148MFM	ENCFF667BBR	ENCFF085EFX	1	john-stamatoyannopoulos	spinal cord male embryo (105 days)
+ENCSR148VUP	ENCFF706PHN	ENCFF833WVM	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 4 days, kit ligand for 4 days, hydrocortisone succinate for 4 days, erythropoietin for 4 days
+ENCSR148VUP	ENCFF993GRO	ENCFF681ZQQ	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 4 days, kit ligand for 4 days, hydrocortisone succinate for 4 days, erythropoietin for 4 days
+ENCSR149XIL	ENCFF442HCG	ENCFF842XRQ	2	john-stamatoyannopoulos	HepG2
+ENCSR149XIL	ENCFF554AIH	ENCFF577SOF	1	john-stamatoyannopoulos	HepG2
+ENCSR153LHP	ENCFF308ZCU	ENCFF366GCX	1	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR154YPL	ENCFF353MCT	ENCFF207LXN	1	john-stamatoyannopoulos	large intestine female embryo (110 days)
+ENCSR154ZNQ	ENCFF023UXE	ENCFF604EJP	1	john-stamatoyannopoulos	heart female embryo (105 days)
+ENCSR155NPL	ENCFF362WFQ	ENCFF365HVU	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (113 days)
+ENCSR156CLC	ENCFF563DFV	ENCFF064KBT	1	john-stamatoyannopoulos	brain female embryo (96 days)
+ENCSR164PQJ	ENCFF185GKX	ENCFF921GFL	1	john-stamatoyannopoulos	thymus male embryo (127 days)
+ENCSR166KPV	ENCFF209SSK	ENCFF351KIA	2	john-stamatoyannopoulos	endodermal cell
+ENCSR166KPV	ENCFF795AAV	ENCFF131GBV	1	john-stamatoyannopoulos	endodermal cell
+ENCSR166TEE	ENCFF200WJE	ENCFF016KEV	1	john-stamatoyannopoulos	forelimb muscle female embryo (108 days)
+ENCSR167JFX	ENCFF228PTO	ENCFF522NPH	1	john-stamatoyannopoulos	CD4-positive, alpha-beta T cell male adult (37 years)
+ENCSR167XSQ	ENCFF057LJD	ENCFF858BSX	1	john-stamatoyannopoulos	muscle of leg male embryo (101 day)
+ENCSR174GXG	ENCFF145QGS	ENCFF499LIJ	1	john-stamatoyannopoulos	muscle of back male embryo (101 day)
+ENCSR174JMM	ENCFF398FKA	ENCFF008DNO	1	john-stamatoyannopoulos	heart female embryo (117 days)
+ENCSR175IWT	ENCFF291IWG	ENCFF889GHZ	2	john-stamatoyannopoulos	kidney tubule cell female adult (80 years) and male adult (62 years)
+ENCSR175IWT	ENCFF540KNA	ENCFF294LJN	1	john-stamatoyannopoulos	kidney tubule cell female adult (80 years) and male adult (62 years)
+ENCSR176KYD	ENCFF991YPL	ENCFF433QRU	1	john-stamatoyannopoulos	fibroblast of skin of abdomen male embryo (97 days)
+ENCSR178JBL	ENCFF972ESG	ENCFF230OUF	1	john-stamatoyannopoulos	pancreas male adult (34 years)
+ENCSR184DFF	ENCFF105CDU	ENCFF401OYD	1	john-stamatoyannopoulos	left kidney male embryo (96 days)
+ENCSR184LMY	ENCFF526XWJ	ENCFF445MXG	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR187PYY	ENCFF557PSC	ENCFF378OWK	1	john-stamatoyannopoulos	brain female embryo (142 days)
+ENCSR189YJQ	ENCFF627MNS	ENCFF509TTX	1	john-stamatoyannopoulos	heart female embryo (110 days)
+ENCSR191EII	ENCFF456MRR	ENCFF103KGP	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive female
+ENCSR193LYA	ENCFF011JVJ	ENCFF748UWO	1	john-stamatoyannopoulos	muscle of back female embryo (85 days)
+ENCSR198JXW	ENCFF322CNC	ENCFF875TFI	1	john-stamatoyannopoulos	muscle of leg female embryo (85 days)
+ENCSR208DMX	ENCFF274ZWO	ENCFF978RWQ	1	john-stamatoyannopoulos	stomach female embryo (98 days)
+ENCSR214QEO	ENCFF345CHJ	ENCFF584GYN	1	john-stamatoyannopoulos	large intestine female embryo (91 day)
+ENCSR214XJO	ENCFF557GZW	ENCFF029QDT	1	john-stamatoyannopoulos	lung female embryo (120 days)
+ENCSR217RVH	ENCFF774MJI	ENCFF618JYS	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR217SET	ENCFF388XHW	ENCFF914NUU	2	john-stamatoyannopoulos	SW480
+ENCSR217SET	ENCFF950BAD	ENCFF726FED	1	john-stamatoyannopoulos	SW480
+ENCSR217TAW	ENCFF655LGG	ENCFF489UQU	2	john-stamatoyannopoulos	GM23248
+ENCSR217TAW	ENCFF880SKE	ENCFF711EJL	1	john-stamatoyannopoulos	GM23248
+ENCSR217YRJ	ENCFF070OJT	ENCFF484VHZ	1	john-stamatoyannopoulos	muscle of trunk female embryo (120 days)
+ENCSR224FOA	ENCFF359COL	ENCFF891ICW	2	john-stamatoyannopoulos	islet precursor cell
+ENCSR228BOM	ENCFF982XZP	ENCFF640UAZ	1	john-stamatoyannopoulos	right lung male embryo (115 days)
+ENCSR228VNQ	ENCFF907BZR	ENCFF227VUS	2	john-stamatoyannopoulos	mammary epithelial cell female adult (18 years)
+ENCSR240TPI	ENCFF200BMH	ENCFF818DSK	1	john-stamatoyannopoulos	ELR
+ENCSR240TPI	ENCFF289NRM	ENCFF052CAZ	2	john-stamatoyannopoulos	ELR
+ENCSR246PXX	ENCFF281CSN	ENCFF280CMC	1	john-stamatoyannopoulos	stomach male child (3 years)
+ENCSR247IUJ	ENCFF230EPN	ENCFF570XSN	1	john-stamatoyannopoulos	B cell male adult (37 years)
+ENCSR251UPG	ENCFF830AFH	ENCFF113YFF	1	john-stamatoyannopoulos	foreskin fibroblast male newborn
+ENCSR254AGA	ENCFF994SCP	ENCFF981AOU	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (91 day)
+ENCSR257BGZ	ENCFF034CXP	ENCFF828TLX	1	john-stamatoyannopoulos	ACHN
+ENCSR257BGZ	ENCFF747BDO	ENCFF652FQW	2	john-stamatoyannopoulos	ACHN
+ENCSR258IBL	ENCFF490UJL	ENCFF468WHL	1	john-stamatoyannopoulos	left renal pelvis male embryo (105 days)
+ENCSR261SMF	ENCFF773GPT	ENCFF669AED	1	john-stamatoyannopoulos	iPS DF 6.9 male newborn
+ENCSR262QJC	ENCFF467NJY	ENCFF369CRG	1	john-stamatoyannopoulos	kidney male embryo (87 days)
+ENCSR263IGU	ENCFF257XTY	ENCFF784RSW	1	john-stamatoyannopoulos	right lung female embryo (91 day)
+ENCSR265TEK	ENCFF369BNU	ENCFF564MGY	1	john-stamatoyannopoulos	NCI-H226
+ENCSR265TEK	ENCFF937QDU	ENCFF191ZUG	2	john-stamatoyannopoulos	NCI-H226
+ENCSR268QCH	ENCFF709VKR	ENCFF973VII	1	john-stamatoyannopoulos	right renal cortex interstitium male embryo (105 days)
+ENCSR269SIA	ENCFF797BMN	ENCFF141KAP	2	john-stamatoyannopoulos	G401
+ENCSR269SIA	ENCFF905ZNP	ENCFF006KSE	1	john-stamatoyannopoulos	G401
+ENCSR270LZE	ENCFF468HPC	ENCFF789PQN	1	john-stamatoyannopoulos	muscle of arm male embryo (113 days)
+ENCSR271QSV	ENCFF615TSN	ENCFF992LZL	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult
+ENCSR272RQX	ENCFF695KVH	ENCFF716VIS	1	john-stamatoyannopoulos	muscle of leg female embryo (113 days)
+ENCSR274SDO	ENCFF076HKU	ENCFF430CNF	1	john-stamatoyannopoulos	arm bone male embryo (81 day)
+ENCSR275ICP	ENCFF477HUP	ENCFF265OYU	2	john-stamatoyannopoulos	H9
+ENCSR275ICP	ENCFF899HDZ	ENCFF334GMP	1	john-stamatoyannopoulos	H9
+ENCSR278FHC	ENCFF615ZXN	ENCFF639ZOF	1	john-stamatoyannopoulos	testis male embryo
+ENCSR281HBB	ENCFF087ZYX	ENCFF819IOM	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (49 years)
+ENCSR282QFE	ENCFF092FEK	ENCFF688EZK	1	john-stamatoyannopoulos	stomach female embryo (121 day)
+ENCSR286WIA	ENCFF540SXG	ENCFF502QQC	1	john-stamatoyannopoulos	muscle of leg female embryo (105 days)
+ENCSR294QCR	ENCFF452ZWR	ENCFF674WBH	1	john-stamatoyannopoulos	muscle of leg male embryo (97 days)
+ENCSR295DUI	ENCFF580BYN	ENCFF541UPO	1	john-stamatoyannopoulos	left kidney female embryo (87 days)
+ENCSR295ELC	ENCFF277RBQ	ENCFF034GYI	1	john-stamatoyannopoulos	muscle of back male embryo (97 days)
+ENCSR297ORG	ENCFF199LRU	ENCFF160KJF	1	john-stamatoyannopoulos	muscle of leg male embryo (96 days)
+ENCSR299INS	ENCFF478ULT	ENCFF071LJS	1	john-stamatoyannopoulos	right lung female embryo (105 days)
+ENCSR301OGM	ENCFF523OHK	ENCFF040DIX	2	john-stamatoyannopoulos	NAMALWA treated with Sendai virus for 2 hours
+ENCSR301OGM	ENCFF633NQM	ENCFF193BCL	1	john-stamatoyannopoulos	NAMALWA treated with Sendai virus for 2 hours
+ENCSR301RCD	ENCFF584XRI	ENCFF964WUW	1	john-stamatoyannopoulos	renal pelvis male embryo (127 days)
+ENCSR303YII	ENCFF012VJF	ENCFF736ZAN	1	john-stamatoyannopoulos	muscle of arm male embryo (96 days)
+ENCSR305UJX	ENCFF998ALB	ENCFF064YHT	1	john-stamatoyannopoulos	heart male child (3 years)
+ENCSR309FOO	ENCFF054DWS	ENCFF536FNG	1	john-stamatoyannopoulos	brain female embryo (117 days)
+ENCSR309YDN	ENCFF242ALD	ENCFF428DTK	1	john-stamatoyannopoulos	muscle of arm female embryo (85 days)
+ENCSR311LLZ	ENCFF784QLB	ENCFF782WKY	1	john-stamatoyannopoulos	heart male embryo (110 days)
+ENCSR314EZY	ENCFF615FCD	ENCFF464NHA	1	john-stamatoyannopoulos	L1-S8
+ENCSR314EZY	ENCFF807IVU	ENCFF751CPM	2	john-stamatoyannopoulos	L1-S8
+ENCSR316UDN	ENCFF835LDH	ENCFF468PTJ	1	john-stamatoyannopoulos	CD8-positive, alpha-beta T cell male adult (37 years)
+ENCSR317SIH	ENCFF625IAC	ENCFF847HLP	1	john-stamatoyannopoulos	muscle of back male embryo (91 day)
+ENCSR318JAA	ENCFF294DCM	ENCFF637LBX	1	john-stamatoyannopoulos	left renal pelvis male embryo (105 days)
+ENCSR318PRQ	ENCFF317BTV	ENCFF389VNZ	2	john-stamatoyannopoulos	middle frontal gyrus male adult (78 years)
+ENCSR318WOD	ENCFF911TZB	ENCFF267BLE	1	john-stamatoyannopoulos	lung male embryo (103 days)
+ENCSR320PGJ	ENCFF837XBM	ENCFF915OOI	1	john-stamatoyannopoulos	heart male embryo (105 days)
+ENCSR320SVK	ENCFF375AGC	ENCFF688UBR	1	john-stamatoyannopoulos	left renal pelvis male embryo (120 days)
+ENCSR320TUJ	ENCFF671CKC	ENCFF570PTC	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive female adult (50 years)
+ENCSR325LYJ	ENCFF322GGV	ENCFF123ENC	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR328UMC	ENCFF634PZR	ENCFF158ALT	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell
+ENCSR332BSB	ENCFF827HTW	ENCFF386DMJ	1	john-stamatoyannopoulos	right kidney male embryo (87 days)
+ENCSR337IRF	ENCFF590VSV	ENCFF620RYJ	1	john-stamatoyannopoulos	renal cell carcinoma
+ENCSR337IRF	ENCFF676QSP	ENCFF518SZH	2	john-stamatoyannopoulos	renal cell carcinoma
+ENCSR342NCX	ENCFF561UXF	ENCFF936MHE	1	john-stamatoyannopoulos	thymus female embryo (113 days)
+ENCSR344FLH	ENCFF731RLJ	ENCFF003FBE	1	john-stamatoyannopoulos	brain female embryo (109 days)
+ENCSR346IHH	ENCFF244NSD	ENCFF389AEJ	2	john-stamatoyannopoulos	Daoy
+ENCSR346IHH	ENCFF734VCY	ENCFF399TJD	1	john-stamatoyannopoulos	Daoy
+ENCSR346JWH	ENCFF145OEN	ENCFF305GOM	1	john-stamatoyannopoulos	A673
+ENCSR346JWH	ENCFF369NGB	ENCFF324UBJ	2	john-stamatoyannopoulos	A673
+ENCSR354FBA	ENCFF061JEQ	ENCFF584DSR	1	john-stamatoyannopoulos	small intestine male embryo (115 days)
+ENCSR356QCD	ENCFF352OUJ	ENCFF147PGS	1	john-stamatoyannopoulos	muscle of arm male embryo (101 day)
+ENCSR357PMV	ENCFF328EKS	ENCFF941ILF	1	john-stamatoyannopoulos	muscle of arm female embryo (120 days)
+ENCSR357RED	ENCFF848QHU	ENCFF779BIA	1	john-stamatoyannopoulos	muscle of back male embryo (105 days)
+ENCSR360LBD	ENCFF288WKG	ENCFF647YEC	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR360XIS	ENCFF771RCV	ENCFF429VTB	2	john-stamatoyannopoulos	ecto neural progenitor cell originated from H9
+ENCSR362JSZ	ENCFF495VUG	ENCFF708ZHA	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 17 days, kit ligand for 17 days, hydrocortisone succinate for 17 days, erythropoietin for 17 days
+ENCSR362JSZ	ENCFF812KBJ	ENCFF390FGL	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 17 days, kit ligand for 17 days, hydrocortisone succinate for 17 days, erythropoietin for 17 days
+ENCSR364MFN	ENCFF523DRC	ENCFF845GJQ	2	john-stamatoyannopoulos	hepatocyte originated from H9
+ENCSR364MFN	ENCFF556PQB	ENCFF136YOJ	1	john-stamatoyannopoulos	hepatocyte originated from H9
+ENCSR364TKL	ENCFF946PTS	ENCFF078RPO	1	john-stamatoyannopoulos	renal pelvis male embryo (97 days)
+ENCSR366EGE	ENCFF922GCR	ENCFF802UAF	1	john-stamatoyannopoulos	heart embryo (101 day)
+ENCSR366EQH	ENCFF506EJN	ENCFF761ZJC	1	john-stamatoyannopoulos	large intestine male embryo (115 days)
+ENCSR366YTD	ENCFF705ACZ	ENCFF010ZNC	1	john-stamatoyannopoulos	T-cell male adult (37 years)
+ENCSR371KRY	ENCFF653LRF	ENCFF053JYY	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR373BIX	ENCFF816LIO	ENCFF259NLK	1	john-stamatoyannopoulos	CD1c-positive myeloid dendritic cell
+ENCSR373BIX	ENCFF833ICC	ENCFF475NUL	2	john-stamatoyannopoulos	CD1c-positive myeloid dendritic cell
+ENCSR381PXW	ENCFF546VSP	ENCFF220IWU	1	john-stamatoyannopoulos	B cell male adult (21 year)
+ENCSR383BLX	ENCFF940ZVJ	ENCFF006LVL	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR383SNM	ENCFF389OIW	ENCFF294LWY	1	john-stamatoyannopoulos	iPS DF 19.11 male newborn
+ENCSR385AMY	ENCFF700VGW	ENCFF973KXU	1	john-stamatoyannopoulos	hindlimb muscle male embryo (120 days)
+ENCSR385SZQ	ENCFF067QBH	ENCFF955DHP	1	john-stamatoyannopoulos	NA
+ENCSR392GCE	ENCFF708ANM	ENCFF851MCI	1	john-stamatoyannopoulos	heart male embryo (120 days)
+ENCSR405TXU	ENCFF190YVT	ENCFF531MYW	1	john-stamatoyannopoulos	adipocyte
+ENCSR405TXU	ENCFF317ERO	ENCFF248FDL	2	john-stamatoyannopoulos	adipocyte
+ENCSR411MGY	ENCFF857MGW	ENCFF562EUF	1	john-stamatoyannopoulos	muscle of trunk female embryo (121 day)
+ENCSR412NMI	ENCFF714AUK	ENCFF920CTO	1	john-stamatoyannopoulos	left cardiac atrium female embryo (101 day)
+ENCSR414IHC	ENCFF266WFQ	ENCFF213QWE	1	john-stamatoyannopoulos	T-cell male adult (21 year)
+ENCSR414ZUA	ENCFF267EIE	ENCFF645BQM	1	john-stamatoyannopoulos	right kidney male embryo (108 days)
+ENCSR419MZH	ENCFF309BXD	ENCFF166VWE	1	john-stamatoyannopoulos	adrenal gland female embryo (108 days)
+ENCSR422PVL	ENCFF164VUE	ENCFF963ION	1	john-stamatoyannopoulos	left kidney female embryo (147 days)
+ENCSR425MRQ	ENCFF172BLW	ENCFF133LMW	1	john-stamatoyannopoulos	CD4-positive, alpha-beta T cell male adult (37 years)
+ENCSR426IEA	ENCFF364ZCX	ENCFF953EXS	1	john-stamatoyannopoulos	KBM-7
+ENCSR426IEA	ENCFF889DAJ	ENCFF699BQM	2	john-stamatoyannopoulos	KBM-7
+ENCSR426TPQ	ENCFF369TIC	ENCFF241XMS	1	john-stamatoyannopoulos	psoas muscle male child (3 years)
+ENCSR428XAX	ENCFF096FIX	ENCFF190AUQ	1	john-stamatoyannopoulos	ovary female embryo
+ENCSR429RHR	ENCFF238MCR	ENCFF175IFH	1	john-stamatoyannopoulos	RKO
+ENCSR429RHR	ENCFF416QAV	ENCFF264UDR	2	john-stamatoyannopoulos	RKO
+ENCSR431UEM	ENCFF038HIP	ENCFF869XYK	1	john-stamatoyannopoulos	leg bone male embryo (81 day)
+ENCSR434OBM	ENCFF390TBQ	ENCFF520XMG	1	john-stamatoyannopoulos	foreskin melanocyte male newborn
+ENCSR437KLY	ENCFF485ZDA	ENCFF890HSZ	1	john-stamatoyannopoulos	kidney female embryo (85 days)
+ENCSR438TWI	ENCFF915RKJ	ENCFF990QEC	1	john-stamatoyannopoulos	muscle of back male embryo (96 days)
+ENCSR440FZS	ENCFF755NLT	ENCFF736QYT	1	john-stamatoyannopoulos	muscle of trunk female embryo (113 days)
+ENCSR440QMR	ENCFF371ZOV	ENCFF732WSQ	1	john-stamatoyannopoulos	iPS DF 19.7 male newborn
+ENCSR441MMO	ENCFF928CSS	ENCFF631ZXV	1	john-stamatoyannopoulos	right lung female embryo (110 days)
+ENCSR441OGH	ENCFF786JLS	ENCFF216TLU	1	john-stamatoyannopoulos	left lung male embryo (87 days)
+ENCSR444VTC	ENCFF990WLI	ENCFF471TWL	1	john-stamatoyannopoulos	large intestine female embryo (105 days)
+ENCSR445XYW	ENCFF709FIV	ENCFF338GCP	1	john-stamatoyannopoulos	right lung female embryo (98 days)
+ENCSR449HOQ	ENCFF663UGK	ENCFF573KUK	1	john-stamatoyannopoulos	leg bone male embryo (81 day)
+ENCSR452DCM	ENCFF367UUA	ENCFF724HAH	1	john-stamatoyannopoulos	CD14-positive monocyte male adult (21 year)
+ENCSR452EGE	ENCFF926ICC	ENCFF897JFY	1	john-stamatoyannopoulos	muscle of arm male embryo (120 days)
+ENCSR453EVC	ENCFF840ZYR	ENCFF139ZYV	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (36 years)
+ENCSR456KDF	ENCFF254PGC	ENCFF549BSX	1	john-stamatoyannopoulos	left lung female embryo (108 days)
+ENCSR457ILW	ENCFF284QFK	ENCFF359LKO	1	john-stamatoyannopoulos	small intestine female embryo (91 day)
+ENCSR458LIB	ENCFF385AUV	ENCFF896FUI	2	john-stamatoyannopoulos	MM.1S
+ENCSR468OVW	ENCFF851VAP	ENCFF852RDH	1	john-stamatoyannopoulos	left lung female embryo (105 days)
+ENCSR468ZXN	ENCFF410KWQ	ENCFF523VFS	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive female adult (33 years)
+ENCSR474GZQ	ENCFF042QFP	ENCFF773NZF	1	john-stamatoyannopoulos	retina embryo (125 days) and male embryo (103 days)
+ENCSR474GZQ	ENCFF130BZP	ENCFF713HOQ	2	john-stamatoyannopoulos	retina embryo (125 days) and male embryo (103 days)
+ENCSR475VQD	ENCFF562DME	ENCFF468SMI	1	john-stamatoyannopoulos	brain male embryo (72 days) and male embryo (76 days)
+ENCSR475VQD	ENCFF997UCQ	ENCFF747KOZ	2	john-stamatoyannopoulos	brain male embryo (72 days) and male embryo (76 days)
+ENCSR476SDZ	ENCFF156TCL	ENCFF302BVR	1	john-stamatoyannopoulos	muscle of back male embryo (108 days)
+ENCSR477RTP	ENCFF714GSG	ENCFF706WOH	1	john-stamatoyannopoulos	IMR-90
+ENCSR482HQE	ENCFF887QEV	ENCFF036RHD	1	john-stamatoyannopoulos	lung female embryo (108 days)
+ENCSR488PHT	ENCFF292XIW	ENCFF877ULZ	1	john-stamatoyannopoulos	left lung male embryo (113 days)
+ENCSR489NAM	ENCFF227HMQ	ENCFF765WME	2	john-stamatoyannopoulos	OCI-LY7
+ENCSR489NAM	ENCFF790LFK	ENCFF506FHA	1	john-stamatoyannopoulos	OCI-LY7
+ENCSR493IAY	ENCFF993VHP	ENCFF117DAB	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 18 days, kit ligand for 18 days, hydrocortisone succinate for 18 days, erythropoietin for 18 days
+ENCSR493VDS	ENCFF174ROR	ENCFF681JFJ	1	john-stamatoyannopoulos	putamen male adult (78 years)
+ENCSR495INQ	ENCFF348SQE	ENCFF893ONO	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (42 years)
+ENCSR499IFY	ENCFF057WOU	ENCFF052UYS	2	john-stamatoyannopoulos	placenta embryo (53 days)
+ENCSR499IFY	ENCFF844GQW	ENCFF555ENQ	1	john-stamatoyannopoulos	placenta embryo (53 days)
+ENCSR499PZA	ENCFF072HKC	ENCFF758ZBZ	1	john-stamatoyannopoulos	kidney male embryo (105 days)
+ENCSR501FWC	ENCFF209IAO	ENCFF185JEB	2	john-stamatoyannopoulos	heart left ventricle female embryo (136 days)
+ENCSR502NDK	ENCFF572KYC	ENCFF966IYT	1	john-stamatoyannopoulos	small intestine female embryo (108 days)
+ENCSR503BEM	ENCFF381TCW	ENCFF692FQU	1	john-stamatoyannopoulos	LoVo
+ENCSR503HIB	ENCFF353VZO	ENCFF675YED	2	john-stamatoyannopoulos	cerebellar cortex male adult (78 years) and male adult (84 years)
+ENCSR503HIB	ENCFF760XHC	ENCFF564DYF	1	john-stamatoyannopoulos	cerebellar cortex male adult (78 years) and male adult (84 years)
+ENCSR504KZE	ENCFF843ONM	ENCFF710LQM	1	john-stamatoyannopoulos	lung embryo (67 days)
+ENCSR507GFJ	ENCFF212CRR	ENCFF482UKP	1	john-stamatoyannopoulos	brain embryo (80 days)
+ENCSR510ITB	ENCFF306XZZ	ENCFF735QXG	1	john-stamatoyannopoulos	left lung male embryo (91 day)
+ENCSR511GQA	ENCFF078ETV	ENCFF922XNR	1	john-stamatoyannopoulos	stomach female embryo (108 days)
+ENCSR512CWR	ENCFF260WBP	ENCFF027DTU	2	john-stamatoyannopoulos	umbilical cord embryo (59 days) and male embryo (76 days)
+ENCSR512CWR	ENCFF688SMG	ENCFF622CII	1	john-stamatoyannopoulos	umbilical cord embryo (59 days) and male embryo (76 days)
+ENCSR514QHN	ENCFF318TFQ	ENCFF683HAF	1	john-stamatoyannopoulos	muscle of leg male embryo (105 days)
+ENCSR515EWI	ENCFF096KNS	ENCFF724AIN	2	john-stamatoyannopoulos	Caki2
+ENCSR515EWI	ENCFF298BFG	ENCFF109WQI	1	john-stamatoyannopoulos	Caki2
+ENCSR517NHP	ENCFF229GRH	ENCFF644WCO	1	john-stamatoyannopoulos	muscle of arm female embryo (105 days)
+ENCSR518JGY	ENCFF222TBA	ENCFF910FZX	1	john-stamatoyannopoulos	foreskin melanocyte male newborn
+ENCSR524DWS	ENCFF720ZZD	ENCFF631XBY	1	john-stamatoyannopoulos	renal cortex interstitium female embryo (120 days)
+ENCSR531HPD	ENCFF166EXY	ENCFF824OUT	1	john-stamatoyannopoulos	large intestine male embryo (105 days)
+ENCSR533VAF	ENCFF412QUZ	ENCFF461COG	1	john-stamatoyannopoulos	heart female embryo (147 days)
+ENCSR536NGW	ENCFF696TTS	ENCFF135BIN	1	john-stamatoyannopoulos	heart male embryo (96 days)
+ENCSR540PVZ	ENCFF373YNH	ENCFF785TYR	1	john-stamatoyannopoulos	right renal pelvis male embryo (120 days)
+ENCSR541AVF	ENCFF495HRB	ENCFF149IUC	1	john-stamatoyannopoulos	left lung female embryo (117 days)
+ENCSR541UPY	ENCFF961LWM	ENCFF858RAV	1	john-stamatoyannopoulos	thymus female embryo (98 days)
+ENCSR543YPH	ENCFF788VUB	ENCFF925SLC	1	john-stamatoyannopoulos	left kidney male embryo (115 days)
+ENCSR545KQR	ENCFF775AWT	ENCFF176WVA	1	john-stamatoyannopoulos	placenta female embryo (105 days)
+ENCSR548MMD	ENCFF052DJF	ENCFF746DZE	1	john-stamatoyannopoulos	EH
+ENCSR548MMD	ENCFF832ANA	ENCFF998XZO	2	john-stamatoyannopoulos	EH
+ENCSR550UWM	ENCFF509OKH	ENCFF354FAY	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (97 days)
+ENCSR552RKI	ENCFF848LZM	ENCFF933ZHA	1	john-stamatoyannopoulos	placenta embryo (102 days)
+ENCSR552XJI	ENCFF293EOZ	ENCFF708XRO	1	john-stamatoyannopoulos	placenta embryo (56 days) and embryo (59 days)
+ENCSR554WUJ	ENCFF201CRE	ENCFF407LCA	1	john-stamatoyannopoulos	renal pelvis female embryo (103 days)
+ENCSR555TFE	ENCFF016UJT	ENCFF660PED	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR559WMK	ENCFF966XNL	ENCFF616AAF	1	john-stamatoyannopoulos	tongue male embryo (72 days)
+ENCSR562ACY	ENCFF968NTZ	ENCFF723EYP	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR562FNN	ENCFF125WAV	ENCFF534HPH	2	john-stamatoyannopoulos	liver female embryo (101 day) and female embryo (113 days)
+ENCSR563XRP	ENCFF330RIJ	ENCFF658BNW	1	john-stamatoyannopoulos	large intestine female embryo (107 days)
+ENCSR564JUY	ENCFF112JRG	ENCFF627XCI	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 6 days, kit ligand for 6 days, hydrocortisone succinate for 6 days, erythropoietin for 6 days
+ENCSR564JUY	ENCFF673CAL	ENCFF438MEL	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 6 days, kit ligand for 6 days, hydrocortisone succinate for 6 days, erythropoietin for 6 days
+ENCSR564TUY	ENCFF064WHY	ENCFF819VID	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male
+ENCSR565EBN	ENCFF920MGS	ENCFF389EEG	1	john-stamatoyannopoulos	small intestine female embryo (98 days)
+ENCSR569ATD	ENCFF821YCJ	ENCFF658FXQ	1	john-stamatoyannopoulos	CD4-positive, alpha-beta T cell male adult (21 year)
+ENCSR572LDG	ENCFF713UHB	ENCFF503ZTL	1	john-stamatoyannopoulos	brain male embryo (101 day)
+ENCSR575VMI	ENCFF552XHZ	ENCFF327IFZ	2	john-stamatoyannopoulos	placenta female embryo (101 day) and male embryo (105 days)
+ENCSR580OAH	ENCFF335XZZ	ENCFF069WLL	1	john-stamatoyannopoulos	renal pelvis male embryo (91 day)
+ENCSR582IPV	ENCFF116FOI	ENCFF830TGU	1	john-stamatoyannopoulos	lung embryo (80 days) and male embryo (76 days)
+ENCSR582IPV	ENCFF168OXN	ENCFF629AAK	2	john-stamatoyannopoulos	lung embryo (80 days) and male embryo (76 days)
+ENCSR584LUZ	ENCFF471PRZ	ENCFF460VUW	1	john-stamatoyannopoulos	Ammon's horn male adult (84 years)
+ENCSR585CGU	ENCFF503TEW	ENCFF596JMX	1	john-stamatoyannopoulos	muscle of back female embryo (105 days)
+ENCSR587HPR	ENCFF026YXV	ENCFF606ESZ	1	john-stamatoyannopoulos	lung male embryo (82 days)
+ENCSR588JXI	ENCFF706ASH	ENCFF946AQO	1	john-stamatoyannopoulos	left renal cortex interstitium male embryo (105 days)
+ENCSR593LTJ	ENCFF237RNN	ENCFF497YVQ	2	john-stamatoyannopoulos	trophoblast cell embryo (17 weeks) and embryo (18 weeks)
+ENCSR593LTJ	ENCFF304LLZ	ENCFF925UKW	1	john-stamatoyannopoulos	trophoblast cell embryo (17 weeks) and embryo (18 weeks)
+ENCSR594NOE	ENCFF236ZFE	ENCFF548BBX	1	john-stamatoyannopoulos	RPMI8226
+ENCSR594NOE	ENCFF945LIJ	ENCFF158OZL	2	john-stamatoyannopoulos	RPMI8226
+ENCSR594OWA	ENCFF663YWP	ENCFF243OFZ	1	john-stamatoyannopoulos	small intestine male embryo (91 day)
+ENCSR595CSH	ENCFF597UOX	ENCFF641HVS	1	john-stamatoyannopoulos	brain embryo (56 days) and male embryo (58 days)
+ENCSR595CSH	ENCFF599ZCK	ENCFF738XPG	2	john-stamatoyannopoulos	brain embryo (56 days) and male embryo (58 days)
+ENCSR600RAA	ENCFF646DWN	ENCFF028YSP	1	john-stamatoyannopoulos	left kidney male embryo (87 days)
+ENCSR606UAR	ENCFF850ECM	ENCFF010FIA	1	john-stamatoyannopoulos	renal pelvis female embryo (96 days)
+ENCSR608AHQ	ENCFF579TBM	ENCFF581JYZ	1	john-stamatoyannopoulos	stomach male embryo (127 days)
+ENCSR609DDQ	ENCFF097VFB	ENCFF726GTU	1	john-stamatoyannopoulos	CD8-positive, alpha-beta T cell female adult (34 years)
+ENCSR615WIN	ENCFF420HEU	ENCFF599PVD	1	john-stamatoyannopoulos	spinal cord female embryo (89 days)
+ENCSR619BNL	ENCFF495VBY	ENCFF174TXJ	1	john-stamatoyannopoulos	muscle of arm male embryo (97 days)
+ENCSR619DRM	ENCFF384MOQ	ENCFF161NZJ	1	john-stamatoyannopoulos	renal pelvis female embryo (105 days)
+ENCSR620QNS	ENCFF374XCE	ENCFF683YGL	2	john-stamatoyannopoulos	HAP-1
+ENCSR620QNS	ENCFF860QSN	ENCFF442SRX	1	john-stamatoyannopoulos	HAP-1
+ENCSR620WAR	ENCFF376SHS	ENCFF612YAK	2	john-stamatoyannopoulos	SJSA1
+ENCSR620WAR	ENCFF915PUB	ENCFF909HEZ	1	john-stamatoyannopoulos	SJSA1
+ENCSR621ENC	ENCFF047QHN	ENCFF539CBT	2	john-stamatoyannopoulos	retina embryo (74 days) and embryo (85 days)
+ENCSR621ENC	ENCFF496WVQ	ENCFF113RRS	1	john-stamatoyannopoulos	retina embryo (74 days) and embryo (85 days)
+ENCSR622CAH	ENCFF063QZO	ENCFF906KHN	1	john-stamatoyannopoulos	muscle of leg male embryo (127 days)
+ENCSR622TWS	ENCFF038QUS	ENCFF900LOG	1	john-stamatoyannopoulos	fibroblast of skin of abdomen male embryo (97 days)
+ENCSR626RVD	ENCFF104KWJ	ENCFF399ISP	1	john-stamatoyannopoulos	NA
+ENCSR626RVD	ENCFF473CYF	ENCFF224YTK	2	john-stamatoyannopoulos	NA
+ENCSR627KFV	ENCFF974MAM	ENCFF138ZHG	1	john-stamatoyannopoulos	stomach female embryo (147 days)
+ENCSR627NIF	ENCFF129YGA	ENCFF744SOE	2	john-stamatoyannopoulos	lung male embryo (54 days) and male embryo (58 days)
+ENCSR628IRM	ENCFF020WYU	ENCFF801DBL	1	john-stamatoyannopoulos	T-cell male adult (21 year)
+ENCSR634YVQ	ENCFF040LIH	ENCFF401DZU	1	john-stamatoyannopoulos	HK-2
+ENCSR639XWF	ENCFF207TQK	ENCFF655RAK	1	john-stamatoyannopoulos	left lung male embryo (96 days)
+ENCSR639ZJI	ENCFF388PIV	ENCFF005DPL	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (23 years)
+ENCSR643GHI	ENCFF355OAI	ENCFF502EPK	1	john-stamatoyannopoulos	CD4-positive, alpha-beta T cell female adult (33 years)
+ENCSR645GJD	ENCFF365OAK	ENCFF557YAB	1	john-stamatoyannopoulos	kidney female embryo (113 days)
+ENCSR648GDP	ENCFF839THH	ENCFF600WZF	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR648RAX	ENCFF840YVF	ENCFF180IFD	1	john-stamatoyannopoulos	placenta female embryo (85 days)
+ENCSR649KBB	ENCFF187AUJ	ENCFF361UTR	1	john-stamatoyannopoulos	brain male embryo (122 days)
+ENCSR649PJN	ENCFF359XCR	ENCFF903LEE	1	john-stamatoyannopoulos	muscle of arm male embryo (97 days)
+ENCSR656QYL	ENCFF460RMS	ENCFF161UUJ	1	john-stamatoyannopoulos	renal cortex interstitium female embryo (103 days)
+ENCSR662HMO	ENCFF116MYO	ENCFF889CMZ	1	john-stamatoyannopoulos	NAMALWA
+ENCSR664PKM	ENCFF687BTM	ENCFF351UQV	1	john-stamatoyannopoulos	heart embryo (59 days) and female embryo (76 days)
+ENCSR664PKM	ENCFF756EPW	ENCFF327NVK	2	john-stamatoyannopoulos	heart embryo (59 days) and female embryo (76 days)
+ENCSR666YVE	ENCFF851OJV	ENCFF365LXQ	1	john-stamatoyannopoulos	large intestine male embryo (105 days)
+ENCSR670VQZ	ENCFF605MMN	ENCFF260OFK	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR670ZSA	ENCFF608TIH	ENCFF307BRD	1	john-stamatoyannopoulos	right kidney male embryo (96 days)
+ENCSR674JIL	ENCFF706EUW	ENCFF722MXM	1	john-stamatoyannopoulos	CD14-positive monocyte male adult (37 years)
+ENCSR678ILN	ENCFF548BCQ	ENCFF192NGP	2	john-stamatoyannopoulos	ELF-1
+ENCSR678ILN	ENCFF753EZN	ENCFF422YYH	1	john-stamatoyannopoulos	ELF-1
+ENCSR678PDD	ENCFF584FJI	ENCFF024WMP	1	john-stamatoyannopoulos	spinal cord female embryo (113 days)
+ENCSR679IFH	ENCFF870FSU	ENCFF090EZE	1	john-stamatoyannopoulos	spleen embryo (112 days)
+ENCSR680SDS	ENCFF109UEI	ENCFF010TXA	1	john-stamatoyannopoulos	left lung female embryo (107 days)
+ENCSR682PKY	ENCFF958EJC	ENCFF538SYZ	1	john-stamatoyannopoulos	thymus female embryo
+ENCSR683QJJ	ENCFF384GDY	ENCFF131RGB	1	john-stamatoyannopoulos	CD4-positive, alpha-beta T cell male adult (21 year)
+ENCSR683YLO	ENCFF108NRI	ENCFF827CLR	1	john-stamatoyannopoulos	stomach female embryo (96 days)
+ENCSR691MQJ	ENCFF085GRV	ENCFF523ELU	2	john-stamatoyannopoulos	EL
+ENCSR691MQJ	ENCFF690NFT	ENCFF923JHL	1	john-stamatoyannopoulos	EL
+ENCSR695AUY	ENCFF659EEE	ENCFF759CKK	1	john-stamatoyannopoulos	CD14-positive monocyte female adult (34 years)
+ENCSR696XSJ	ENCFF326FCT	ENCFF815MQN	1	john-stamatoyannopoulos	adrenal gland female embryo (113 days)
+ENCSR698CUE	ENCFF004LHA	ENCFF545YJA	1	john-stamatoyannopoulos	muscle of back male embryo (96 days)
+ENCSR704HNG	ENCFF035CXS	ENCFF985WGD	1	john-stamatoyannopoulos	natural killer cell male adult (21 year)
+ENCSR705CNJ	ENCFF203SIW	ENCFF498ECZ	2	john-stamatoyannopoulos	heart male embryo (72 days) and male embryo (76 days)
+ENCSR712PYJ	ENCFF260BAV	ENCFF338CIA	1	john-stamatoyannopoulos	ovary female adult (30 years)
+ENCSR714DIF	ENCFF302YZQ	ENCFF918FRW	1	john-stamatoyannopoulos	mesendoderm originated from H1-hESC
+ENCSR723JLG	ENCFF964TRL	ENCFF125SYT	1	john-stamatoyannopoulos	natural killer cell female adult (34 years)
+ENCSR724CND	ENCFF947HTA	ENCFF380PKB	1	john-stamatoyannopoulos	foreskin keratinocyte male newborn
+ENCSR726YMS	ENCFF406JAF	ENCFF488GEQ	1	john-stamatoyannopoulos	stomach female embryo
+ENCSR728BAD	ENCFF964VEI	ENCFF285UPE	1	john-stamatoyannopoulos	adrenal gland male embryo (108 days)
+ENCSR729DRB	ENCFF798ZSM	ENCFF037YBR	1	john-stamatoyannopoulos	testis male embryo
+ENCSR731QLJ	ENCFF364SEB	ENCFF594UFP	1	john-stamatoyannopoulos	mesenchymal stem cell originated from H1-hESC
+ENCSR735BIM	ENCFF112XAR	ENCFF158JPG	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (43 years)
+ENCSR746RDJ	ENCFF030PMI	ENCFF581KWV	2	john-stamatoyannopoulos	heart right ventricle female embryo (101 day) and female embryo (103 days)
+ENCSR749BWV	ENCFF609YSB	ENCFF193CHS	2	john-stamatoyannopoulos	heart female embryo (116 days) and female embryo (98 days)
+ENCSR749BWV	ENCFF845CUC	ENCFF162WFN	1	john-stamatoyannopoulos	heart female embryo (116 days) and female embryo (98 days)
+ENCSR752EPH	ENCFF147KVE	ENCFF747RHY	1	john-stamatoyannopoulos	NA
+ENCSR752NTF	ENCFF469IKQ	ENCFF923TRG	1	john-stamatoyannopoulos	right renal pelvis male embryo (105 days)
+ENCSR753QKD	ENCFF308VDC	ENCFF851IQY	1	john-stamatoyannopoulos	muscle of arm female embryo (98 days)
+ENCSR754LIN	ENCFF676MIV	ENCFF685WFL	1	john-stamatoyannopoulos	H9 G1 phase genetically modified using stable transfection
+ENCSR757EPJ	ENCFF343VIS	ENCFF098CIC	1	john-stamatoyannopoulos	kidney male embryo (85 days)
+ENCSR759UNY	ENCFF343EMG	ENCFF534QIM	2	john-stamatoyannopoulos	tongue female embryo (59 days) and female embryo (76 days)
+ENCSR759UNY	ENCFF493CEW	ENCFF645CDA	1	john-stamatoyannopoulos	tongue female embryo (59 days) and female embryo (76 days)
+ENCSR761ZFA	ENCFF127SHH	ENCFF881JSN	1	john-stamatoyannopoulos	right renal pelvis male embryo (105 days)
+ENCSR762FCX	ENCFF824OGM	ENCFF484MWV	1	john-stamatoyannopoulos	large intestine male embryo (91 day)
+ENCSR765BSU	ENCFF458EBP	ENCFF712OII	1	john-stamatoyannopoulos	right kidney female embryo (117 days)
+ENCSR768OLL	ENCFF100ARK	ENCFF268XHZ	1	john-stamatoyannopoulos	right kidney male embryo (91 day)
+ENCSR770DEN	ENCFF003ERD	ENCFF375JUQ	1	john-stamatoyannopoulos	skin fibroblast male embryo (97 days)
+ENCSR771DAX	ENCFF505GUN	ENCFF328BAN	1	john-stamatoyannopoulos	globus pallidus male adult (78 years) and male adult (84 years)
+ENCSR771DAX	ENCFF883NXJ	ENCFF225FYX	2	john-stamatoyannopoulos	globus pallidus male adult (78 years) and male adult (84 years)
+ENCSR772HUG	ENCFF174XXB	ENCFF242KTE	1	john-stamatoyannopoulos	common myeloid progenitor, CD34-positive male adult (37 years)
+ENCSR774RCO	ENCFF567IIW	ENCFF518IQW	1	john-stamatoyannopoulos	kidney female embryo (105 days)
+ENCSR777USE	ENCFF528YIN	ENCFF721IYP	1	john-stamatoyannopoulos	thymus female embryo (147 days)
+ENCSR782XFY	ENCFF385NPQ	ENCFF268RAG	2	john-stamatoyannopoulos	eye embryo (56 days) and male embryo (76 days)
+ENCSR782XFY	ENCFF649RKI	ENCFF540MDC	1	john-stamatoyannopoulos	eye embryo (56 days) and male embryo (76 days)
+ENCSR785BDQ	ENCFF415FGN	ENCFF888PNL	1	john-stamatoyannopoulos	glomerular visceral epithelial cell child (3 years)
+ENCSR786FWF	ENCFF913TFL	ENCFF167DZY	1	john-stamatoyannopoulos	muscle of back male embryo (127 days)
+ENCSR788SOI	ENCFF625GID	ENCFF072UOA	1	john-stamatoyannopoulos	spinal cord male embryo (96 days)
+ENCSR789VGQ	ENCFF256DKW	ENCFF222GDV	1	john-stamatoyannopoulos	MCF 10A
+ENCSR792ZXA	ENCFF081VJJ	ENCFF532YJA	2	john-stamatoyannopoulos	kidney embryo (59 days) and female embryo (59 days)
+ENCSR792ZXA	ENCFF202QGP	ENCFF419BLQ	1	john-stamatoyannopoulos	kidney embryo (59 days) and female embryo (59 days)
+ENCSR796SJV	ENCFF883TQG	ENCFF112GQO	1	john-stamatoyannopoulos	large intestine female embryo (98 days)
+ENCSR800QGE	ENCFF171CHN	ENCFF691QJR	1	john-stamatoyannopoulos	large intestine female embryo (103 days)
+ENCSR802AJE	ENCFF069DYY	ENCFF804AOO	1	john-stamatoyannopoulos	placenta male embryo (85 days)
+ENCSR803VCR	ENCFF093DYI	ENCFF772ECZ	1	john-stamatoyannopoulos	left lung female embryo (91 day)
+ENCSR804RSI	ENCFF260OAP	ENCFF751LRX	1	john-stamatoyannopoulos	heart embryo (80 days)
+ENCSR805XIF	ENCFF286LWF	ENCFF130BQK	1	john-stamatoyannopoulos	femur female embryo (98 days)
+ENCSR809CEA	ENCFF320IRI	ENCFF345ALB	1	john-stamatoyannopoulos	H4
+ENCSR809LCE	ENCFF751MJV	ENCFF497YLT	1	john-stamatoyannopoulos	trophoblast cell embryo (23 weeks)
+ENCSR814KRX	ENCFF226HWU	ENCFF528SGI	1	john-stamatoyannopoulos	HT-29
+ENCSR814KRX	ENCFF312FGP	ENCFF441MDS	2	john-stamatoyannopoulos	HT-29
+ENCSR814KRX	ENCFF328WLX	ENCFF074JTF	4	john-stamatoyannopoulos	HT-29
+ENCSR814KRX	ENCFF765JKN	ENCFF846SFA	3	john-stamatoyannopoulos	HT-29
+ENCSR818JGZ	ENCFF906TSX	ENCFF215NAM	3	john-stamatoyannopoulos	limb embryo (53 days) and embryo (56 days)
+ENCSR820ICX	ENCFF830WHZ	ENCFF489DYU	1	john-stamatoyannopoulos	retina female embryo (89 days)
+ENCSR820XRX	ENCFF663FOB	ENCFF643ARA	1	john-stamatoyannopoulos	brain female embryo (105 days)
+ENCSR826ERZ	ENCFF032ZQB	ENCFF924PVB	1	john-stamatoyannopoulos	muscle of arm embryo (101 day)
+ENCSR828RNY	ENCFF018LVC	ENCFF331URX	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (108 days)
+ENCSR838IPF	ENCFF827LUG	ENCFF353EKI	1	john-stamatoyannopoulos	thymus female embryo (105 days)
+ENCSR842KCP	ENCFF114GDD	ENCFF274MLZ	2	john-stamatoyannopoulos	cardiac muscle cell
+ENCSR842KCP	ENCFF694QRE	ENCFF446JBL	1	john-stamatoyannopoulos	cardiac muscle cell
+ENCSR842VTJ	ENCFF791TWT	ENCFF825SRM	1	john-stamatoyannopoulos	CD8-positive, alpha-beta T cell male adult (21 year)
+ENCSR845CFB	ENCFF206QEJ	ENCFF800PMS	1	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 8 days, kit ligand for 8 days, hydrocortisone succinate for 8 days, erythropoietin for 8 days
+ENCSR845CFB	ENCFF553WLM	ENCFF202GSR	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 8 days, kit ligand for 8 days, hydrocortisone succinate for 8 days, erythropoietin for 8 days
+ENCSR845CFB	ENCFF833MFV	ENCFF275VIO	3	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 8 days, kit ligand for 8 days, hydrocortisone succinate for 8 days, erythropoietin for 8 days
+ENCSR845MEJ	ENCFF257JQV	ENCFF520PUY	1	john-stamatoyannopoulos	right lung female embryo (117 days)
+ENCSR846CTA	ENCFF569ITN	ENCFF942LPA	1	john-stamatoyannopoulos	right lung male embryo (105 days)
+ENCSR847RSJ	ENCFF055YKN	ENCFF609EGN	1	john-stamatoyannopoulos	lung female embryo (96 days)
+ENCSR849OKE	ENCFF827BSB	ENCFF493QSG	1	john-stamatoyannopoulos	renal cortex interstitium male embryo (127 days)
+ENCSR851ZFT	ENCFF995MSY	ENCFF590MET	1	john-stamatoyannopoulos	renal cortex interstitium female embryo (89 days)
+ENCSR856NXV	ENCFF402LVF	ENCFF626LYV	1	john-stamatoyannopoulos	cardiac fibroblast female embryo (94 days) and female embryo (98 days)
+ENCSR856QJX	ENCFF782OUG	ENCFF378ZLF	1	john-stamatoyannopoulos	adrenal gland male embryo (85 days)
+ENCSR857AEB	ENCFF921ESW	ENCFF443KCU	1	john-stamatoyannopoulos	large intestine male embryo (108 days)
+ENCSR859KGQ	ENCFF564XJU	ENCFF586GLK	1	john-stamatoyannopoulos	right lung female embryo (107 days)
+ENCSR860NDZ	ENCFF424JWB	ENCFF374WLB	1	john-stamatoyannopoulos	small intestine female embryo (105 days)
+ENCSR861NUH	ENCFF569YTF	ENCFF779SYM	1	john-stamatoyannopoulos	muscle of leg male embryo (104 days)
+ENCSR866RCY	ENCFF017YGK	ENCFF530PCA	1	john-stamatoyannopoulos	adrenal gland female embryo (85 days)
+ENCSR868XPR	ENCFF787BJS	ENCFF170QVL	1	john-stamatoyannopoulos	muscle of arm male embryo (115 days)
+ENCSR871APX	ENCFF708OBL	ENCFF200VXY	1	john-stamatoyannopoulos	right kidney female embryo (147 days)
+ENCSR873ANE	ENCFF056TYO	ENCFF684WCC	2	john-stamatoyannopoulos	kidney female embryo (76 days) and male embryo (76 days)
+ENCSR873ANE	ENCFF930DZT	ENCFF248ZTQ	1	john-stamatoyannopoulos	kidney female embryo (76 days) and male embryo (76 days)
+ENCSR874CAK	ENCFF207YLD	ENCFF367ZCY	1	john-stamatoyannopoulos	large intestine female embryo (108 days)
+ENCSR884MCZ	ENCFF939CYE	ENCFF759AQQ	1	john-stamatoyannopoulos	right kidney female embryo (98 days)
+ENCSR887BNC	ENCFF182YRL	ENCFF596RFA	1	john-stamatoyannopoulos	right renal cortex interstitium male embryo (120 days)
+ENCSR888GBS	ENCFF583QFJ	ENCFF259GAI	1	john-stamatoyannopoulos	muscle of arm male embryo (96 days)
+ENCSR891VOV	ENCFF459UMH	ENCFF104EQW	1	john-stamatoyannopoulos	B cell female adult (34 years)
+ENCSR910OQF	ENCFF013BIV	ENCFF813JMT	2	john-stamatoyannopoulos	spinal cord female embryo (59 days) and male embryo (72 days)
+ENCSR910OQF	ENCFF214JBN	ENCFF370CZR	1	john-stamatoyannopoulos	spinal cord female embryo (59 days) and male embryo (72 days)
+ENCSR911LTI	ENCFF710DJF	ENCFF326FWY	1	john-stamatoyannopoulos	heart embryo (96 days)
+ENCSR911YVV	ENCFF456ZHU	ENCFF734APY	1	john-stamatoyannopoulos	renal pelvis female embryo (89 days)
+ENCSR913NYL	ENCFF041ZKC	ENCFF643GKF	1	john-stamatoyannopoulos	renal pelvis male embryo (108 days)
+ENCSR914DOH	ENCFF412BJK	ENCFF281GOQ	1	john-stamatoyannopoulos	heart female embryo (103 days)
+ENCSR921NMD	ENCFF822TLF	ENCFF971AHO	1	john-stamatoyannopoulos	K562
+ENCSR928SYE	ENCFF190LSB	ENCFF168UHZ	1	john-stamatoyannopoulos	left renal cortex interstitium male embryo (105 days)
+ENCSR930AUG	ENCFF512ZGA	ENCFF499TWX	1	john-stamatoyannopoulos	right lung female embryo (108 days)
+ENCSR930YSB	ENCFF500SDP	ENCFF218SJO	1	john-stamatoyannopoulos	stomach female embryo (96 days)
+ENCSR931UQB	ENCFF402SNZ	ENCFF619LIB	1	john-stamatoyannopoulos	small intestine male adult (34 years)
+ENCSR932DHT	ENCFF085BSE	ENCFF701FFX	1	john-stamatoyannopoulos	renal cortex interstitium female embryo (96 days)
+ENCSR932KWJ	ENCFF320AEA	ENCFF385DEA	1	john-stamatoyannopoulos	A172
+ENCSR932KWJ	ENCFF537SPW	ENCFF799EBA	2	john-stamatoyannopoulos	A172
+ENCSR935EVZ	ENCFF435RPR	ENCFF106TCU	1	john-stamatoyannopoulos	left lung male embryo (115 days)
+ENCSR937RVN	ENCFF853TSC	ENCFF198FAC	1	john-stamatoyannopoulos	muscle of leg male embryo (115 days)
+ENCSR937UWI	ENCFF399PFM	ENCFF647ALM	2	john-stamatoyannopoulos	hematopoietic multipotent progenitor cell treated with interleukin-3 for 15 days, kit ligand for 15 days, hydrocortisone succinate for 15 days, erythropoietin for 15 days
+ENCSR938UOR	ENCFF849KGF	ENCFF131DEL	1	john-stamatoyannopoulos	muscle of leg female embryo (115 days)
+ENCSR940NLN	ENCFF249CAH	ENCFF171ITO	2	john-stamatoyannopoulos	PC-9
+ENCSR940NLN	ENCFF410LLB	ENCFF363RKM	1	john-stamatoyannopoulos	PC-9
+ENCSR941DTJ	ENCFF651WYS	ENCFF547ICI	1	john-stamatoyannopoulos	kidney female embryo (108 days)
+ENCSR941SMM	ENCFF288RQO	ENCFF047HGQ	1	john-stamatoyannopoulos	stomach embryo (101 day)
+ENCSR943SYS	ENCFF849NQS	ENCFF692AJS	1	john-stamatoyannopoulos	H9 G2 phase genetically modified using stable transfection
+ENCSR945RWN	ENCFF553ARF	ENCFF053FMQ	1	john-stamatoyannopoulos	small intestine male embryo (108 days)
+ENCSR946DXB	ENCFF009OBL	ENCFF791FRX	1	john-stamatoyannopoulos	heart left ventricle female embryo (101 day) and female embryo (103 days)
+ENCSR946DXB	ENCFF434ALY	ENCFF188LTL	2	john-stamatoyannopoulos	heart left ventricle female embryo (101 day) and female embryo (103 days)
+ENCSR946MVP	ENCFF171JAL	ENCFF461SNA	1	john-stamatoyannopoulos	SK-N-DZ
+ENCSR946MVP	ENCFF264JNT	ENCFF581SEG	2	john-stamatoyannopoulos	SK-N-DZ
+ENCSR947POC	ENCFF253MEQ	ENCFF622PZI	1	john-stamatoyannopoulos	brain male embryo (104 days)
+ENCSR947VPG	ENCFF023WFC	ENCFF030GLD	1	john-stamatoyannopoulos	right lung male embryo (87 days)
+ENCSR949JYS	ENCFF886HSV	ENCFF293NBG	1	john-stamatoyannopoulos	muscle of arm male embryo (105 days)
+ENCSR951XEN	ENCFF089ENH	ENCFF778GKQ	1	john-stamatoyannopoulos	muscle of arm male embryo (104 days)
+ENCSR953JVX	ENCFF473TDJ	ENCFF207ECZ	1	john-stamatoyannopoulos	kidney female embryo (105 days)
+ENCSR953WJO	ENCFF315RUY	ENCFF459LFA	1	john-stamatoyannopoulos	left lung male embryo (105 days)
+ENCSR953XJU	ENCFF023TLQ	ENCFF532VZC	1	john-stamatoyannopoulos	left kidney female embryo (107 days)
+ENCSR956NOL	ENCFF184SKQ	ENCFF963NPI	1	john-stamatoyannopoulos	muscle of arm male embryo (127 days)
+ENCSR956ZHU	ENCFF521SYV	ENCFF884QVN	1	john-stamatoyannopoulos	renal pelvis male embryo (113 days)
+ENCSR959ZXU	ENCFF165GUT	ENCFF977IGB	1	john-stamatoyannopoulos	HeLa-S3
+ENCSR959ZXU	ENCFF460JFG	ENCFF256QQH	2	john-stamatoyannopoulos	HeLa-S3
+ENCSR960EJV	ENCFF047LHM	ENCFF609SYX	1	john-stamatoyannopoulos	left lung female embryo (110 days)
+ENCSR962EAP	ENCFF823UEP	ENCFF689ZKP	1	john-stamatoyannopoulos	thymus male embryo (104 days)
+ENCSR963ALV	ENCFF389CZW	ENCFF900UVZ	2	john-stamatoyannopoulos	neural progenitor cell originated from H9
+ENCSR963ALV	ENCFF788XHX	ENCFF417MBH	1	john-stamatoyannopoulos	neural progenitor cell originated from H9
+ENCSR964MZQ	ENCFF173BQV	ENCFF778GTA	2	john-stamatoyannopoulos	trophoblast cell embryo (39 weeks) and embryo (40 weeks)
+ENCSR964MZQ	ENCFF672KDZ	ENCFF833HDX	1	john-stamatoyannopoulos	trophoblast cell embryo (39 weeks) and embryo (40 weeks)
+ENCSR964VVW	ENCFF470ANP	ENCFF491HNC	1	john-stamatoyannopoulos	right lung male embryo (96 days)
+ENCSR964WHY	ENCFF109UNW	ENCFF091ZXC	1	john-stamatoyannopoulos	H9 G1 phase genetically modified using stable transfection
+ENCSR970ZLG	ENCFF787FWL	ENCFF746JHF	1	john-stamatoyannopoulos	small intestine male embryo (87 days)
+ENCSR973MKT	ENCFF715IST	ENCFF217JVN	1	john-stamatoyannopoulos	spinal cord female embryo (87 days)
+ENCSR974TXT	ENCFF756IEE	ENCFF623DPF	1	john-stamatoyannopoulos	left kidney female embryo (110 days)
+ENCSR976XOY	ENCFF953XRL	ENCFF658GXI	1	john-stamatoyannopoulos	arm bone male embryo (81 day)
+ENCSR986HEN	ENCFF597YNP	ENCFF630KCX	1	john-stamatoyannopoulos	right renal pelvis male embryo (105 days)
+ENCSR986XLW	ENCFF862RMH	ENCFF283WCF	1	john-stamatoyannopoulos	lung embryo (101 day)
+ENCSR989YIV	ENCFF648QYN	ENCFF383SIU	1	john-stamatoyannopoulos	placenta male embryo (91 day)
+ENCSR990XXC	ENCFF916THU	ENCFF253IUB	1	john-stamatoyannopoulos	right kidney male embryo (115 days)
