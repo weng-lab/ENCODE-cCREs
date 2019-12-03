@@ -51,7 +51,7 @@ Parameters:
 
 Requires:
 * `RetrieveSignal.sh`
- * `log.zscore.normalization.py`
+  * `log.zscore.normalization.py`
 * `{mode}-List.txt` 
 * `{genome}-rDHS-Filtered.bed` output from step 2
 
