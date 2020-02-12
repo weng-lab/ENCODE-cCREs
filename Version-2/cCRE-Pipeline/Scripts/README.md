@@ -52,12 +52,23 @@ Parameters:
 Requires:
 * `RetrieveSignal.sh`
   * `log.zscore.normalization.py`
-* `{mode}-List.txt` 
+* `{signal}-List.txt` 
 * `{genome}-rDHS-Filtered.bed` output from step 2
 
 
 
 ### Step 4 - Determine maximum Z-scores (maxZ)
+```
+./4_Determine-Max-Zscores.sh {genome} {signal}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+* `signal` : either DNase, H3K4me3, H3K27ac, or CTCF
+
+Requires:
+* `max.zscore.array.py`
+* Signal output files from step 3
 
 ### Step 5 - Classify cCREs
 
