@@ -88,6 +88,18 @@ Requires:
 
 ### Step 6 - Filter cCREs
 
+```
+6_Filter-ccREs.sh {genome}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+* `ExtractConcordant.sh`
+* `ExtractClass.sh`
+  * `summarize.class.py`
+
 ### Step 7 - Classify cell type specific cCREs (seven group model)
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
