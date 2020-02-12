@@ -71,6 +71,20 @@ Requires:
 * Signal output files from step 3
 
 ### Step 5 - Classify cCREs
+```
+./5_Classify-ccREs.sh {genome}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+* `calculate-center-distance.py`
+* `make.region.accession.py`
+* maxZ files for DNase, H3K4me3, H3K27ac, and CTCF from step 4
+* if applicable: previous versions of registry for consistent accessioning
+
+
 
 ### Step 6 - Filter cCREs
 
