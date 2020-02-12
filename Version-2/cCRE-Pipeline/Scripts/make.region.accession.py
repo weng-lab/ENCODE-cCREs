@@ -1,7 +1,3 @@
-#Jill E. Moore
-#Weng Lab
-#November 2019
-
 import sys
 
 def Set_IDs(genome, mode):
@@ -60,8 +56,7 @@ if genomeID != "" and modeID != "":
             accession=genomeID+modeID+str(i).zfill(7)
             i+=1
 	if mode == "ccRE":
-            print line[0]+"\t"+line[1]+"\t"+line[2]+"\t"+line[3]+\
-                "\t"+accession+"\t"+line[4]
+            print line[0]+"\t"+line[1]+"\t"+line[2]+"\t"+line[3]+"\t"+accession+"\t"+line[4]
 	elif mode == "rDHS":
 	    print "\t".join(line)+"\t"+accession
         
