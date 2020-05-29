@@ -5,7 +5,7 @@
 
 #This script randomly selects N DNase experiments and run the rDHS pipeline on 
 #this subset. This script is meant to run on a Slurm cluster and is called by
-#XXXXXXXX.sh. 
+#Supplementary-Figure-6a.Batch-Run-rDHS-Saturation.sh 
 
 genome=hg38
 N=$2
