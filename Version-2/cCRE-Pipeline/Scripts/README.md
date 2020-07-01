@@ -105,6 +105,17 @@ Requires:
 ```
 ./7_Cell-Type-Specific-Seven-Group.sh {genome}
 ```
+Script that will classify cCREs in individual biosamples. For biosamples with four core marks (DNase, H3K4me3, H3K27ac, and CTCF), cCREs will be assigned to the following groups:
+* PLS = promoter-like signatures
+* pELS = proximal enhancer-like signatures
+* dELS = distal enhancer-like signatures
+* DNase-H3K4me3 = high DNase, high H3K4me3 but low H3K27ac 
+* CTCF-only = only high DNase and CTCF
+* DNase-only = only high DNase
+* Low-DNase = low DNase signal
+
+For biosamples that lack H3K4me3, H3K27ac, or CTCF signal, a subset of assignments will be made 
+For biosamples that lack DNase, only high/low signals will be annotated
 
 Parameters:
 * `genome` : either hg38 for human or mm10 for mouse
@@ -118,6 +129,7 @@ Requires:
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
 ./8_Cell-Type-Specific-Nine-State.sh {genome}
+:wq
 
 Parameters:
 * `genome` : either hg38 for human or mm10 for mouse
