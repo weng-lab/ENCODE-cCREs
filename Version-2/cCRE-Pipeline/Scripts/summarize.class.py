@@ -1,3 +1,15 @@
+#!/usr/bin/env python2
+
+#SPDX-License-Identifier: MIT
+#Copyright (c) 2016-2020 Jill Moore, Michael Purcaro, Henry Pratt, Zhiping Weng
+
+#Step 6 of ENCODE cCRE pipeline (V2)
+#Jill E. Moore
+#Weng Lab
+
+#Script that summarizes cCRE tiers
+#Executed by Extract-Class.sh
+
 import sys
 
 d={}

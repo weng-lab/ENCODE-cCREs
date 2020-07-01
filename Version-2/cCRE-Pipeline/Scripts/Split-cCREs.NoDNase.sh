@@ -3,6 +3,15 @@
 #SPDX-License-Identifier: MIT
 #Copyright (c) 2016-2020 Jill Moore, Michael Purcaro, Henry Pratt, Zhiping Weng
 
+#Step 7 of ENCODE cCRE pipeline (V2)
+#Jill E. Moore
+#Weng Lab
+
+#Script assigns group classifications to cCREs
+#in biosamples lacking DNase
+#Executed by 7_Cell-Type-Specific-Seven-Group.sh
+#Designed to run on Slurm
+
 files=$1
 j=$2
 genome=$3
@@ -23,8 +32,8 @@ tss=~/Lab/Reference/Human/$genome/GENCODE24/TSS.Basic.bed
 ChromInfo=~/Lab/Reference/Human/hg38/chromInfo.txt
 fi
 
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version5/ccRE-Pipeline
-master=~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome/$genome-ccREs-Simple.bed
+scriptDir=~/Projects/ENCODE/Encyclopedia/Version5/cCRE-Pipeline
+master=~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome/$genome-cCREs-Simple.bed
 output=~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome/Cell-Type-Specific/Seven-Group
 cresAS=~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome/Cell-Type-Specific/cres.as
 

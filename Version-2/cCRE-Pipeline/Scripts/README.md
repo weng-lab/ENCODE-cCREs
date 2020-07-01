@@ -87,12 +87,16 @@ Requires:
 
 
 ### Step 6 - Filter cCREs
-Script that will filter cCREs based on their support.
 
+cCREs are further annotated based on the biosample and epigenomic signal support.
+
+Tier 1 cCREs are supported by high DNase and high ChIP-seq signals in the same cell type. Tier 2 cCREs are supported by high DNase in one cell type and high ChIP-seq signals in another cell type. Examples can be found below:
 
 <img src="https://dl.dropboxusercontent.com/s/2pce7vbxf8o9in5/Box-1-Figure-2.png"
      alt="cCRE tiers" width="50%"
      />
+
+Tier 3 and Tier 4 cCREs are still annotated and accessioned but not included in the final list of cCREs.
 
 ```
 ./6_Filter-ccREs.sh {genome}
@@ -102,9 +106,14 @@ Parameters:
 * `genome` : either hg38 for human or mm10 for mouse
 
 Requires:
-* `ExtractConcordant.sh`
-* `ExtractClass.sh`
-  * `summarize.class.py`
+* `Extract-Concordant.sh`
+* `Extract-Class.sh`
+* `match.biosamples.py`
+* `summarize.class.py`
+* Experiment lists:
+  * [hg38](https://github.com/weng-lab/ENCODE-cCREs/tree/master/Version-2/cCRE-Pipeline/Input-Data/hg38/Experiment-Lists)
+  * [mm10](https://github.com/weng-lab/ENCODE-cCREs/tree/master/Version-2/cCRE-Pipeline/Input-Data/mm10/Experiment-Lists)
+* Pre-filtered cell type agnostic cCREs 
 
 ### Step 7 - Classify cell type specific cCREs (seven group model)
 

@@ -6,7 +6,6 @@
 #Step 7 of ENCODE cCRE pipeline (V2)
 #Jill E. Moore
 #Weng Lab
-#November 2019
 
 #Script that will classify cCREs in individual biosamples.
 
