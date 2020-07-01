@@ -89,7 +89,7 @@ Requires:
 ### Step 6 - Filter cCREs
 
 ```
-6_Filter-ccREs.sh {genome}
+./6_Filter-ccREs.sh {genome}
 ```
 
 Parameters:
@@ -101,6 +101,20 @@ Requires:
   * `summarize.class.py`
 
 ### Step 7 - Classify cell type specific cCREs (seven group model)
+
+```
+./7_Cell-Type-Specific-Seven-Group.sh {genome}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+* `Split-cCREs.DNase.sh`
+  * `calculate-center-distance.py`
+* `Split-cCREs.NoDNase.sh`
+  * `calculate-center-distance.py`
+
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
 
