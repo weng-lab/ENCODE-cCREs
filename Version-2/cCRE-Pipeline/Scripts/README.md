@@ -87,6 +87,9 @@ Requires:
 
 
 ### Step 6 - Filter cCREs
+Script that will filter cCREs based on their support.
+
+![cCRE tiers](https://dl.dropboxusercontent.com/s/2pce7vbxf8o9in5/Box-1-Figure-2.png)
 
 
 ```
@@ -132,8 +135,9 @@ For biosamples that lack DNase, only high/low signals will be annotated
 * Chromosome sizes (for bedToBigBed)
   * https://hgdownload-test.gi.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes
   * http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes
-* bedPlus file cre.as
+* bedPlus file [cre.as](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Pipeline/Input-Data/cres.as)
 * Cell type-agnostic cCRE bed files
+* Biosample experiment matrix (Step 6)
 * Signal summary files for: DNase, H3K4me3, H3K27ac, and CTCF (Step 3)
 
 
