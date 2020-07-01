@@ -11,7 +11,7 @@
 #and then reports a list of cCREs that have two-way homology
 
 #TO RUN:
-#./10_Homologous-ccREs.sh
+#./10_Homologous-cCREs.sh
 
 #Designed to run on Slurm
 
@@ -28,13 +28,13 @@ chain2=~/Lab/Reference/Mouse/mm10ToHg38.over.chain
 output=~/Lab/ENCODE/Encyclopedia/$version1/Registry/$version1"-"$genome1/LiftOver
 mkdir -p $output
 
-bed1=~/Lab/ENCODE/Encyclopedia/$version1/Registry/$version1"-"$genome1/$genome1-ccREs-Simple.bed
+bed1=~/Lab/ENCODE/Encyclopedia/$version1/Registry/$version1"-"$genome1/$genome1-cCREs-Simple.bed
 num1=$(wc -l $bed1 | awk 'function ceil(x, y){y=int(x); return(x>y?y+1:y)} \
      {print ceil($1/1000)}')
 jobid=$(sbatch --nodes 1 --array=1-$num1%50 --mem=5G --time=00:30:00 \
     --output=/home/moorej3/Job-Logs/jobid_%A_%a.output \
     --error=/home/moorej3/Job-Logs/jobid_%A_%a.error \
-    LiftOver.sh $genome1 $version1 $chain1 0.5 $genome2 $output | awk '{print $4}')
+    Batch-LiftOver.sh $genome1 $version1 $chain1 0.5 $genome2 $output | awk '{print $4}')
 
 echo $jobid
 
@@ -47,7 +47,7 @@ echo -e "jobs still running: $list"
 sleep 10
 done
 
-bed2=~/Lab/ENCODE/Encyclopedia/$version2/Registry/$version2"-"$genome2/$genome2-ccREs-Simple.bed
+bed2=~/Lab/ENCODE/Encyclopedia/$version2/Registry/$version2"-"$genome2/$genome2-cCREs-Simple.bed
 num2=$(wc -l $bed1 | awk 'function ceil(x, y){y=int(x); return(x>y?y+1:y)} \
      {print ceil($1/1000)}')
 
