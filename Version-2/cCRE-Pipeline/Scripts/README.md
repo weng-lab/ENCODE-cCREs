@@ -88,6 +88,7 @@ Requires:
 
 ### Step 6 - Filter cCREs
 
+
 ```
 ./6_Filter-ccREs.sh {genome}
 ```
@@ -102,9 +103,6 @@ Requires:
 
 ### Step 7 - Classify cell type specific cCREs (seven group model)
 
-```
-./7_Cell-Type-Specific-Seven-Group.sh {genome}
-```
 Script that will classify cCREs in individual biosamples. For biosamples with four core marks (DNase, H3K4me3, H3K27ac, and CTCF), cCREs will be assigned to the following groups:
 * PLS = promoter-like signatures
 * pELS = proximal enhancer-like signatures
@@ -117,14 +115,26 @@ Script that will classify cCREs in individual biosamples. For biosamples with fo
 For biosamples that lack H3K4me3, H3K27ac, or CTCF signal, a subset of assignments will be made 
 For biosamples that lack DNase, only high/low signals will be annotated
 
+```
+./7_Cell-Type-Specific-Seven-Group.sh {genome}
+```
+
 **Parameters:**
 * `genome` : either hg38 for human or mm10 for mouse
 
 **Requires:**
 * `Split-cCREs.DNase.sh`
-  * `calculate-center-distance.py`
 * `Split-cCREs.NoDNase.sh`
-  * `calculate-center-distance.py`
+* `calculate-center-distance.py`
+* GENCODE TSS annotations (GENCODE24 or GENCODEM18)
+  * TSS.Basic.bed
+  * TSS.Basic.4k.bed
+* Chromosome sizes (for bedToBigBed)
+  * https://hgdownload-test.gi.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes
+  * http://hgdownload.cse.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes
+* bedPlus file cre.as
+* Cell type-agnostic cCRE bed files
+* Signal summary files for: DNase, H3K4me3, H3K27ac, and CTCF (Step 3)
 
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
