@@ -148,6 +148,10 @@ Script maps human and mouse cCREs over to the other species genome and then repo
 ```
 
 Requires:
-* `LiftOver.sh`
+* `Batch-LiftOver.sh`
+* LiftOver chain files: 
+  * http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToMm10.over.chain.gz
+  * http://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToHg38.over.chain.gz
+* Cell type-agnostic cCRE files
 
 
