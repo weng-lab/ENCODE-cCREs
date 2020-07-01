@@ -89,11 +89,10 @@ Requires:
 ### Step 6 - Filter cCREs
 Script that will filter cCREs based on their support.
 
-![cCRE tiers](https://dl.dropboxusercontent.com/s/2pce7vbxf8o9in5/Box-1-Figure-2.png)
 
 <img src="https://dl.dropboxusercontent.com/s/2pce7vbxf8o9in5/Box-1-Figure-2.png"
-     alt="cCRE tiers"
-     style="width:50%" />
+     alt="cCRE tiers" width="50%"
+     />
 
 ```
 ./6_Filter-ccREs.sh {genome}
