@@ -117,6 +117,14 @@ Requires:
 
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
+./8_Cell-Type-Specific-Nine-State.sh {genome}
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+*
+
 
 ### Step 9 - Determine closest genes
 
@@ -133,9 +141,11 @@ Requires:
 
 ### Step 10 - Identify homologous cCREs
 
-### Step 11 - Match cross-assembly cCREs
+```
+./10_Homologous-ccREs.sh
+```
 
-### Step 12 - Match cross-version cCREs
+Requires:
+* `LiftOver.sh`
 
-### Step 13 - Extract high signal elements
 
