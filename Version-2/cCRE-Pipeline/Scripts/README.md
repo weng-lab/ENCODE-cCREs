@@ -1,6 +1,8 @@
-## ENCODE cCRE pipeline (version 2)
+# ENCODE cCRE pipeline (version 2)
 
-### Step 0 - Call DNase hypersensitive sites (DHSs)
+---
+
+## Step 0 - Call DNase hypersensitive sites (DHSs)
 
 Script calls sequencing-depth independent DHSs from Hotpot2 enrichment files
 
@@ -13,7 +15,7 @@ Requires:
 * `filter.long.double.py`
 * `hg38-Hotspot-List.txt` OR `mm10-Hotspot-List.txt`
 
-### Step 1 - Filter and process DHSs
+## Step 1 - Filter and process DHSs
 
 ```
 sbatch 1_Process-DHSs.sh
@@ -23,7 +25,7 @@ Requires:
 * `calcuate.zscore.py`
 * `hg38-Hotspot-List.txt` OR `mm10-Hotspot-List.txt`
 
-### Step 2 - Create representative DHSs (rDHSs)
+## Step 2 - Create representative DHSs (rDHSs)
 
 ```
 ./2_Create-rDHSs.sh {genome}
@@ -40,7 +42,7 @@ Requires:
 * `rDHS.hg19-hg38.bed` OR `rDHS.mm10.bed`
 * Peak calls from step 1
 
-### Step 3 - Calculate signal Z-scores
+## Step 3 - Calculate signal Z-scores
 ```
 ./3_Calculate-Signal-Zscores.sh {genome} {signal}
 ```
@@ -57,7 +59,7 @@ Requires:
 
 
 
-### Step 4 - Determine maximum Z-scores (maxZ)
+## Step 4 - Determine maximum Z-scores (maxZ)
 ```
 ./4_Determine-Max-Zscores.sh {genome} {signal}
 ```
@@ -70,7 +72,7 @@ Requires:
 * `max.zscore.array.py`
 * Signal output files from step 3
 
-### Step 5 - Classify cCREs
+## Step 5 - Classify cCREs
 ```
 ./5_Classify-ccREs.sh {genome}
 ```
@@ -86,7 +88,7 @@ Requires:
 
 
 
-### Step 6 - Filter cCREs
+## Step 6 - Filter cCREs
 
 cCREs are further annotated based on the biosample and epigenomic signal support.
 
@@ -115,7 +117,7 @@ Requires:
   * [mm10](https://github.com/weng-lab/ENCODE-cCREs/tree/master/Version-2/cCRE-Pipeline/Input-Data/mm10/Experiment-Lists)
 * Pre-filtered cell type agnostic cCREs 
 
-### Step 7 - Classify cell type specific cCREs (seven group model)
+## Step 7 - Classify cell type specific cCREs (seven group model)
 
 Script that will classify cCREs in individual biosamples. For biosamples with four core marks (DNase, H3K4me3, H3K27ac, and CTCF), cCREs will be assigned to the following groups:
 * PLS = promoter-like signatures
@@ -152,7 +154,7 @@ For biosamples that lack DNase, only high/low signals will be annotated
 * Signal summary files for: DNase, H3K4me3, H3K27ac, and CTCF (Step 3)
 
 
-### Step 8 - Classify cell type specific cCREs (nine state model)
+## Step 8 - Classify cell type specific cCREs (nine state model)
 
 ```
 ./8_Cell-Type-Specific-Nine-State.sh {genome}
@@ -165,7 +167,7 @@ Requires:
 *
 
 
-### Step 9 - Determine closest genes
+## Step 9 - Determine closest genes
 
 Determines the five closest GENCODE genes (any genes and protein coding genes) as measure by distance to annotated transcript start site. It is designed to run on Slurm servers.
 
@@ -184,7 +186,7 @@ Determines the five closest GENCODE genes (any genes and protein coding genes) a
   * TSS.Basic-PC.bed  
 * Cell type-agnostic cCRE bed files
 
-### Step 10 - Identify homologous cCREs
+## Step 10 - Identify homologous cCREs
 
 ---
 
