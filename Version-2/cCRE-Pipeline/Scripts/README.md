@@ -128,6 +128,8 @@ Requires:
 
 ### Step 9 - Determine closest genes
 
+Determines the five closest GENCODE genes (any genes and protein coding genes) as measure by distance to annotated transcript start site. It is designed to run on Slurm servers.
+
 ```
 ./9_Determine-Closest-Genes.sh {genome}
 ```
@@ -136,8 +138,12 @@ Parameters:
 * `genome` : either hg38 for human or mm10 for mouse
 
 Requires:
-* 
-
+* GENCODE gene and TSS annotations (GENCODE24 or GENCODEM18)
+  * Genes.Basic.bed
+  * Genes.Basic-PC.bed
+  * TSS.Basic.bed
+  * TSS.Basic-PC.bed  
+* Cell type-agnostic cCRE bed files
 
 ### Step 10 - Identify homologous cCREs
 
@@ -152,6 +158,6 @@ Requires:
 * LiftOver chain files: 
   * http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToMm10.over.chain.gz
   * http://hgdownload.cse.ucsc.edu/goldenpath/mm10/liftOver/mm10ToHg38.over.chain.gz
-* Cell type-agnostic cCRE files
+* Cell type-agnostic cCRE bed files
 
 
