@@ -117,10 +117,10 @@ Script that will classify cCREs in individual biosamples. For biosamples with fo
 For biosamples that lack H3K4me3, H3K27ac, or CTCF signal, a subset of assignments will be made 
 For biosamples that lack DNase, only high/low signals will be annotated
 
-Parameters:
+**Parameters:**
 * `genome` : either hg38 for human or mm10 for mouse
 
-Requires:
+**Requires:**
 * `Split-cCREs.DNase.sh`
   * `calculate-center-distance.py`
 * `Split-cCREs.NoDNase.sh`
@@ -128,10 +128,12 @@ Requires:
 
 
 ### Step 8 - Classify cell type specific cCREs (nine state model)
-./8_Cell-Type-Specific-Nine-State.sh {genome}
-:wq
 
-Parameters:
+```
+./8_Cell-Type-Specific-Nine-State.sh {genome}
+```
+
+**Parameters:**
 * `genome` : either hg38 for human or mm10 for mouse
 
 Requires:
@@ -146,10 +148,10 @@ Determines the five closest GENCODE genes (any genes and protein coding genes) a
 ./9_Determine-Closest-Genes.sh {genome}
 ```
 
-Parameters:
+**Parameters:**
 * `genome` : either hg38 for human or mm10 for mouse
 
-Requires:
+**Requires:**
 * GENCODE gene and TSS annotations (GENCODE24 or GENCODEM18)
   * Genes.Basic.bed
   * Genes.Basic-PC.bed
@@ -165,7 +167,7 @@ Script maps human and mouse cCREs over to the other species genome and then repo
 ./10_Homologous-ccREs.sh
 ```
 
-Requires:
+**Requires:**
 * `Batch-LiftOver.sh`
 * LiftOver chain files: 
   * http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToMm10.over.chain.gz
