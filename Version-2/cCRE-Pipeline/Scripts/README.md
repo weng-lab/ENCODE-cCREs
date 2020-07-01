@@ -120,6 +120,17 @@ Requires:
 
 ### Step 9 - Determine closest genes
 
+```
+./9_Determine-Closest-Genes.sh {genome}
+```
+
+Parameters:
+* `genome` : either hg38 for human or mm10 for mouse
+
+Requires:
+* 
+
+
 ### Step 10 - Identify homologous cCREs
 
 ### Step 11 - Match cross-assembly cCREs
