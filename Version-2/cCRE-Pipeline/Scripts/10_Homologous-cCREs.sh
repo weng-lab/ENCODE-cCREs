@@ -31,8 +31,7 @@ mkdir -p $output
 bed1=~/Lab/ENCODE/Encyclopedia/$version1/Registry/$version1"-"$genome1/$genome1-ccREs-Simple.bed
 num1=$(wc -l $bed1 | awk 'function ceil(x, y){y=int(x); return(x>y?y+1:y)} \
      {print ceil($1/1000)}')
-#1-$num1
-jobid=$(sbatch --nodes 1 --array=99 --mem=5G --time=00:30:00 \
+jobid=$(sbatch --nodes 1 --array=1-$num1%50 --mem=5G --time=00:30:00 \
     --output=/home/moorej3/Job-Logs/jobid_%A_%a.output \
     --error=/home/moorej3/Job-Logs/jobid_%A_%a.error \
     LiftOver.sh $genome1 $version1 $chain1 0.5 $genome2 $output | awk '{print $4}')

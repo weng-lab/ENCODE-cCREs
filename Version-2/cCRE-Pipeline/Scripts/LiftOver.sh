@@ -3,6 +3,14 @@
 #SPDX-License-Identifier: MIT
 #Copyright (c) 2016-2020 Jill Moore, Michael Purcaro, Henry Pratt, Zhiping Weng
 
+#Step 10 of ENCODE cCRE pipeline (V2)
+#Jill E. Moore
+#Weng Lab
+
+#Script performs batch liftOver from one assembly to another
+#Executed by 10_Homologous-cCREs.sh
+#Designed to run on Slurm
+
 mkdir -p /tmp/moorej3/$SLURM_JOBID"-"$SLURM_ARRAY_TASK_ID
 cd /tmp/moorej3/$SLURM_JOBID"-"$SLURM_ARRAY_TASK_ID
 

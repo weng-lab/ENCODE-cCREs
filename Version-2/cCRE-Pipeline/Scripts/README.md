@@ -141,6 +141,8 @@ Requires:
 
 ### Step 10 - Identify homologous cCREs
 
+Script maps human and mouse cCREs over to the other species genome and then reports a list of cCREs that have two-way homology. It is designed to run on Slurm servers.
+
 ```
 ./10_Homologous-ccREs.sh
 ```
