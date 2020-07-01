@@ -7,8 +7,14 @@
 #Jill E. Moore
 #Weng Lab
 
+#Script maps human and mouse cCREs over to the other species genome
+#and then reports a list of cCREs that have two-way homology
+
 #TO RUN:
 #./10_Homologous-ccREs.sh
+
+#Designed to run on Slurm
+
 
 genome1=hg38
 genome2=mm10
