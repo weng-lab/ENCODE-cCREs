@@ -8,11 +8,15 @@
 #Weng Lab
 #November 2019
 
+#Script that will classify cCREs in individual biosamples.
+
 #TO RUN:
 #./7_Cell-Type-Specific-Seven-Group.sh {genome}
 
+#Designed to run on Slurm
+
 genome=$1
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version5/ccRE-Pipeline
+scriptDir=~/Projects/ENCODE/Encyclopedia/Version5/cCRE-Pipeline
 
 cd ~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome
 python $scriptDir/match.biosamples.py > Cell-Type-Specific/Master-Cell-List.txt
