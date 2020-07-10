@@ -80,7 +80,7 @@
 
 **Conservation of human cCREs. a,** The percentage of positions of PLS (red), pELS (orange), dELS (yellow), DNase- H3K4me3 (pink) and CTCF-only (blue) cCREs that overlap the GERP++ set of evolutionarily conserved regions binned by their DNase max-Z score. Bins with fewer than 20 cCREs are omitted. **b,** Average phyloP scores of human cCREs stratified by homology categories defined in Extended Data Fig. 2b. **c,** Average phyloP scores across human cCREs stratified by cCRE group and presence of a FANTOM CAGE peak. cCREs that overlap CAGE peaks are designated by black lines while cCREs that do not overlap CAGE peaks are designated by gray lines.
 
-
+```
 ./Supplementary-Figure-10a.cCRE-GERP-Overlap.sh
 ```
 
