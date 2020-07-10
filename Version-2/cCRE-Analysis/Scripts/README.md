@@ -31,3 +31,13 @@ Requires:
 * [GENCODE24 TSSs](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Pipeline/Input-Data/hg38/GENCODE24/TSS.Basic.bed.gz)
 
 
+### Panel C
+
+```
+./Supplementary-Figure-8c.Mouse-ChromHMM-Overlap.sh
+```
+
+Requires:
+* `choose-majority-chromhmm-state.py`
+* Mouse cCREs
+* [DAC Mouse ChromHMM states](https://github.com/weng-lab/ENCODE-cCREs/tree/master/Version-2/cCRE-Analysis/Input-Data/mm10/DAC-Mouse-ChromHMM)
