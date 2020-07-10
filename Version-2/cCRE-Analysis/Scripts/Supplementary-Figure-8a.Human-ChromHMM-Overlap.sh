@@ -28,22 +28,22 @@ for l in ${datasets[@]}
 do
     echo "Processing" $l "..."
     grep $l tmp.ccres-hg19 > tmp.bed
-    k=$(wc -l tmp.bed | awk '{print $1}')
+    count=$(wc -l tmp.bed | awk '{print $1}')
     bedtools intersect -wo -a tmp.bed -b $chromhmm > tmp.intersect
     python $scriptDir/choose-majority-chromhmm-state.py tmp.intersect 4 9 15 > tmp.filter
     A=$(awk '{if ($2 == "1_Active_Promoter" || $2 == "2_Weak_Promoter") print $0}' tmp.filter \
-        | wc -l | awk '{print $1}')
-    B=$(awk '{if ($2 == "3_Poised_Promoter") print $0}' tmp.filter | wc -l | awk '{print $1}')
+        | wc -l | awk '{print $1/'$count'}')
+    B=$(awk '{if ($2 == "3_Poised_Promoter") print $0}' tmp.filter | wc -l | awk '{print $1/'$count'}')
     C=$(awk '{if ($2 == "10_Txn_Elongation" || $2 == "9_Txn_Transition" || \
-        $2 == "11_Weak_Txn") print $0}' tmp.filter | wc -l | awk '{print $1}')
+        $2 == "11_Weak_Txn") print $0}' tmp.filter | wc -l | awk '{print $1/'$count'}')
     D=$(awk '{if ($2 == "5_Strong_Enhancer" || $2 == "4_Strong_Enhancer") print $0}' tmp.filter \
-        | wc -l | awk '{print $1}')
+        | wc -l | awk '{print $1/'$count'}')
     E=$(awk '{if ($2 == "7_Weak_Enhancer" || $2 == "6_Weak_Enhancer") print $0}' tmp.filter \
-        | wc -l | awk '{print $1}')
-    F=$(awk '{if ($2 == "8_Insulator") print $0}' tmp.filter | wc -l | awk '{print $1}')
+        | wc -l | awk '{print $1/'$count'}')
+    F=$(awk '{if ($2 == "8_Insulator") print $0}' tmp.filter | wc -l | awk '{print $1/'$count'}')
     G=$(awk '{if ($2 == "15_Repetitive/CNV" || $2 == "14_Repetitive/CNV" || \
         $2 == "13_Heterochrom/lo" || $2 == "12_Repressed") print $0}' tmp.filter \
-        | wc -l | awk '{print $1}')
+        | wc -l | awk '{print $1/'$count'}')
     echo -e $l "\t" $k "\t" $A "\t" $B "\t" $C "\t" $D "\t" $E "\t" $F "\t" $G >> tmp.results
 done
 
