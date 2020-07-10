@@ -44,7 +44,7 @@ do
     G=$(awk '{if ($2 == "15_Repetitive/CNV" || $2 == "14_Repetitive/CNV" || \
         $2 == "13_Heterochrom/lo" || $2 == "12_Repressed") print $0}' tmp.filter \
         | wc -l | awk '{print $1/'$count'}')
-    echo -e $l "\t" $k "\t" $A "\t" $B "\t" $C "\t" $D "\t" $E "\t" $F "\t" $G >> tmp.results
+    echo -e $l "\t" $count "\t" $A "\t" $B "\t" $C "\t" $D "\t" $E "\t" $F "\t" $G >> tmp.results
 done
 
 mv tmp.results $biosample.cCRE-ChromHMM-Overlap-Summary.txt
