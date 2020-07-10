@@ -1,0 +1,15 @@
+ENCFF311WRA	embryonic_facial_prominence_11.5
+ENCFF943PHW	hindbrain_11.5
+ENCFF641OPE	limb_11.5
+ENCFF503FPW	midbrain_11.5
+ENCFF649UQO	neural_tube_11.5
+ENCFF009ALP	forebrain_11.5
+ENCFF503WJK	heart_11.5
+ENCFF076VZF	liver_11.5
+ENCFF580UUE	embryonic_facial_prominence_14.5
+ENCFF149TTQ	forebrain_14.5
+ENCFF107NBQ	hindbrain_14.5
+ENCFF890IPV	limb_14.5
+ENCFF043UNG	lung_14.5
+ENCFF942RUO	midbrain_14.5
+ENCFF622EDP	intestine_14.5

@@ -3,10 +3,10 @@
 #SPDX-License-Identifier: MIT
 #Copyright (c) 2016-2020 Jill Moore, Michael Purcaro, Henry Pratt, Zhiping Weng
 
-#Script calculates overlap between cell type-specific cCREs & ChromHMM states
+#Script calculates overlap between tissue-specific cCREs & ChromHMM states
 
 #TO RUN:
-#./Supplementary-Figure-8c.Mouse-ChromHMM-Overlap.sh
+#./Supplementary-Figure-8c.Mouse-ChromHMM-Overlap.sh Mouse-Data-Key.txt
 
 files=$1
 scriptDir=~/GitHub/ENCODE-cCREs/Version-2/cCRE-Analysis/Scripts
