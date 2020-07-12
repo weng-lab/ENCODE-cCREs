@@ -80,6 +80,8 @@
 
 **Conservation of human cCREs. a,** The percentage of positions of PLS (red), pELS (orange), dELS (yellow), DNase- H3K4me3 (pink) and CTCF-only (blue) cCREs that overlap the GERP++ set of evolutionarily conserved regions binned by their DNase max-Z score. Bins with fewer than 20 cCREs are omitted. **b,** Average phyloP scores of human cCREs stratified by homology categories defined in Extended Data Fig. 2b. **c,** Average phyloP scores across human cCREs stratified by cCRE group and presence of a FANTOM CAGE peak. cCREs that overlap CAGE peaks are designated by black lines while cCREs that do not overlap CAGE peaks are designated by gray lines.
 
+### Panel A
+
 ```
 ./Supplementary-Figure-10a.cCRE-GERP-Overlap.sh
 ```
@@ -90,3 +92,16 @@
 * GERP regions: [hg19.GERP_elements](http://mendel.stanford.edu/SidowLab/downloads/gerp/hg19.GERP_elements.tar.gz)
 * DNase max Z-score files derived from step 4 of the cCRE pipeline
 
+### Panel C
+
+```
+./Supplementary-Figure-10c.cCRE-CAGE-Overlap-Conservation.sh
+```
+
+**Requires:**
+* `Conservation-Meta-cCRE.sh`
+* `Conservation-Meta-cCRE-Single.sh`
+* Human cell type-agnostic cCREs
+* LiftOver chain file: [hg38ToHg19.over.chain](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToHg19.over.chain.gz)
+* Stringent FANTOM CAT peaks: [FANTOM_CAT.lv4_stringent.CAGE_cluster.bed](https://fantom.gsc.riken.jp/5/suppl/Hon_et_al_2016/data/assembly/lv4_stringent/FANTOM_CAT.lv4_stringent.CAGE_cluster.bed.gz)
+* PhyloP Conservation: [hg38.phyloP100way.bw](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/phyloP100way/hg38.phyloP100way.bw)
