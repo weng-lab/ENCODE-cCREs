@@ -2,9 +2,7 @@
 
 ---
 
-## Supplementary Figure 8
-
-**Overlap of cCREs with ChromHMM states. a,** Percentages of various groups of GM12878 cCREs that overlap ChromHMM states. **b,** Percentage of GM12878 cCREs-pELS that overlap ChromHMM states ranked by distance from the nearest TSS. Due to ChromHMM's lower spatial resolution, cCREs-PLS that are closest to TSSs overlap promoter ChromHMM states while those farther away overlap enhancer states. **c,** Percentages of mouse cCREs that overlap ChromHMM states in the corresponding tissue. All combinations of tissues and timepoints with both DNase and histone modification data were included and the overlap was computed for data in the same tissue at the same time point.
+## Supplementary Figure 8 | Overlap of cCREs with ChromHMM states. 
 
 ### Panel A
 
@@ -76,9 +74,7 @@
 
 ---
 
-## Supplementary Figure 10
-
-**Conservation of human cCREs. a,** The percentage of positions of PLS (red), pELS (orange), dELS (yellow), DNase- H3K4me3 (pink) and CTCF-only (blue) cCREs that overlap the GERP++ set of evolutionarily conserved regions binned by their DNase max-Z score. Bins with fewer than 20 cCREs are omitted. **b,** Average phyloP scores of human cCREs stratified by homology categories defined in Extended Data Fig. 2b. **c,** Average phyloP scores across human cCREs stratified by cCRE group and presence of a FANTOM CAGE peak. cCREs that overlap CAGE peaks are designated by black lines while cCREs that do not overlap CAGE peaks are designated by gray lines.
+## Supplementary Figure 10 | Conservation of human cCREs
 
 ### Panel A
 
@@ -105,3 +101,18 @@
 * LiftOver chain file: [hg38ToHg19.over.chain](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/liftOver/hg38ToHg19.over.chain.gz)
 * Stringent FANTOM CAT peaks: [FANTOM_CAT.lv4_stringent.CAGE_cluster.bed](https://fantom.gsc.riken.jp/5/suppl/Hon_et_al_2016/data/assembly/lv4_stringent/FANTOM_CAT.lv4_stringent.CAGE_cluster.bed.gz)
 * PhyloP Conservation: [hg38.phyloP100way.bw](http://hgdownload.cse.ucsc.edu/goldenpath/hg38/phyloP100way/hg38.phyloP100way.bw)
+
+---
+
+## Supplementary Figure 11 | Comparison of cCREs with the ChIP-seq peaks of chromatin-associated proteins and RNA-seq data
+
+### Panel A
+
+```
+./Supplementary-Figure-11ab.cCRE-TF-Overlap.sh
+```
+
+* `Overlap-TFs.sh`
+* `Overlap-CTS-TFs.sh`
+* Human cell type-agnostic cCREs
+* TF experiment lists: [All biosamples](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/All-Biosample-Filtered-TF-List.txt), [GM12878](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/GM12878-Filtered-TF-List.txt),[HepG2](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/HepG2-Filtered-TF-List.txt),[K562](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/K562-Filtered-TF-List.txt)
