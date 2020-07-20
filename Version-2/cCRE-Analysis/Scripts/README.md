@@ -39,7 +39,7 @@
 UCSC genome browser: [*SPI1*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr11:47371158-47397795&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4a.txt)
 
 ### Panel B
-UCSC genome browser:
+UCSC genome browser: [*NPAS4*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr11:66415362-66432380&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4b.txt)
 
 ### Panel C
 UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:44344991-44392365&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4c.txt)
