@@ -15,6 +15,23 @@
 * hg38 or mm10 cCREs
 * Chromosome size files: [hg38](https://hgdownload-test.gi.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes) or [mm10](https://hgdownload-test.gi.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes)
 
+---
+
+
+## Supplementary Figure 3 | Classification of cCREs in a particular biosample
+
+### Panel D
+
+```
+./Supplementary-Figure-3d.cCRE-Biosample-Count.sh
+```
+
+**Requires:**
+* Cell type-agnositic cCREs
+* Cell type-specific cCREs
+* Biosample experiment matrix (Step 6 of cCRE pipeline)
+
+---
 
 ## Supplementary Figure 8 | Overlap of cCREs with ChromHMM states. 
 
