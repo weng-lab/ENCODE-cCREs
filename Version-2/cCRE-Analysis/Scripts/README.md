@@ -2,6 +2,9 @@
 
 ---
 
+## Supplementary Figure 2 | Details of building the Registry of cCREs.
+
+### Panels C & H
 
 ```
 ./Supplementary-Figure-2ch.Genomic-Coverage.sh [genome]
