@@ -2,6 +2,17 @@
 
 ---
 
+
+```
+./Supplementary-Figure-2ch.Genomic-Coverage.sh [genome]
+```
+
+**Requires:**
+* genome: hg38 or mm10
+* hg38 or mm10 cCREs
+* Chromosome size files: [hg38](https://hgdownload-test.gi.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes) or [mm10](https://hgdownload-test.gi.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes)
+
+
 ## Supplementary Figure 8 | Overlap of cCREs with ChromHMM states. 
 
 ### Panel A
@@ -115,4 +126,4 @@
 * `Overlap-TFs.sh`
 * `Overlap-CTS-TFs.sh`
 * Human cell type-agnostic cCREs
-* TF experiment lists: [All biosamples](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/All-Biosample-Filtered-TF-List.txt), [GM12878](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/GM12878-Filtered-TF-List.txt),[HepG2](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/HepG2-Filtered-TF-List.txt),[K562](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/K562-Filtered-TF-List.txt)
+* TF experiment lists: [All biosamples](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/All-Biosample-Filtered-TF-List.txt), [GM12878](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/GM12878-Filtered-TF-List.txt), [HepG2](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/HepG2-Filtered-TF-List.txt), [K562](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/K562-Filtered-TF-List.txt)
