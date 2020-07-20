@@ -33,6 +33,17 @@
 
 ---
 
+## Supplementary Figure 4 | UCSC Genome Browser views of cCREs and the underlying DNase and ChIP data
+
+### Panel A
+UCSC genome browser: [*SPI1*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr11:47371158-47397795&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4a.txt)
+
+### Panel B
+UCSC genome browser:
+
+### Panel C
+UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:44344991-44392365&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4c.txt)
+
 ## Supplementary Figure 8 | Overlap of cCREs with ChromHMM states. 
 
 ### Panel A
