@@ -10,8 +10,10 @@
 ./Supplementary-Figure-2ch.Genomic-Coverage.sh [genome]
 ```
 
+**Parameters:**
+* `genome` : either hg38 for human or mm10 for mouse
+
 **Requires:**
-* genome: hg38 or mm10
 * hg38 or mm10 cCREs
 * Chromosome size files: [hg38](https://hgdownload-test.gi.ucsc.edu/goldenPath/hg38/bigZips/hg38.chrom.sizes) or [mm10](https://hgdownload-test.gi.ucsc.edu/goldenPath/mm10/bigZips/mm10.chrom.sizes)
 
@@ -43,6 +45,25 @@ UCSC genome browser: [*NPAS4*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 
 ### Panel C
 UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:44344991-44392365&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF4c.txt)
+
+---
+
+## Supplementary Figure 7 | Coverage of the current Registry of cCREs
+
+```
+./Supplementary-Figure-7.ChIP-Peak-Overlap.sh [genome]
+```
+
+**Parameters:**
+* `genome` : either hg38 for human or mm10 for mouse
+
+**Requires:**
+* `Batch-Run-Calculate-Peak-Overlap.sh`
+* Cell type-agnostic cCREs
+* Biosample experiment matrix (Step 6 of cCRE pipeline)
+
+
+---
 
 ## Supplementary Figure 8 | Overlap of cCREs with ChromHMM states. 
 

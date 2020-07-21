@@ -14,7 +14,7 @@ dir=~/Lab/ENCODE/Encyclopedia/V5/Registry/V5-$genome
 outputDir=$dir/Manuscript-Analysis/Peak-Overlap
 mkdir -p $outputDir/
 
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version5/ccRE-Analysis
+scriptDir=~/GitHub/ENCODE-cCREs/Version-2/cCRE-Analysis/Scripts
 masterList=$dir/Cell-Type-Specific/Master-Cell-List.txt
 ccres=$dir/$genome-ccREs-Simple.bed
 bedtools=~/bin/bedtools2/bin/bedtools
