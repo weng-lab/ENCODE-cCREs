@@ -206,4 +206,8 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 ### Panel B
 UCSC genome browser: [*RBM38*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:57386938-57437523&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF17b.txt)
 
+### Panel C
+SCREEN: [EH38E2124446](https://screen.encodeproject.org/search/?q=EH38E2124446&assembly=GRCh38&uuid=b219b494-460e-4469-a1dc-111c7ee4800c)
 
+### Panel D
+SCREEN: [EM10E0721638](https://screen.encodeproject.org/search/?q=EM10E0721638&assembly=mm10&uuid=fbe63b21-0cdc-422a-99b7-623a0f70d0a4)
