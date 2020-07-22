@@ -211,3 +211,13 @@ SCREEN: [EH38E2124446](https://screen.encodeproject.org/search/?q=EH38E2124446&a
 
 ### Panel D
 SCREEN: [EM10E0721638](https://screen.encodeproject.org/search/?q=EM10E0721638&assembly=mm10&uuid=fbe63b21-0cdc-422a-99b7-623a0f70d0a4)
+
+---
+
+## Supplementary Figure 18 | Using cCREs to annotate functional SNPs related to prostate cancer
+
+### Panel A
+UCSC genome browser: [*UPK3A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr22:45276662-45289327&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF18a.txt)
+
+### Panels B-D
+SCREEN: [EH38E2169396](https://screen.encodeproject.org/search/?q=EH38E2169396&assembly=GRCh38&uuid=b219b494-460e-4469-a1dc-111c7ee4800c)
