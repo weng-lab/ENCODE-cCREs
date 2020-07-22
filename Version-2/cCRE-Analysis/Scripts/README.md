@@ -192,6 +192,17 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 
 ## Supplementary Figure 17 | Using cCREs to annotate functional SNPs related to red blood cell traits
 
+### Panel A
+
+```
+./Supplementary-Figure-17a.Overlap-RBC-MPRA.sh
+```
+**Requires:**
+* Cell type-agnostic cCREs
+* K562 cCREs
+* Supplemental tables from Ulirsch...Sankaran (2016) *Cell*: [Table S1](https://www.cell.com/cms/10.1016/j.cell.2016.04.048/attachment/a4c39614-2600-4f7e-81e3-ad71fcb6ac7b/mmc2.xlsx), [Table S2](https://www.cell.com/cms/10.1016/j.cell.2016.04.048/attachment/afbef448-f1db-4d42-80bb-41dd04a1f25e/mmc3.xlsx)
+
+
 ### Panel B
 UCSC genome browser: [*RBM38*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:57386938-57437523&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF17b.txt)
 
