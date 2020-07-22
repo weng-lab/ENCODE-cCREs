@@ -221,3 +221,15 @@ UCSC genome browser: [*UPK3A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 
 ### Panels B-D
 SCREEN: [EH38E2169396](https://screen.encodeproject.org/search/?q=EH38E2169396&assembly=GRCh38&uuid=b219b494-460e-4469-a1dc-111c7ee4800c)
+
+---
+
+## Supplementary Figure 19 | Using cCREs to annotate functional SNPs related to liver traits
+
+### Panel A
+UCSC genome browser: [*CELSR2-PSRC1*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr1:109266355-109286473&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF19a.txt)
+
+
+### Panels B-C
+SCREEN: [EH38E1374646](https://screen.encodeproject.org/search/?q=EH38E1374646&assembly=GRCh38&uuid=b219b494-460e-4469-a1dc-111c7ee4800c)
+
