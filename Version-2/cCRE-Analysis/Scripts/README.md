@@ -106,9 +106,7 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 
 ---
 
-## Supplementary Figure 9 
-
-**Overlap of cCREs with FANTOM enhancers and the transcription start sites of FANTOM CAGE-associated transcripts.** Histograms of the Z-scores of cCREs intersecting FANTOM enhancers (colored) and not intersecting FANTOM enhancers (gray). Z-scores are plotted for **a,** DNase; **b,** H3K4me3; **c,** H3K27ac; **d,** H3K4me1; and **e,** Pol II. **f,** Percentages of the transcription start sites of FANTOM CAGE-associated transcripts in the eleven FANTOM-defined categories that overlap cCREs-PLS (red), cCREs-pELS (orange), or cCREs-dELS (yellow). The TSSs of the majority of coding-associated transcripts (protein coding mRNA and divergent lncRNAs) overlapped a cCRE-PLS, while the TSSs of the majority of eRNA-like non-coding RNAs (short ncRNAs, antisense lncRNAs, intergenic lncRNAs, sense intronic lncRNAs, and sense overlap RNAs) overlapped a cCRE-dELS.
+## Supplementary Figure 9 | Overlap of cCREs with FANTOM enhancers and the transcription start sites of FANTOM CAGE-associated transcripts
 
 ### Panels A-E
 
@@ -179,3 +177,22 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 * `Overlap-CTS-TFs.sh`
 * Human cell type-agnostic cCREs
 * TF experiment lists: [All biosamples](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/All-Biosample-Filtered-TF-List.txt), [GM12878](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/GM12878-Filtered-TF-List.txt), [HepG2](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/HepG2-Filtered-TF-List.txt), [K562](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/hg38/K562-Filtered-TF-List.txt)
+
+---
+
+## Supplementary Figure 12 | Transcription patterns at cCREs
+
+### Panel A
+
+```
+./Supplementary-Figure-11ab.cCRE-TF-Overlap.sh
+```
+
+---
+
+## Supplementary Figure 17 | Using cCREs to annotate functional SNPs related to red blood cell traits
+
+### Panel B
+UCSC genome browser: [*RBM38*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr20:57386938-57437523&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF17a.txt)
+
+
