@@ -190,6 +190,14 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 
 ---
 
+## Supplementary Figure 16 | Annotating GWAS variants using cCREs
+
+### Panel E
+UCSC genome browser: [*ZMIZ1*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr10:79280280-79290865&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF16e.txt)
+
+
+---
+
 ## Supplementary Figure 17 | Using cCREs to annotate functional SNPs related to red blood cell traits
 
 ### Panel A
@@ -232,4 +240,20 @@ UCSC genome browser: [*CELSR2-PSRC1*](https://genome.ucsc.edu/cgi-bin/hgTracks?d
 
 ### Panels B-C
 SCREEN: [EH38E1374646](https://screen.encodeproject.org/search/?q=EH38E1374646&assembly=GRCh38&uuid=b219b494-460e-4469-a1dc-111c7ee4800c)
+
+---
+
+## Supplementary Figure 20 | Interpreting GWAS variants associated with neuropsychiatric disorders using cCREs
+### Panel A
+UCSC genome browser: [*AGAP1*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&position=chr1:109266355-109286473&hubClear=https://users.wenglab.org/moorej3/ENCODE-cCREs/Track-Hubs/hub-SF20a.txt)
+
+
+### Panel B
+SCREEN: [*AGAP1*](https://screen.encodeproject.org/search/?q=AGAP1&assembly=GRCh38&uuid=bb58ba64-0246-4ccb-a423-07480c7385e1)
+
+### Panel C
+SCREEN: [*Agap1*](https://screen.encodeproject.org/search/?q=Agap1&assembly=mm10&uuid=315fd82c-fab9-450b-a90b-cff7a3007b53)
+
+### Panel E
+SCREEN: [*Agap1*](https://screen.encodeproject.org/search/?q=Agap1&assembly=mm10&uuid=315fd82c-fab9-450b-a90b-cff7a3007b53)
 
