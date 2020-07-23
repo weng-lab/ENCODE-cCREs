@@ -1,5 +1,41 @@
 # ENCODE cCRE analysis
 
+
+---
+
+## Supplementary Figure 1 | Testing methods for predicting VISTA enhancers and gene expression
+
+### Panels A & B
+
+```
+./Supplementary-Figure-1ab.Evaluate-VISTA-Enhancers.sh {tissue} {peakMethod} {signalMethod}
+```
+
+**Parameters:**
+* `tissue`: Midbrain, Hindbrain, Neural-Tube or Limb
+* `peakMethod`: DNase, H3K27ac, H3K4me3, or H3K4me1
+* `signalMethod`: DNase, H3K27ac, H3K4me3, or H3K4me1
+
+**Requires:**
+* [VISTA-Data-Matrix.txt](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/mm10/VISTA-Data-Matrix.txt)
+* [VISTA-Evaluation-Regions.txt](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-2/cCRE-Analysis/Input-Data/mm10/VISTA-Evaluation-Regions.txt)
+
+### Panel B
+
+```
+./Supplementary-Figure-1b.Evaluate-Average-Rank.sh {tissue} {peakMethod1} {signalMethod1} {peakMethod2} {signalMethod2}
+```
+
+**Parameters:**
+* `tissue`: Midbrain, Hindbrain, Neural-Tube or Limb
+* `peakMethod1`: DNase, H3K27ac, H3K4me3, or H3K4me1
+* `signalMethod1`: DNase, H3K27ac, H3K4me3, or H3K4me1
+* `peakMethod2`: DNase, H3K27ac, H3K4me3, or H3K4me1
+* `signalMethod2`: DNase, H3K27ac, H3K4me3, or H3K4me1
+
+**Requires:**
+* Results from `Supplementary-Figure-1ab.Evaluate-VISTA-Enhancers.sh`
+
 ---
 
 ## Supplementary Figure 2 | Details of building the Registry of cCREs.
