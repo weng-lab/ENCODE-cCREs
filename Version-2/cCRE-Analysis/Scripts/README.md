@@ -247,6 +247,16 @@ UCSC genome browser: [*HNF4A*](https://genome.ucsc.edu/cgi-bin/hgTracks?db=hg38&
 * Tested regions from Supplemental Table 22l
 
 
+### Panel E
+
+```
+./Supplementary-Figure-15e.Tested-Region-Conservation.sh 
+```
+**Requires:**
+* Tested regions from Supplemental Tables 22a-c
+* mm10 phyloP conservation: [mm10.60way.phyloP60way.bw](http://hgdownload.cse.ucsc.edu/goldenpath/mm10/phyloP60way/mm10.60way.phyloP60way.bw)
+
+
 ---
 
 ## Supplementary Figure 16 | Annotating GWAS variants using cCREs
