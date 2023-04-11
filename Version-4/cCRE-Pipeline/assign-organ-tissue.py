@@ -28,9 +28,13 @@ def Retrieve_Biosample_Summary(dataset,bigWig):
         organ="NA"
     return typ, name, rfa, organ
 
+genome = sys.argv[2]
 for line in open(sys.argv[1]):
-        line=line.rstrip().split("\t")
-        typ, name, rfa, organ = Retrieve_Biosample_Summary(line[0].rstrip(),line[1])
+    
+    line=line.rstrip().split("\t")
+    typ, name, rfa, organ = Retrieve_Biosample_Summary(line[0].rstrip(),line[1])
+
+    if genome == "GRCh38":
         if "blood vessel" in organ:
             organ = "blood vessel"
         elif "blood" in organ:
@@ -106,7 +110,6 @@ for line in open(sys.argv[1]):
         elif "connective tissue" in organ:
             organ = "connective tissue"
        
-        
         if organ == "":
             if "neur" in name:
                 organ = "brain"
@@ -116,4 +119,45 @@ for line in open(sys.argv[1]):
                 organ = "blood"
             elif "Calu3" in name:
                 organ = "lung"
-        print("\t".join(line)+"\t"+typ+"\t"+rfa, "\t", organ)
+    elif genome == "mm10":
+        if "thymus" in organ:
+            organ = "thymus"
+        elif "adrenal" in organ:
+            organ = "adrenal gland"
+        elif "blood" in organ:
+            organ = "blood"        
+        elif "liver" in organ:
+            organ = "liver"  
+        elif "spleen" in organ:
+            organ = "spleen" 
+        elif "testis" in organ:
+            organ = "testis" 
+        elif "musculature of body" in organ:
+            organ = "muscle" 
+        elif "bone marrow" in organ:
+            organ = "bone marrow"   
+        elif "ovary" in organ:
+            organ = "ovary" 
+        elif "large intestine" in organ:
+            organ = "large intestine"  
+        elif "small intestine" in organ:
+            organ = "small intestine"  
+        elif "adipose" in organ:
+            organ = "adipose"
+        elif "placenta" in organ:
+            organ = "placenta"   
+        elif "connective tissue" in organ:
+            organ = "connective tissue" 
+        elif "epithelium" in organ:
+            organ = "epithelium"
+        if organ == "":
+            if "erythroid" in name:
+                organ = "blood marrow"
+            elif "cortex" in name:
+                organ = "brain"
+            elif "Muller" in name:
+                organ = "eye"
+            elif "leukemia" in name:
+                organ = "blood marrow"
+                                      
+    print("\t".join(line)+"\t"+typ+"\t"+rfa, "\t", organ)
