@@ -119,6 +119,14 @@ for line in open(sys.argv[1]):
                 organ = "blood"
             elif "Calu3" in name:
                 organ = "lung"
+
+            elif "endothelial" in name:
+                organ = "endothelial"
+            elif "GM" in name: #ATAC specific
+                organ = "blood"       
+            else:
+                organ = "UNASSIGNED"
+
     elif genome == "mm10":
         if "thymus" in organ:
             organ = "thymus"
