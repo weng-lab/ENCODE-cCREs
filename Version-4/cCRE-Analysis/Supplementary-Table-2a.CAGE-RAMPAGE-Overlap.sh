@@ -1,3 +1,9 @@
+#!/bin/bash
+#Jill E Moore
+#Moore Lab
+#UMass Chan Medical School
+
+
 source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry
