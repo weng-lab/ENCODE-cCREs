@@ -1,4 +1,7 @@
-
+#!/bin/bash
+#Jill E. Moore
+#Moore Lab
+#UMass Chan Medical School
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry
 
@@ -27,5 +30,5 @@ do
         END{print sum "\t" NR "\t" sum/NR}' >> tmp.V4
 
 done
-paste tmp.V2 tmp.V3 tmp.V4 > Table-Input-Data/Supplementary-Table-4x.Loupe-Myers-cCRE-Overlap.txt
+paste tmp.V2 tmp.V3 tmp.V4 > Table-Input-Data/Supplementary-Table-4d.Loupe-Myers-cCRE-Overlap.txt
 rm tmp.V*
