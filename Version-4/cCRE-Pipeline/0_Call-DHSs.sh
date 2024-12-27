@@ -1,10 +1,11 @@
+#!/bin/bash
+
 #Jill E. Moore
 #Moore Lab - UMass Chan
 #ENCODE4 cCRE Pipeline
 #December 2024
 #Step 0 - Call DHSs
 
-#!/bin/bash
 #SBATCH --nodes 1
 #SBATCH --time=12:00:00
 #SBATCH --mem=10G
