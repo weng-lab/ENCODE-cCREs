@@ -1,10 +1,10 @@
+#!/bin/bash
+
 #Jill E. Moore
 #Moore Lab - UMass Chan
 #ENCODE4 cCRE Pipeline
 #December 2024
 #Step 4 - Calculate signal zscores
-
-#!/bin/bash
 
 genome=$1
 mode=$2

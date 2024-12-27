@@ -1,4 +1,5 @@
 
+#ENCODE4 cCRE Pipeline
 
 ## Step 0 - Call DHSs
 This script uses Hotspot2 enrichment files from the ENCODE portal to call high resolution DNase Hypersensitivity Sites (DHSs). Because higher sequencing depth results in wider peak calls, this process is done interatively for all experiments at increasing strigency thresholds (0.01 to 1E-4942) until all called regions are less than 350 bp in width.
@@ -60,3 +61,6 @@ This script generates transcription factor clusters from peaks called across mul
 
 **Required software:**
 * [BEDTools](https://bedtools.readthedocs.io/en/latest/)
+
+## Step 4
+
