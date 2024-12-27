@@ -1,15 +1,15 @@
+#!/bin/bash
+
 #Jill E. Moore
 #Moore Lab - UMass Chan
 #ENCODE4 cCRE Pipeline
 #December 2024
 #Step 2 - Create rDHSs
 
-#!/bin/bash
-
 genome=$1
 dir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-rDHS
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
-stamList=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-cDHS/Altius-cDHSs.DAC-$genome.bed
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
+altiusList=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-cDHS/Altius-cDHSs.DAC-$genome.bed
 
 cd $dir/Processed-DHSs
 
@@ -57,20 +57,20 @@ rm -r scratch
 
 if [[ $genome == "mm10" ]]
 then
-    previous=~/Lab/ENCODE/Encyclopedia/Previous-Versions/rDHS.mm10.bed
+    previous=~/Lab/ENCODE/Encyclopedia/Previous-Versions/V1-V2-V3.rDHS-mm10.bed
 elif [[ $genome == "hg38" ]]
 then
-    previous=~/Lab/ENCODE/Encyclopedia/Previous-Versions/rDHS.hg38.bed
+    previous=~/Lab/ENCODE/Encyclopedia/Previous-Versions/V1-V2-V3.rDHS-hg38.bed
 fi
 
 echo -e "Accessioning rDHSs..."
 sort -k1,1 -k2,2n tmp.bed > sorted.bed
 python $scriptDir/make-region-accession.py sorted.bed $genome rDHS $previous > zz
 
-bedtools intersect -F 1 -u -a zz -b $stamList > completeCoverage.bed
-bedtools intersect -F 1 -v -a zz -b $stamList > tmp
-bedtools intersect -v -a tmp -b $stamList > NoCoverage.bed
-bedtools intersect -wo -a tmp -b $stamList > partialCoverage.bed
+bedtools intersect -F 1 -u -a zz -b $altiusList > completeCoverage.bed
+bedtools intersect -F 1 -v -a zz -b $altiusList > tmp
+bedtools intersect -v -a tmp -b $altiusList > NoCoverage.bed
+bedtools intersect -wo -a tmp -b $altiusList > partialCoverage.bed
 
 awk '{if ($NF >= 135) {out=$1; for(i=2;i<=7;i++){out=out"\t"$i}; print out}}' \
     partialCoverage.bed | sort -u > 135Coverage.bed
@@ -88,7 +88,7 @@ mv working.bed $genome-rDHS-Filtered-Summary.txt
 awk '{print $1 "\t" $2 "\t" $3 "\t" $NF}' $genome-rDHS-Filtered-Summary.txt \
     > $genome-rDHS-Filtered.bed
 
-mv zz $genome-rDHS-PreStam.txt
+mv zz $genome-rDHS-PreAltius.txt
 
 rm sorted.bed
 rm tmp.bed partialCoverage.bed
