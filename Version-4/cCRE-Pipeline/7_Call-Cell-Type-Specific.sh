@@ -1,3 +1,8 @@
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 7 - Call cell type-specific cCREs
 
 genome=$1
 scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline

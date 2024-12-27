@@ -1,4 +1,8 @@
-
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 9 - Assign promoters to genes
 
 regions=$1
 idColumn=$2

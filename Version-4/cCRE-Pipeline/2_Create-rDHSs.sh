@@ -1,11 +1,10 @@
-#!/bin/bash
-
 #Jill E. Moore
-#Weng Lab
-#UMass Medical School
-#Updated February 2021
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 2 - Create rDHSs
 
-#ENCODE Encyclopedia Version 7
+#!/bin/bash
 
 genome=$1
 dir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-rDHS
@@ -20,21 +19,16 @@ mv tmp $dir/$genome-DHS-All.bed
 
 if [ $genome == "mm10" ]
 then
-#cutoff=0.1454
-#cutoff=0.158899 #2021 cutoff
-cutoff=0.203923 #2022 cutoff 10% of 10,000,000
+cutoff=0.203923 #cutoff 10% of 10,000,000 randomly selected DHSs
 elif [ $genome == "hg38" ]
 then
-#cutoff=0.1508
-#cutoff=0.150555 #2021 cutoff
-cutoff=0.145873 #2022 cutoff 10% of 10,000,000
+cutoff=0.145873 #cutoff 10% of 10,000,000 randomly selected DHSs
 fi
 
 echo -e "Filtering DHSs..."
 cd $dir
 awk '{if ($1 !~ /_/ && $3-$2 >= 150 && $6 >= '$cutoff' && $5 <= 0.001) print $0}' \
     $genome-DHS-All.bed | grep -v "chrEBV" | grep -v "chrM" > $genome-DHS-Filtered.bed
-#0.150555 is 10th percentile of signal of 1M randomly selected DHSs
 
 mkdir scratch
 cp $genome-DHS-Filtered.bed scratch/tmp.bed

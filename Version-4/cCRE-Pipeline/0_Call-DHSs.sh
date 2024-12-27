@@ -1,21 +1,25 @@
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 0 - Call DHSs
+
 #!/bin/bash
 #SBATCH --nodes 1
 #SBATCH --time=12:00:00
 #SBATCH --mem=10G
-#SBATCH --array=1-264
+#SBATCH --array=1-1438
 #SBATCH --output=/home/moorej3/Job-Logs/jobid_%A_%a.output
 #SBATCH --error=/home/moorej3/Job-Logs/jobid_%A_%a.error
 #SBATCH --partition=12hours
 
-genome=mm10
-hotspots=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-mm10/mm10-rDHS/need-to-run.txt
-#hotspots=$dataDir/$genome-Hotspot-List.txt
-#hotspots=$dataDir/Missing.txt
+genome=hg38
+hotspots=$dataDir/$genome-Hotspot-List.txt
 minP=4942
 jid=$SLURM_ARRAY_TASK_ID
 
 dataDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-rDHS
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
 bedtools=~/bin/bedtools2/bin/bedtools
 
 exp=$(awk '{if (NR == '$jid') print $1}' $hotspots)

@@ -9,7 +9,7 @@ Pipeline for ENCODE4 cCREs (V4 - current version) on the hg38 and mm10 genomes. 
 
 Jill E. Moore†, Henry E. Pratt, Kaili Fan, Nishigandha Phalke, Jonathan Fisher, Shaimae I. Elhajjajy, Gregory Andrews, Mingshi Gao, Nicole Shedd, Yu Fu, Matthew C Lacadie, Jair Meza, Mohit Ganna, Eva Choudhury, Ross Swofford, Nina P. Farrell, Anusri Pampari, Vivekanandan Ramalingam, Fairlie Reese, Beatrice Borsari, Michelle Yu, Eve Wattenberg, Marina Ruiz-Romero, Milad Razavi-Mohseni, Jinrui Xu, Timur Galeev, Michael A. Beer, Roderic Guigó, Mark Gerstein, Jesse Engreitz, Mats Ljungman, Timothy E. Reddy, Michael P. Snyder, Charles B Epstein, Elizabeth Gaskell, Bradley E Bernstein, Diane E. Dickel, Axel Visel, Len A. Pennacchio, Ali Mortazavi, Anshul Kundaje, Zhiping Weng†
 
-*bioRxiv,* December 2024, https://doi.org/10.1101/2024.12.26.629296 [https://doi.org/10.1101/2024.12.26.629296]
+*bioRxiv,* December 2024, https://doi.org/10.1101/2024.12.26.629296
 
 ## Version 3
 Code for generating V3 cCREs on the hg38 and mm10 genomes. Pipeline is identical to V2.  Please cite:

@@ -1,3 +1,9 @@
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 6 - Classify cCREs
+
 genome=$1
 
 dataDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome

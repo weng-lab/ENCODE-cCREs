@@ -1,10 +1,10 @@
-#!/bin/bash
 #Jill E. Moore
-#Weng Lab
-#UMass Medical School
-#Updated October 2017
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 4 - Calculate signal zscores
 
-#ENCODE Encyclopedia Version 5
+#!/bin/bash
 
 genome=$1
 mode=$2

@@ -1,3 +1,8 @@
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 3 - Curate TF Clusters
 
 genome=$1
 version=V7

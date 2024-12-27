@@ -1,10 +1,10 @@
-#!/bin/bash
 #Jill E. Moore
-#Weng Lab
-#UMass Medical School
-#Updated October 2017
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+#Step 5 - Determine maxZ
 
-#ENCODE Encyclopedia Version 5
+#!/bin/bash
 
 #CTCF, DNase, H3K27ac, H3K4me3
 mode=$2
