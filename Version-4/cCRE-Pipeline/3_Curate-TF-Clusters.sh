@@ -1,3 +1,5 @@
+#!/bin/bash
+
 #Jill E. Moore
 #Moore Lab - UMass Chan
 #ENCODE4 cCRE Pipeline
@@ -6,15 +8,14 @@
 
 genome=$1
 version=V7
-scriptDir1=~/Projects/ENCODE/Encyclopedia/Version7/Curate-Data
-scriptDir2=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
 rdhs=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome/$genome-rDHS/$genome-rDHS-Filtered.bed
 
 mkdir -p ~/Lab/ENCODE/Encyclopedia/$version/Registry/$version-$genome/$genome-TF
 cd ~/Lab/ENCODE/Encyclopedia/$version/Registry/$version-$genome/$genome-TF
 
 echo "Curating TF experiments ..."
-python3 $scriptDir1/pull-tf-experiments.py $genome > $genome-TF-List.All.txt
+python $scriptDir/pull-tf-experiments.py $genome > $genome-TF-List.All.txt
 awk -F "\t" '{if ($5 > 0.003 && $2 != "NA") print $0}' $genome-TF-List.All.txt \
     > $genome-TF-List.Filtered.txt
 
@@ -54,7 +55,7 @@ while [ $num -gt 0 ]
 do
     echo -e "\t" $num
     bedtools merge -i tmp.sorted -c 14,7 -o collapse,collapse > tmp.merge
-    python3 $scriptDir2/pick-best-peak.py tmp.merge > tmp.peak-list
+    python $scriptDir/pick-best-peak.py tmp.merge > tmp.peak-list
     awk -F "\t" 'FNR==NR {x[$1];next} ($14 in x)' tmp.peak-list tmp.sorted >> tmp.rPeaks
     bedtools intersect -v -a tmp.sorted -b tmp.rPeaks > tmp.remaining
     mv tmp.remaining tmp.sorted
@@ -66,10 +67,10 @@ awk -F "\t" '{print $1 "\t" $2+$10 "\t" $2+$10+1 "\t" $4 "\t" $5 "\t" $6 \
     tmp.bed > tmp.summits
 
 bedtools intersect -wo -a tmp.rPeaks -b tmp.summits > tmp.intersection
-python3 $scriptDir2/filter-tf-rpeaks.py tmp.intersection > tmp.out
+python $scriptDir/filter-tf-rpeaks.py tmp.intersection > tmp.out
 bedtools intersect -v -a tmp.out -b $rdhs > tmp.no-overlap
 
-python3 $scriptDir2/make-region-accession.py tmp.no-overlap $genome TF > $genome-rTFBS-Summary.txt
+python $scriptDir/make-region-accession.py tmp.no-overlap $genome TF > $genome-rTFBS-Summary.txt
 awk '{print $1 "\t" $2 "\t" $3 "\t" $NF}' $genome-rTFBS-Summary.txt > $genome-rTFBS.bed
 mv tmp.out $genome-TF-Clusters.txt
 
