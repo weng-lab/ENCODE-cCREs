@@ -1,3 +1,8 @@
+#Jill E. Moore
+#Moore Lab - UMass Chan
+#ENCODE4 cCRE Pipeline
+#December 2024
+
 import sys
 
 mode=sys.argv[2]

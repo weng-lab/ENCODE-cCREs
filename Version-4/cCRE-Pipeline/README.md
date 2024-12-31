@@ -33,9 +33,9 @@ This script generates representative DHSs (rDHSs) from DHSs called across multip
 
 
 **Input data:**
-* [Altius-cDHSs.DAC-hg38.bed.gz](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Altius-cDHSs.DAC-hg38.bed.gz)
+* [Altius-cDHSs.DAC-hg38.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Altius-cDHSs.DAC-hg38.bed.gz)
 * [V1-V2-V3.rDHS-hg38.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/V1-V2-V3.rDHS-hg38.bed.gz)
-* [Altius-cDHSs.DAC-mm10.bed.gz](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Altius-cDHSs.DAC-mm10.bed.gz)
+* [Altius-cDHSs.DAC-mm10.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Altius-cDHSs.DAC-mm10.bed.gz)
 * [V1-V2-V3.rDHS-mm10.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/V1-V2-V3.rDHS-mm10.bed.gz)
 
 **Additional scripts:**
@@ -50,8 +50,8 @@ This script generates representative DHSs (rDHSs) from DHSs called across multip
 This script generates transcription factor clusters from peaks called across multiple ChIP-seq experiments. We download peaks from the ENCODE portal with a FRiP score > 0.003 and resize peaks so that they are between 150 and 350 bp in width. These peaks are concatenated into one large BED file and then merged. For each merged region, a representative peak is selected based on the highest signal. These rPeaks are intersected with the total concatenated BED file and the process is repeated until all individual peaks overlap an rPeak. We then select all rPeaks that overlap the summits of at least 5 peaks and do not overlap an rDHS. These TF clusters are then accessioned and complement rDHSs as anchors for cCREs.
 
 **Input data:**
-* [hg38-TF-List.All.txt.gz](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-TF-List.All.txt.gz)
-* [mm10-TF-List.All.txt.gz](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/mm10-TF-List.All.txt.gz)
+* [hg38-TF-List.All.txt](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-TF-List.All.txt.gz)
+* [mm10-TF-List.All.txt](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/mm10-TF-List.All.txt.gz)
 
 **Additional scripts:**
 * [pick-best-peak.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/pick-best-peak.py)
@@ -62,5 +62,30 @@ This script generates transcription factor clusters from peaks called across mul
 **Required software:**
 * [BEDTools](https://bedtools.readthedocs.io/en/latest/)
 
-## Step 4
+## Step 4 - Calculate signal z-scores
 
+
+## Step 5 - Determine maximum z-scores
+
+
+## Step 6 - Classify cCREs
+
+## Step 7 - Call cell type-specific cCREs
+
+## Step 7.5 - Call cell type-specific cCREs (manual annotation, optional)
+
+## Step 8 - Assign promoters to genes
+This script assigns promoter cCREs to GENCODE annotated genes. cCREs are assigned to genes if they (1) overlap an annotated transcription start site (TSS) or (2) their center is within 200 bp of an annotated TSS. Genes can be assigned to multiple genes if they overlap multiple TSSs. 
+
+
+**Input data:**
+* [GENCODEV40-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.bed.gz)
+* [GENCODEV40-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.4K.bed.gz)
+* [GENCODEM25-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.bed.gz)
+* [GENCODEM25-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.4K.bed.gz)
+
+**Additional scripts:**
+* [calculate-center-distance.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/calculate-center-distance.py)
+
+**Required software:**
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/)
