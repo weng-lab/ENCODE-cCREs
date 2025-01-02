@@ -44,7 +44,7 @@ This script generates representative DHSs (rDHSs) from DHSs called across multip
 * [calculate-cdhs-percentile.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/calculate-cdhs-percentile.py)
 
 **Required software:**
-* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (verion 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
 
 ## Step 3 - Curate TF Clusters
 This script generates transcription factor clusters from peaks called across multiple ChIP-seq experiments. We download peaks from the ENCODE portal with a FRiP score > 0.003 and resize peaks so that they are between 150 and 350 bp in width. These peaks are concatenated into one large BED file and then merged. For each merged region, a representative peak is selected based on the highest signal. These rPeaks are intersected with the total concatenated BED file and the process is repeated until all individual peaks overlap an rPeak. We then select all rPeaks that overlap the summits of at least 5 peaks and do not overlap an rDHS. These TF clusters are then accessioned and complement rDHSs as anchors for cCREs.
@@ -60,7 +60,7 @@ This script generates transcription factor clusters from peaks called across mul
 * [pull-tf-experiments.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/pull-tf-experiments.py)
 
 **Required software:**
-* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (verion 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
 
 ## Step 4 - Calculate signal z-scores
 This script calculates a normalized signal z-score for each anchor given a list of bigWig files. For each experiment, we calculate the average signal across each anchor region. For DNase and CTCF, this is across the anchor itelf and for histone marks this is the anchor +/- 500 bp. This signal is then converted to a z-score with values of 0 removed from the calculation. 
@@ -122,7 +122,7 @@ GENCODEV40 annotations were used for human and GENOCDEM25 annotations were used 
 * [make-region-accession.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/make-region-accession.py)
 
 **Required software:**
-* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (verion 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
 
 ## Step 7 - Call cell type-specific cCREs
 
@@ -140,4 +140,4 @@ This script assigns promoter cCREs to GENCODE annotated genes. cCREs are assigne
 * [calculate-center-distance.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/calculate-center-distance.py)
 
 **Required software:**
-* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (verion 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
