@@ -110,6 +110,8 @@ GENCODEV40 annotations were used for human and GENOCDEM25 annotations were used 
 
 **Input data:**
 * Anchor regions (rDHSs + TF clusters)
+	* [hg38-Anchors.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-Anchors.bed.gz)
+	* [mm10-Anchors.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/mm10-Anchors.bed.gz)
 * Max Z-score files from **Step 5**
 * [GENCODEV40-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.bed.gz)
 * [GENCODEV40-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.4K.bed.gz)
@@ -125,6 +127,23 @@ GENCODEV40 annotations were used for human and GENOCDEM25 annotations were used 
 * [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
 
 ## Step 7 - Call cell type-specific cCREs
+This script classifies cCREs within specific cell types. Classification is dependent on data availability.
+
+**Input data:**
+* [GENCODEV40-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.bed.gz)
+* [GENCODEV40-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.4K.bed.gz)
+* [GENCODEM25-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.bed.gz)
+* [GENCODEM25-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.4K.bed.gz)
+
+**Additional scripts:**
+* [match-biosamples.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/match-biosamples.py)
+* [Split-cCREs.TF.sh](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/Split-cCREs.TF.sh)
+* [Split-cCREs.DNase.sh](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/Split-cCREs.DNase.sh)
+* [Split-cCREs.No-DNase.sh](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/Split-cCREs.No-DNase.sh)
+
+**Required software:**
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/) (version 2.30.0 was used in [Moore...Weng (2024) *bioRxiv*](https://www.biorxiv.org/content/10.1101/2024.12.26.629296v1))
+
 
 ## Step 8 - Assign promoters to genes
 This script assigns promoter cCREs to GENCODE annotated genes. cCREs are assigned to genes if they (1) overlap an annotated transcription start site (TSS) or (2) their center is within 200 bp of an annotated TSS. Genes can be assigned to multiple genes if they overlap multiple TSSs. 
