@@ -11,9 +11,8 @@ mode=$2
 
 dir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome
 files=$dir/$mode-List.txt
-#files=$3
 output=$dir/signal-output
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
 peaks=$dir/$genome-Anchors.bed
 
 mkdir -p $output
@@ -25,8 +24,6 @@ else
     width=500
 fi
 echo $width
-
-##Step 1 - Retreive Signal Rank###
 
 num=$(wc -l $files | awk '{print $1}')
 sbatch --nodes 1 --array=1-$num%100 --mem=5G --time=04:00:00 \
