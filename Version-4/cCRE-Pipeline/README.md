@@ -64,15 +64,47 @@ This script generates transcription factor clusters from peaks called across mul
 
 ## Step 4 - Calculate signal z-scores
 
+**Input data:**
+* [hg38-Anchors.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-Anchors.bed.gz) (concatenated rDHSs from **Step 2** and TF clusters from **Step 3**)
+* [mm10-Anchors.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/mm10-Anchors.bed.gz) (concatenated rDHSs from **Step 2** and TF clusters from **Step 3**)
+* List of experiment accessions:
+	* [Human](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-Experiment-Lists.tar.gz)
+	* [Mouse](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/mm10-Experiment-Lists.tar.gz)
+
+**Additional scripts:**
+* [Retrieve-Signal.sh](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/Retrieve-Signal.sh)
+* [download-portal-file.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/download-portal-file.py)
+* [log-zscore-normalization.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/log-zscore-normalization.py)
+
+**Required software:**
+* bigWigAverageOverBed ([UCSC Genome Browser Utilities](https://hgdownload.soe.ucsc.edu/admin/exe/))
+
+This script was designed to run on a Slurm cluster with one job dedicated to each bigWig file.
 
 ## Step 5 - Determine maximum z-scores
 
 
 ## Step 6 - Classify cCREs
+This script assigns promoter cCREs to GENCODE annotated genes. cCREs are assigned to genes if they (1) overlap an annotated transcription start site (TSS) or (2) their center is within 200 bp of an annotated TSS. Genes can be assigned to multiple genes if they overlap multiple TSSs.
+
+
+**Input data:**
+* Anchor regions (rDHSs + TF clusters)
+* Max Z-score files from step 5
+* [GENCODEV40-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.bed.gz)
+* [GENCODEV40-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEV40-TSS.Basic.4K.bed.gz)
+* [GENCODEM25-TSS.Basic.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.bed.gz)
+* [GENCODEM25-TSS.Basic.4K.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/GENCODEM25-TSS.Basic.4K.bed.gz)
+* [V1-V2-V3.cCREs-hg38.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/V1-V2-V3.cCREs-hg38.bed.gz)
+* [V1-V2-V3.cCREs-mm10.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/V1-V2-V3.cCREs-mm10.bed.gz)
+
+**Additional scripts:**
+* [make-region-accession.py](https://github.com/weng-lab/ENCODE-cCREs/blob/master/Version-4/cCRE-Pipeline/Toolkit/make-region-accession.py)
+
+**Required software:**
+* [BEDTools](https://bedtools.readthedocs.io/en/latest/)
 
 ## Step 7 - Call cell type-specific cCREs
-
-## Step 7.5 - Call cell type-specific cCREs (manual annotation, optional)
 
 ## Step 8 - Assign promoters to genes
 This script assigns promoter cCREs to GENCODE annotated genes. cCREs are assigned to genes if they (1) overlap an annotated transcription start site (TSS) or (2) their center is within 200 bp of an annotated TSS. Genes can be assigned to multiple genes if they overlap multiple TSSs. 
