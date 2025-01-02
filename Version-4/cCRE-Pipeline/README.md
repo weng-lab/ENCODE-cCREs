@@ -63,6 +63,9 @@ This script generates transcription factor clusters from peaks called across mul
 * [BEDTools](https://bedtools.readthedocs.io/en/latest/)
 
 ## Step 4 - Calculate signal z-scores
+This script calculates a normalized signal z-score for each anchor given a list of bigWig files. For each experiment, we calculate the average signal across each anchor region. For DNase and CTCF, this is across the anchor itelf and for histone marks this is the anchor +/- 500 bp. This signal is then converted to a z-score with values of 0 removed from the calculation. 
+
+This script was designed to run on a Slurm cluster with one job dedicated to each bigWig file.
 
 **Input data:**
 * [hg38-Anchors.bed](https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/hg38-Anchors.bed.gz) (concatenated rDHSs from **Step 2** and TF clusters from **Step 3**)
@@ -79,7 +82,6 @@ This script generates transcription factor clusters from peaks called across mul
 **Required software:**
 * bigWigAverageOverBed ([UCSC Genome Browser Utilities](https://hgdownload.soe.ucsc.edu/admin/exe/))
 
-This script was designed to run on a Slurm cluster with one job dedicated to each bigWig file.
 
 ## Step 5 - Determine maximum z-scores
 
