@@ -9,7 +9,7 @@ genome=$1
 dataDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome
 rdhs=$dataDir/$genome-Anchors.bed 
 tfClusters=$dataDir/$genome-TF/$genome-TF-Clusters.txt
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
 
 cd $dataDir
 

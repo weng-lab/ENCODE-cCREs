@@ -1,17 +1,18 @@
+#!/bin/bash
+
 #Jill E. Moore
 #Moore Lab - UMass Chan
 #ENCODE4 cCRE Pipeline
 #December 2024
 #Step 5 - Determine maxZ
 
-#!/bin/bash
 
 #CTCF, DNase, H3K27ac, H3K4me3
 mode=$2
 genome=$1
 
 fileDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-$genome
-scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Pipeline
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit
 
 echo "Processing Files ..."
 file=$fileDir/$mode-List.txt
