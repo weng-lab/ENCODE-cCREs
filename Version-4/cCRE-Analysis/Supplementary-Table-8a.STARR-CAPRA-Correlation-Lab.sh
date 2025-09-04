@@ -1,8 +1,8 @@
 #Jill Moore
 #Moore Lab - UMass Chan
-#November 2023
+#July 2025
 
-#Usage: ./Supplementary-Figure-6bcd.CAPRA-Double-Solo-Correlations.sh
+#Usage: ./Supplementary-Table-8a.STARR-CAPRA-Correlation-Lab.sh
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization
 ccres=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-cCREs-Unfiltered.bed
