@@ -1,23 +1,38 @@
 #!/bin/bash
 
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 1b
+
+source ~/.bashrc
+
 ccres=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-rDHS/hg38-rDHS-Filtered.bed
 tfList=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis/Input-Lists/Low-Overlap.Sequence-Specific-TF-Experiments.txt
-outputDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry/Anchor-TF-Overlap/Low-Overlap
+workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry/Anchor-TF-Overlap/
+outputDir=$workingDir/Low-Overlap
+
+cd $workingDir
+
+cat Overlap-Results/* > ../Figure-Input-Data/Supplementary-Figure-1a.TF-Peak-Overlap.txt
+cat Overlap-Results/* > ../Figure-Input-Data/Supplementary-Table-2e.TF-Peak-Overlap.txt
+
+awk '{if ($2 < 90) print $0}' ../Figure-Input-Data/Supplementary-Figure-1a.TF-Peak-Overlap.txt > $outputDir/tmp.low-list
 
 mkdir -p $outputDir
 cd $outputDir
 
-#for i in `seq 1 1 50`
-#do
-#    d1=$(awk '{if (NR == '$i') print $4}' $tfList)
-#    d2=$(awk '{if (NR == '$i') print $5}' $tfList)
-#
-#    cp /data/projects/encode/data/$d1/$d2.bed.gz bed.gz
-#    gunzip bed.gz
-#
-#    bedtools intersect -v -a bed -b $ccres > $d1.NocCREs.bed
-#    rm bed
-#done
+for i in `seq 1 1 50`
+do
+    d1=$(awk '{if (NR == '$i') print $4}' $tfList)
+    d2=$(awk '{if (NR == '$i') print $5}' $tfList)
+
+    cp /data/projects/encode/data/$d1/$d2.bed.gz bed.gz
+    gunzip bed.gz
+
+    bedtools intersect -v -a bed -b $ccres > $d1.NocCREs.bed
+    rm bed
+done
 
 awk 'BEGIN{print "experiment-tf"}{print $4"-"$3}' $tfList > tmp.matrix 
 
