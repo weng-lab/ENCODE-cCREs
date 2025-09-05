@@ -1,8 +1,50 @@
+#!/bin/bash
+
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figures 2a and 2b
+
+source ~/.bashrc
+
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry/Multimappers
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Pipeline/Toolkit/
+
+regions=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-MultiMap-cCREs.bed
+tss=~/Lab/Reference/Human/hg38/GENCODE40/TSS.Basic.bed
+prox=~/Lab/Reference/Human/hg38/GENCODE40/TSS.Basic.4K.bed
+
+mkdir -p $workingDir
 cd $workingDir
 
+##Assigning genes to cCREs
+grep PLS ~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-cCREs-Unfiltered.bed > tmp.pls
+regions=tmp.pls
+bedtools intersect -wo -a $regions -b $tss > tmp.tss
+bedtools intersect -v -a $regions -b $tss > tmp.no
+
+bedtools intersect -u -a tmp.no -b $prox | bedtools closest -d -a stdin -b $tss > tmp.distance
+python $scriptDir/calculate-center-distance.py tmp.distance assignment > tmp.new
+
+awk '{print $5 "\t" $(NF-1)}' tmp.tss | cat - tmp.new | sort -u > tmp.assignment
+mv tmp.assignment PLS-Gene-List.hg38-V4.txt
+
+##Assigning genes to multimappers
+regions=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-MultiMap-cCREs.bed
+bedtools intersect -wo -a $regions -b $tss > tmp.tss
+bedtools intersect -v -a $regions -b $tss > tmp.no
+
+bedtools intersect -u -a tmp.no -b $prox | bedtools closest -d -a stdin -b $tss > tmp.distance
+python $scriptDir/calculate-center-distance.py tmp.distance multimap > tmp.new
+
+awk '{print $4 "\t" $(NF-1)}' tmp.tss | cat - tmp.new | sort -u > tmp.assignment
+awk '{print $2}' tmp.assignment | sort -u > added-genes
+
+
+##Comparing gene lists
 genes=~/Lab/Reference/Human/hg38/GENCODE40/Genes.Basic.bed
-mapped=../../../PLS-Gene-List.hg38-V4.txt
+mapped=PLS-Gene-List.hg38-V4.txt
+
 rm -f tmp.results
 groups=(protein_coding lncRNA)
 for group in ${groups[@]}
