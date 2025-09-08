@@ -1,8 +1,11 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#August 2024
+#!/bin/bash
 
-#Usage: ./Supplementary-Figure-5bdf.FCC-Positive-Overlap.sh
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 10aei
+
+source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization/cCRE-Enrichment
 
@@ -16,6 +19,10 @@ awk 'FNR==NR {x[$4];next} !($5 in x)' $ccreK562 ../../../hg38-cCREs-Unfiltered.b
 echo -e "Method" "\t" "Group" "\t" "Positive" "\t" "Tested" "\t" "Fraction" > tmp.output
 
 ###MPRA
+
+#wget https://www.encodeproject.org/files/ENCFF677CJZ/@@download/ENCFF677CJZ.bed.gz
+#gunzip ENCFF677CJZ.bed.gz
+
 mpra=ENCFF677CJZ.bed
 awk '{if ($7 > 1) print $0}' $mpra > tmp.positive
 regions=tmp.positive
@@ -37,6 +44,11 @@ bedtools intersect -u -a $background -b tmp.2 | \
     awk '{if ($NF > 0) sum +=1}END{print "MPRA" "\t" "no-ccres" "\t" sum "\t" NR "\t" sum/NR}' >> tmp.output
 
 ###STARR-seq
+
+#wget https://www.encodeproject.org/files/ENCFF454ZKK/@@download/ENCFF454ZKK.bed.gz
+#wget https://www.encodeproject.org/files/ENCFF814CNR/@@download/ENCFF814CNR.bigWig
+#gunzip ENCFF454ZKK.bed.gz
+
 regions=ENCFF454ZKK.bed
 ~/bin/bigWigAverageOverBed ENCFF814CNR.bigWig ENCFF454ZKK.bed out.tab
 min=$(sort -k5,5g out.tab | head -n 1 | awk '{print $5}')
@@ -45,7 +57,7 @@ awk '{print $1 "\t" $2 "\t" $3 "\t" $4}' $ccreK562 > tmp.bed
 ~/bin/bigWigAverageOverBed ENCFF814CNR.bigWig tmp.bed tmp.out
 awk '{if ($NF > '$min') print $0}' tmp.out | \
     awk 'FNR==NR {x[$1];next} ($4 in x)' - tmp.bed | \
-    bedtools intersect -c -a stdin -b $regions | \
+    bedtools intersect -f 0.5 -c -a stdin -b $regions | \
     awk '{if ($NF > 0) sum +=1}END{print "STARR" "\t" "k562-ccres" "\t" sum "\t" NR "\t" sum/NR}' >> tmp.output
 bedtools intersect -v -a $regions -b tmp.bed  > tmp.1
 
@@ -53,7 +65,7 @@ awk '{print $1 "\t" $2 "\t" $3 "\t" $4}' $ccreAll > tmp.bed
 ~/bin/bigWigAverageOverBed ENCFF814CNR.bigWig tmp.bed tmp.out
 awk '{if ($NF > '$min') print $0}' tmp.out | \
     awk 'FNR==NR {x[$1];next} ($4 in x)' - tmp.bed | \
-    bedtools intersect -c -a stdin -b tmp.1 | \
+    bedtools intersect -f 0.5 -c -a stdin -b tmp.1 | \
     awk '{if ($NF > 0) sum +=1}END{print "STARR" "\t" "all-ccres" "\t" sum "\t" NR "\t" sum/NR}' >> tmp.output
 bedtools intersect -v -a tmp.1 -b tmp.bed  > tmp.2
 
@@ -61,7 +73,7 @@ awk '{print $1 "\t" $2 "\t" $3 "\t" $4}' $background > tmp.bed
 ~/bin/bigWigAverageOverBed ENCFF814CNR.bigWig tmp.bed tmp.out
 awk '{if ($NF > '$min') print $0}' tmp.out | \
     awk 'FNR==NR {x[$1];next} ($4 in x)' - tmp.bed | \
-    bedtools intersect -c -a stdin -b tmp.2 | \
+    bedtools intersect -f 0.5 -c -a stdin -b tmp.2 | \
     awk '{if ($NF > 0) sum +=1}END{print "STARR" "\t" "no-ccres" "\t" sum "\t" NR "\t" sum/NR}' >> tmp.output
         
 ###CRISPR
@@ -74,6 +86,9 @@ do
     cat $exp.bed | awk '{if ($1 ~ /chr/) print $0}' >> tmp.guide
 done
 
+
+#wget https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Reilly-Tewhey.41588_2021_900_MOESM3_ESM.Table-3.bed.gz
+#gunzip Reilly-Tewhey.41588_2021_900_MOESM3_ESM.Table-3.bed.gz
 regions=Reilly-Tewhey.41588_2021_900_MOESM3_ESM.Table-3.bed
 
 bedtools intersect -u -a $ccreK562 -b tmp.guide | \
@@ -90,6 +105,6 @@ bedtools intersect -u -a $background -b tmp.guide | \
     bedtools intersect -c -a stdin -b tmp.2 | \
 awk '{if ($NF > 0) sum +=1}END{print "CRISPR" "\t" "no-ccres" "\t" sum "\t" NR "\t" sum/NR}' >> tmp.output
 
-mv tmp.output ../Figure-Input-Data/Supplementary-Figure-5bdf.FCC-cCRE-Activity.txt
+mv tmp.output ../Figure-Input-Data/Supplementary-Figure-10bfj.FCC-Positive-Activity.txt
 
 rm tmp.*
