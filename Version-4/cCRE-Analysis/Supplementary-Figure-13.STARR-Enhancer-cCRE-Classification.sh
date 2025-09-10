@@ -1,8 +1,9 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#February 2024
+#!/bin/bash
 
-#Usage: ./Supplementary-Figure-6
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 13
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization
 scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis
@@ -16,11 +17,11 @@ ccresHepG2=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Cell-Type-Specific/Indi
 
 grep dELS $ccres > tmp.dels
 
-star=ENCSR858MPS
-awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.dels White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+starr=ENCSR858MPS
+awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.dels CAPRA-Output/$starr-DESeq2.Solo-Filtered.V7.txt | \
     awk '{print $1 "\t" $3}' > tmp.col
-star=ENCSR135NXN
-awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.dels White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+starr=ENCSR135NXN
+awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.dels CAPRA-Output/$starr-DESeq2.Solo-Filtered.V7.txt | \
     awk '{print $3}' | paste tmp.col - > tmp.matrix
 
 awk '{if ($2 > 0 && $2 > $3+1) print $0}' tmp.matrix > tmp.K562-specific
@@ -33,7 +34,7 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresK562 > tmp.k562
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
-python $scriptDir/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
+python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
     awk 'BEGIN{print "class" "\t" "K562" "\t" "HepG2" "\t" "group"} \
     {print $1 "\t" $2 "\t" $3 "\t" "'$tf'"}' > tmp.out
 
@@ -47,7 +48,7 @@ do
         awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresK562 > tmp.k562
     awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
         awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
-    python $scriptDir/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
+    python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
         awk '{print $1 "\t" $2 "\t" $3 "\t" "'$tf'"}' >> tmp.out
 done
 
@@ -57,7 +58,7 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresK562 > tmp.k562
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
-python $scriptDir/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
+python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
     awk '{print $1 "\t" $2 "\t" $3 "\t" "STARR-K562"}' >> tmp.out
 
 group=tmp.HepG2-specific
@@ -66,7 +67,7 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresK562 > tmp.k562
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
-python $scriptDir/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
+python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
     awk '{print $1 "\t" $2 "\t" $3 "\t" "STARR-HepG2"}' >> tmp.out
-mv tmp.out Figure-Input-Data/Supplementary-Figure-6.cCRE-Classification.txt
+mv tmp.out Figure-Input-Data/Supplementary-Figure-13.STARR-Enhancer-cCRE-Classification.txt
 rm tmp*
