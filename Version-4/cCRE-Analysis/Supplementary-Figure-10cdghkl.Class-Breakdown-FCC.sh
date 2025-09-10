@@ -1,16 +1,22 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#August 2024
+#!/bin/bash
 
-#Usage: ./Supplementary-Figure-5bdf.FCC-Positive-Overlap.sh
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 10aei
+
+source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization/cCRE-Enrichment
+scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis/Toolkit
 
 ccreK562=K562-cCREs.bed
 
 cd $workingDir
 
 ###MPRA
+#wget https://www.encodeproject.org/files/ENCFF677CJZ/@@download/ENCFF677CJZ.bed.gz
+#gunzip ENCFF677CJZ.bed.gz
 mpra=ENCFF677CJZ.bed
 awk '{if ($7 > 1) print $0}' $mpra > tmp.positive
 regions=tmp.positive
@@ -18,8 +24,8 @@ regions=tmp.positive
 bedtools intersect -u -a $ccreK562 -b tmp.positive > tmp.yes
 bedtools intersect -u -a $ccreK562 -b $mpra > tmp.1
 
-python ~/bin/count.py tmp.yes 9 | sort -k1,1
-python ~/bin/count.py tmp.1 9 | sort -k1,1
+python $scriptDir/count.py tmp.yes 9 | sort -k1,1 | awk '{print "MPRA" "\t" "active" "\t" $0}' > tmp.results
+python $scriptDir/count.py tmp.1 9 | sort -k1,1 | awk '{print "MPRA" "\t" "tested" "\t" $0}' >> tmp.results
 
 ###STARR-seq
 regions=ENCFF454ZKK.bed
@@ -34,8 +40,8 @@ awk '{if ($NF > '$min') print $0}' tmp.out | \
 
 awk '{if ($NF > 0) print $0}' tmp.1 > tmp.yes
 
-python ~/bin/count.py tmp.yes 9 | sort -k1,1
-python ~/bin/count.py tmp.1 9 | sort -k1,1
+python $scriptDir/count.py tmp.yes 9 | sort -k1,1 | awk '{print "STARR" "\t" "active" "\t" $0}' >> tmp.results
+python $scriptDir/count.py tmp.1 9 | sort -k1,1 | awk '{print "STARR" "\t" "tested" "\t" $0}' >> tmp.results
 
 ###CRISPR
 list=CRISPR-Sabeti.gRNA.txt
@@ -54,7 +60,8 @@ bedtools intersect -u -a $ccreK562 -b tmp.guide | \
 
 bedtools intersect -u -a $ccreK562 -b tmp.guide > tmp.1
 
-python ~/bin/count.py tmp.yes 9 | sort -k1,1
-python ~/bin/count.py tmp.1 9 | sort -k1,1
+python $scriptDir/count.py tmp.yes 9 | sort -k1,1 | awk '{print "CRISPR" "\t" "active" "\t" $0}' >> tmp.results
+python $scriptDir/count.py tmp.1 9 | sort -k1,1 | awk '{print "CRISPR" "\t" "tested" "\t" $0}' >> tmp.results
 
-#rm tmp.*
+mv tmp.results ../Figure-Input-Data/Supplementary-Figure-10cdghkl.FCC-cCRE-Class.txt
+rm tmp.*
