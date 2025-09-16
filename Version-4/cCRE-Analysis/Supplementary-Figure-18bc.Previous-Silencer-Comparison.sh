@@ -1,3 +1,11 @@
+#!/bin/bash
+
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 18b
+
+source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/3_Silencers
 cd $workingDir
@@ -25,5 +33,5 @@ bedtools intersect -u -a tmp.all -b $publishedTested | \
     sum "\t" NR "\t" '$total' "\t" sum/NR "\t" NR/'$total'}' >> tmp.results
 
 
-mv tmp.results Figure-Input-Data/Extended-Data-Figure-5ab.Previous-Silencer-Comparison.txt
+mv tmp.results Figure-Input-Data/Supplementary-Figure-18bc.Previous-Silencer-Comparison.txt
 rm tmp*

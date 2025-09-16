@@ -1,4 +1,11 @@
+#!/bin/bash
 
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 18d
+
+source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/3_Silencers
 cd $workingDir
@@ -20,5 +27,5 @@ awk '{if ($2 > 1.64) print $1}' ../../signal-output/ENCSR000EOT-ENCFF414OGC.txt 
     awk 'FNR==NR {x[$1];next} ($4 in x)' - tmp.all | wc -l | \
     awk '{print "All" "\t" $1 "\t" '$total' "\t" $1/'$total'}' >> tmp.results
 
-mv tmp.results Figure-Input-Data/Extended-Data-Figure-5c.Silencer-High-DNase.txt
+mv tmp.results Figure-Input-Data/Supplementary-Figure-18d.Silencer-High-DNase.txt
 rm tmp*
