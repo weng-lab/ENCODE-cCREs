@@ -1,3 +1,10 @@
+#!/bin/bash
+
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 5ab
+
 source ~/.bashrc
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry
@@ -20,13 +27,13 @@ wc -l tmp.same | awk '{print "'$G1'" "\t" $1}' > tmp.results
 wc -l tmp.filtered | awk '{print "'$G2'" "\t" $1}' >> tmp.results
 wc -l tmp.new | awk '{print "'$G3'" "\t"  $1}' >> tmp.results
 
-mv tmp.results Figure-Input-Data/Supplementary-Figure-3a.Previous-Version-Comparison.txt
+mv tmp.results Figure-Input-Data/Supplementary-Figure-5a.Previous-Version-Comparison.txt
 
 mv tmp.same $G1.bed
 mv tmp.filtered $G2.bed
 mv tmp.new $G3.bed
 
-bedtools shuffle -i $current -g ~/Lab/Reference/Human/hg38/chromInfo.txt -excl $current > Background.No-cCREs.bed
+#bedtools shuffle -i $current -g ~/Lab/Reference/Human/hg38/chromInfo.txt -excl $current > Background.No-cCREs.bed
 background=Background.No-cCREs.bed
 
 wget https://www.encodeproject.org/files/ENCFF908UFR/@@download/ENCFF908UFR.bed.gz
@@ -42,6 +49,6 @@ bedtools intersect -c -a $G3.bed -b $starrRegions | \
 bedtools intersect -c -a $background -b $starrRegions | \
 	    awk '{if ($NF > 0) sum += 1}END{print "Non-cCRE" "\t" sum/NR*100 "\t" sum "\t" NR}' >> tmp.results
 
-mv tmp.results Figure-Input-Data/Supplementary-Figure-3b.STARR-Overlap-Version-Comparison.txt
+mv tmp.results Figure-Input-Data/Supplementary-Figure-5b.STARR-Overlap-Version-Comparison.txt
 rm $starrRegions
 
