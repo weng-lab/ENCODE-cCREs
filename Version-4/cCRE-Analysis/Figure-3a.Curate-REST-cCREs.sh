@@ -1,9 +1,20 @@
+#!/bin/bash
 
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Figure 3
+
+source ~/.bashrc
 
 ccres=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-cCREs-Unfiltered.bed
-motifs=~/GitHub/ENCODE-cCREs/Version-4/Supplementary-Data/Supplementary-Data-X.Factorbook-REST-Motif-Sites.txt
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/3_Silencers
 cd $workingDir
+
+
+#wget https://users.moore-lab.org/ENCODE-cCREs/Pipeline-Input-Files/Factorbook-REST-Motif-Sites.bed.gz
+#gunzip Factorbook-REST-Motif-Sites.bed.gz
+motifs=Factorbook-REST-Motif-Sites.bed
 
 grep REST ../../hg38-TF/hg38-TF-List.Filtered.txt > tmp.list
 
@@ -26,3 +37,4 @@ bedtools intersect -c -a $ccres -b tmp.bed | awk '{if ($NF > 5) print $0}' | \
     awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" $6}' > REST-cCREs.All.bed
 
 grep -v PLS REST-cCREs.All.bed > REST-cCREs.noPLS.bed
+rm tmp.*
