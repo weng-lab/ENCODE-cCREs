@@ -1,12 +1,13 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#February 2024
+#!/bin/bash
 
-#Usage: ./Extended-Data-Figure-3a.STARR-Cross-Cell.sh
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Extended Data Figure 3a
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization
 scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis
-tfDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Motif/Individual-TFs
+tfDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Motif/Individual-TFs #available to download
 ccres=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/hg38-cCREs-Unfiltered.bed
 
 cd $workingDir
@@ -14,10 +15,10 @@ cd $workingDir
 grep dELS $ccres > tmp.ccres
 stars=(ENCSR858MPS ENCSR135NXN)
 star=ENCSR858MPS
-awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.ccres White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.ccres CAPRA-Output/$star-DESeq2.Solo-Filtered.V7.txt | \
     awk '{print $1 "\t" $3}' > tmp.col
 star=ENCSR135NXN
-awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.ccres White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+awk 'FNR==NR {x[$4];next} ($1 in x)' tmp.ccres CAPRA-Output/$star-DESeq2.Solo-Filtered.V7.txt | \
     awk '{print $3}' | paste tmp.col - > tmp.matrix
 
 awk '{if ($2 > 0 && $2 > $3+1) print $0}' tmp.matrix > tmp.K562
@@ -30,7 +31,7 @@ rm -f tmp.data
 stars=(ENCSR858MPS ENCSR135NXN ENCSR064KUD ENCSR547SBZ)
 for star in ${stars[@]}
 do
-    awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.ccres White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+    awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.ccres CAPRA-Output/$star-DESeq2.Solo-Filtered.V7.txt | \
         awk '{print $1 "\t" $3 "\t" "'$star'" "\t" "'$tf'"}' >> tmp.data
 done
 
@@ -43,7 +44,7 @@ do
     for star in ${stars[@]}
     do
 	echo $star
-        awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.ccres White-WG-STARR/$star-DESeq2.Solo-Filtered.V7.txt | \
+        awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.ccres CAPRA-Output/$star-DESeq2.Solo-Filtered.V7.txt | \
 	    awk '{print $1 "\t" $3 "\t" "'$star'" "\t" "'$tf'"}' >> tmp.data
     done
 done
