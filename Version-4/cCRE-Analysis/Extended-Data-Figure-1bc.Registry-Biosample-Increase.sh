@@ -1,9 +1,9 @@
+#!/bin/bash
 
-#Jill Moore
-#Moore Lab - UMass Chan
-#March 2024
-
-#Usage: ./Extended-Data
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Extended Data Figure 1a
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry/Biosample-Coverage
 scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis
