@@ -1,5 +1,10 @@
 #!/bin/bash
 
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 1c
+
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/1_Updated-Registry/Anchor-TF-Overlap/Conservation
 scriptDir=~/Projects/ENCODE/Encyclopedia/Version7/cCRE-Analysis
 bigWig=~/Lab/Reference/Human/hg38/Conservation/hg38.phastCons100way.bw
@@ -16,4 +21,7 @@ do
     ~/bin/bigWigAverageOverBed $bigWig tmp.bed tmp.out
     awk '{print $1 "\t" $5 "\t" "'$key'"}' tmp.out >> tmp.summary
 done
+
+mv tmp.summary ../../Figure-Input-Data/Supplementary-Figure-1c.PhastCons-Conservation-TF.txt
+rm tmp*
 
