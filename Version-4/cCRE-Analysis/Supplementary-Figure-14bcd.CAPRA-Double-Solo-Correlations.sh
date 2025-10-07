@@ -1,17 +1,18 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#November 2023
+#!/bin/bash
 
-#Usage: ./Supplementary-Figure-6bcd.CAPRA-Double-Solo-Correlations.sh
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 14bcd
 
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/2_Functional-Characterization
 scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis
 
-soloQuant=Reddy-WG-STARR/ENCSR661FOW-DESeq2.Solo-Filtered.V7.txt
-doubleQuant=Reddy-WG-STARR/ENCSR661FOW-DESeq2.Double-Pair.V7.txt
+soloQuant=CAPRA-Output/ENCSR661FOW-DESeq2.Solo-Filtered.V7.txt
+doubleQuant=CAPRA-Output/ENCSR661FOW-DESeq2.Double-Pair.V7.txt
 
-soloMatrix=Reddy-WG-STARR/ENCSR661FOW-Matrix.Solo-Filtered.V7.txt
-doubleMatrix=Reddy-WG-STARR/ENCSR661FOW-Matrix.Double-Pair.V7.txt
+soloMatrix=CAPRA-Output/ENCSR661FOW-Matrix.Solo-Filtered.V7.txt
+doubleMatrix=CAPRA-Output/ENCSR661FOW-Matrix.Double-Pair.V7.txt
 
 cd $workingDir
 
@@ -22,8 +23,8 @@ do
     awk '{if ($2 >= '$i') print $0}' $doubleMatrix > tmp.B
     awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.A $soloQuant > tmp.AA
     awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.B $doubleQuant > tmp.BB
-    python $scriptDir/match-ccre-pair-quants.py tmp.AA tmp.BB PCC | \
-        awk '{print '$i' "\t" $0}' >> Figure-Input-Data/Supplementary-Figure-6b.CAPRA-Solo-Double-PCC.txt
+    python $scriptDir/Toolkit/match-ccre-pair-quants.py tmp.AA tmp.BB PCC | \
+        awk '{print '$i' "\t" $0}' >> Figure-Input-Data/Supplementary-Figure-14b.CAPRA-Solo-Double-PCC.txt
 done 
 
 i=1
@@ -31,15 +32,15 @@ awk '{if ($2 >= '$i') print $0}' $soloMatrix > tmp.A
 awk '{if ($2 >= '$i') print $0}' $doubleMatrix > tmp.B
 awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.A $soloQuant > tmp.AA
 awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.B $doubleQuant > tmp.BB
-python $scriptDir/match-ccre-pair-quants.py tmp.AA tmp.BB PRINT > Figure-Input-Data/Supplementary-Figure-6c.CAPRA-Solo-Double-Scatter.1.txt
+python $scriptDir/Toolkit/match-ccre-pair-quants.py tmp.AA tmp.BB PRINT > \
+    Figure-Input-Data/Supplementary-Figure-14c.CAPRA-Solo-Double-Scatter.1.txt
 
 i=10
 awk '{if ($2 >= '$i') print $0}' $soloMatrix > tmp.A
 awk '{if ($2 >= '$i') print $0}' $doubleMatrix > tmp.B
 awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.A $soloQuant > tmp.AA
 awk 'FNR==NR {x[$1];next} ($1 in x)' tmp.B $doubleQuant > tmp.BB
-python $scriptDir/match-ccre-pair-quants.py tmp.AA tmp.BB PRINT > Figure-Input-Data/Supplementary-Figure-6d.CAPRA-Solo-Double-Scatter.10.txt
-
-
+python $scriptDir/Toolkit/match-ccre-pair-quants.py tmp.AA tmp.BB PRINT > \
+    Figure-Input-Data/Supplementary-Figure-14d.CAPRA-Solo-Double-Scatter.10.txt
 
 rm tmp.*
