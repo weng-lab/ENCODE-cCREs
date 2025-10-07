@@ -1,8 +1,9 @@
-#Jill Moore
-#Moore Lab - UMass Chan
-#July 2024
+#!/bin/bash
 
-#Usage:
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 15e
 
 source ~/.bashrc
 
@@ -25,7 +26,7 @@ do
 done
 
 groups=(K562-PLS K562-pELS K562-dELS K562-Inactive REST-Silencers
-        REST-Enhancers STARR-Silencers.Stringent STARR-Silencers.Robust)
+        REST-Enhancers)
 for group in ${groups[@]}
 do
     echo $group
@@ -34,5 +35,5 @@ do
         awk '{print $1 "\t" $6 "\t" "'$group'"}' >> tmp.results
 done
 
-mv tmp.results Figure-Input-Data/Supplementary-Figure-10c.Silencer-Gene-Expression.txt
+mv tmp.results Figure-Input-Data/Supplementary-Figure-15e.REST-Silencer-Gene-Expression.txt
 rm tmp* ENCFF421TJX.tsv
