@@ -35,8 +35,8 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
 python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
-    awk 'BEGIN{print "class" "\t" "K562" "\t" "HepG2" "\t" "group"} \
-    {print $1 "\t" $2 "\t" $3 "\t" "'$tf'"}' > tmp.out
+    awk 'BEGIN{print "class" "\t" "K562" "\t" "HepG2" "\t" "numK562" "\t" "numHepG2" "\t" "group"} \
+    {print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" "'$tf'"}' > tmp.out
 
 group=tmp.HepG2-specific
 tfs=(HNF4A P53 GFI1B)
@@ -49,7 +49,7 @@ do
     awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
         awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
     python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
-        awk '{print $1 "\t" $2 "\t" $3 "\t" "'$tf'"}' >> tmp.out
+        awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" "'$tf'"}' >> tmp.out
 done
 
 group=tmp.K562-specific
@@ -59,7 +59,7 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
 python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
-    awk '{print $1 "\t" $2 "\t" $3 "\t" "STARR-K562"}' >> tmp.out
+    awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" "STARR-K562"}' >> tmp.out
 
 group=tmp.HepG2-specific
 cp $group tmp.ccres
@@ -68,6 +68,6 @@ awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
 awk 'FNR==NR {x[$1];next} ($4 in x)' tmp.ccres $ccres | \
     awk 'FNR==NR {x[$5];next} ($4 in x)' - $ccresHepG2 > tmp.hepg2
 python $scriptDir/Toolkit/count-starr-ccre-groups.py tmp.k562 tmp.hepg2 | \
-    awk '{print $1 "\t" $2 "\t" $3 "\t" "STARR-HepG2"}' >> tmp.out
+    awk '{print $1 "\t" $2 "\t" $3 "\t" $4 "\t" $5 "\t" "STARR-HepG2"}' >> tmp.out
 mv tmp.out Figure-Input-Data/Supplementary-Figure-13.STARR-Enhancer-cCRE-Classification.txt
 rm tmp*
