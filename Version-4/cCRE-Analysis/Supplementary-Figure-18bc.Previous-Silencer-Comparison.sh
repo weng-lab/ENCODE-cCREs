@@ -3,7 +3,7 @@
 #Jill E Moore
 #UMass Chan Medical School
 #ENCODE4 cCRE Analysis
-#Supplementary Figure 18b
+#Supplementary Figure 18bc
 
 source ~/.bashrc
 

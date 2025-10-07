@@ -1,5 +1,12 @@
 #!/bin/bash
 
+#Jill E Moore
+#UMass Chan Medical School
+#ENCODE4 cCRE Analysis
+#Supplementary Figure 18e
+
+source ~/.bashrc
+
 scriptDir=~/GitHub/ENCODE-cCREs/Version-4/cCRE-Analysis/Toolkit
 workingDir=~/Lab/ENCODE/Encyclopedia/V7/Registry/V7-hg38/Manuscript-Analysis/3_Silencers
 
